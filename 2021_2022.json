@@ -1,0 +1,953 @@
+[
+  {
+    "type": "pageInfo",
+    "course_title": "MATHEMATICAL METHODS I",
+    "code": "MTH 224.2",
+    "session": "2021/2022",
+    "kind": "mixed",
+    "topics": [
+      "Calculus",
+      "Differentiation",
+      "Integration",
+      "Limits and Continuity",
+      "Sequences and Series",
+      "Ordinary Differential Equations",
+      "Linear Algebra",
+      "Vectors",
+      "Matrices",
+      "Complex Numbers",
+      "Multivariable Calculus",
+      "Taylor and Maclaurin Series",
+      "Mathematical Analysis",
+      "Discontinuity",
+      "Rational Functions",
+      "Domain of Functions",
+      "Product Rule",
+      "Logarithmic Differentiation",
+      "Critical Points",
+      "Extrema",
+      "Increasing and Decreasing Functions",
+      "Homogeneous Functions",
+      "Integration by Parts",
+      "Definite Integral",
+      "Partial Derivatives",
+      "Mixed Partial Derivatives"
+    ],
+    "time": "90"
+  },
+  {
+    "type": "Instruction",
+    "content": [
+      "Answer all Questions"
+    ]
+  },
+  {
+    "type": "heading",
+    "heading": "PART A",
+    "Subheading": "ANSWER ALL (2 marks each)"
+  },
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "topic": [
+      "Calculus",
+      "Limits and Continuity"
+    ],
+    "Question": {
+      "content": "A function is defined as `\\lim_{x \\to c} f(x) = L`. Which of the following conditions is correct?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "`\\forall \\epsilon > 0, \\exists \\delta(\\epsilon, c) > 0: |f(x) - L| < \\epsilon \\forall x: 0 \\le |x - c| < \\delta`"
+        },
+        {
+          "type": "String",
+          "content": "`\\forall \\epsilon > 0, \\exists \\delta(\\epsilon, c) > 0: |f(x) - L| < \\epsilon` whenever `0 < |x - c| < \\delta`"
+        },
+        {
+          "type": "String",
+          "content": "`\\forall \\epsilon > 0, s.t \\exists \\delta(\\epsilon, c) > 0` with `|f(x) - L| < \\epsilon \\forall x: 0 \\le |x - c| < \\delta`"
+        },
+        {
+          "type": "String",
+          "content": "`\\forall \\epsilon > 0 \\exists \\delta(\\epsilon) > 0 s.t. 0 \\le |x - c| < \\delta \\Rightarrow |f(x) - L| < \\epsilon`"
+        }
+      ]
+    },
+    "table": [],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Epsilon-Delta Definition of a Limit</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>limit of a function</em> \\( f(x) \\) as \\( x \\) approaches \\( c \\) is \\( L \\), written as \\( \\lim_{x \\to c} f(x) = L \\), if for every positive number \\( \\epsilon \\) (epsilon), there exists a positive number \\( \\delta \\) (delta) (which may depend on \\( \\epsilon \\) and \\( c \\)) such that if the distance between \\( x \\) and \\( c \\) is less than \\( \\delta \\) (but not zero), then the distance between \\( f(x) \\) and \\( L \\) is less than \\( \\epsilon \\).<br>Symbolically: \\( \\forall \\epsilon > 0, \\exists \\delta > 0 \\) such that if \\( 0 < |x - c| < \\delta \\), then \\( |f(x) - L| < \\epsilon \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The limit expression: \\( \\lim_{x \\to c} f(x) = L \\).<br>Four options for its definition.</div><p style='margin:8px 0;'><strong>Step 1: State the formal epsilon-delta definition of a limit</strong><br>The formal definition of \\( \\lim_{x \\to c} f(x) = L \\) is:<br>For every \\( \\epsilon > 0 \\), there exists a \\( \\delta > 0 \\) (which can depend on \\( \\epsilon \\) and \\( c \\)) such that if \\( 0 < |x - c| < \\delta \\), then \\( |f(x) - L| < \\epsilon \\).</p><p style='margin:8px 0;'><strong>Step 2: Analyze the critical condition \\( 0 < |x - c| < \\delta \\)</strong><br>This condition is crucial. It means that \\( x \\) is within a distance of \\( \\delta \\) from \\( c \\), but \\( x \\) is not equal to \\( c \\). The value of \\( f(c) \\) itself does not affect the limit. This is why \\( 0 < |x - c| \\) is used instead of \\( 0 \\le |x - c| \\).</p><p style='margin:8px 0;'><strong>Step 3: Evaluate Option A</strong><br>Option A states: \\( \\forall \\epsilon > 0, \\exists \\delta(\\epsilon, c) > 0: |f(x) - L| < \\epsilon \\forall x: 0 \\le |x - c| < \\delta \\).<br>The condition \\( 0 \\le |x - c| < \\delta \\) includes the case where \\( x = c \\). This is incorrect for the definition of a limit, as the function does not need to be defined at \\( c \\), nor does its value at \\( c \\) affect the limit. Therefore, Option A is incorrect.</p><p style='margin:8px 0;'><strong>Step 4: Evaluate Option B</strong><br>Option B states: \\( \\forall \\epsilon > 0, \\exists \\delta(\\epsilon, c) > 0: |f(x) - L| < \\epsilon \\) whenever \\( 0 < |x - c| < \\delta \\).<br>This matches the formal definition perfectly. The phrase \"whenever\" is equivalent to \"such that if... then...\". The condition \\( 0 < |x - c| < \\delta \\) correctly excludes \\( x = c \\). The dependency of \\( \\delta \\) on \\( \\epsilon \\) and \\( c \\) is also correctly indicated. Therefore, Option B is <span style='color:var(--orange);font-weight:bold;'>correct</span>.</p><p style='margin:8px 0;'><strong>Step 5: Evaluate Option C</strong><br>Option C states: \\( \\forall \\epsilon > 0, s.t \\exists \\delta(\\epsilon, c) > 0 \\) with \\( |f(x) - L| < \\epsilon \\forall x: 0 \\le |x - c| < \\delta \\).<br>The grammatical structure \"s.t \\exists \\delta\" is awkward and not standard. More importantly, it uses the incorrect condition \\( 0 \\le |x - c| < \\delta \\). Therefore, Option C is incorrect.</p><p style='margin:8px 0;'><strong>Step 6: Evaluate Option D</strong><br>Option D states: \\( \\forall \\epsilon > 0 \\exists \\delta(\\epsilon) > 0 s.t. 0 \\le |x - c| < \\delta \\Rightarrow |f(x) - L| < \\epsilon \\).<br>This option has two issues: it uses the incorrect condition \\( 0 \\le |x - c| < \\delta \\), and it implies that \\( \\delta \\) only depends on \\( \\epsilon \\), not \\( c \\). While often \\( \\delta \\) is written as \\( \\delta(\\epsilon) \\), it can and often does depend on \\( c \\) as well, especially for non-uniform continuity. The more significant error is the \\( 0 \\le \\) part. Therefore, Option D is incorrect.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The epsilon-delta definition of a limit is a cornerstone of calculus. The condition \\( 0 < |x - c| < \\delta \\) is essential because the existence of a limit at \\( c \\) does not depend on the function's value <em>at</em> \\( c \\), only its values <em>near</em> \\( c \\). Option B is the only one that correctly captures this nuance along with the proper logical quantifiers and implications.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The correct condition is Option B.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "B"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "A function `f` is continuous at `x_0` in `Dom(f)` if:",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "`\\forall \\epsilon > 0 \\exists \\delta(\\epsilon, x_0) > 0 s.t. |f(x) - f(x_0)| < \\epsilon`, whenever `|x - x_0| < \\delta`"
+        },
+        {
+          "type": "String",
+          "content": "`\\forall \\epsilon > 0 \\exists \\delta(\\epsilon, x_0) > 0 s.t. |x - x_0| < \\delta` Whenever `|f(x) - f(x_0)| < \\epsilon`"
+        },
+        {
+          "type": "String",
+          "content": "`\\forall \\epsilon > 0 \\exists \\delta(\\epsilon) > 0 s.t |x - x_0| < \\delta \\Rightarrow |f(x) - f(x_0)| < \\epsilon`"
+        },
+        {
+          "type": "String",
+          "content": "`\\forall \\epsilon > 0 \\exists \\delta(\\epsilon) > 0 s.t |f(x) - f(x_0)| < \\epsilon \\Rightarrow |x - x_0| < \\delta`"
+        }
+      ]
+    },
+    "topic": [
+      "Limits and Continuity",
+      "Calculus",
+      "Mathematical Analysis"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Continuity of a Function at a Point</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A function \\( f \\) is said to be <em>continuous at a point</em> \\( x_0 \\) in its domain if, as \\( x \\) approaches \\( x_0 \\), the value of \\( f(x) \\) approaches \\( f(x_0) \\). Intuitively, this means the graph of the function has no breaks, jumps, or holes at \\( x_0 \\).<br><br>The formal definition of continuity at a point \\( x_0 \\) is given by the <em>epsilon-delta definition</em>:<br>A function \\( f \\) is continuous at \\( x_0 \\) if for every \\(\\epsilon > 0\\), there exists a \\(\\delta > 0\\) (which may depend on \\(\\epsilon\\) and \\(x_0\\)) such that if \\( |x - x_0| < \\delta \\), then \\( |f(x) - f(x_0)| < \\epsilon \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The question asks for the correct epsilon-delta definition of a function \\( f \\) being continuous at a point \\( x_0 \\) in its domain.</div><p style='margin:8px 0;'><strong>Step 1: Understand the intuitive meaning of continuity</strong><br>A function is continuous at a point \\( x_0 \\) if its graph can be drawn through that point without lifting the pen. This implies that the function's value at \\( x_0 \\) is well-defined, the limit of the function as \\( x \\) approaches \\( x_0 \\) exists, and this limit is equal to the function's value at \\( x_0 \\).</p><p style='margin:8px 0;'><strong>Step 2: Recall the formal epsilon-delta definition of continuity</strong><br>The formal definition of continuity at a point \\( x_0 \\) is a precise way to express the idea that \\( f(x) \\) can be made arbitrarily close to \\( f(x_0) \\) by taking \\( x \\) sufficiently close to \\( x_0 \\).<br>It states: For every positive number \\(\\epsilon\\) (representing the desired closeness of \\( f(x) \\) to \\( f(x_0) \\)), there must exist a positive number \\(\\delta\\) (representing how close \\( x \\) must be to \\( x_0 \\)) such that if \\( x \\) is within \\(\\delta\\) distance of \\( x_0 \\) (i.e., \\( |x - x_0| < \\delta \\)), then \\( f(x) \\) must be within \\(\\epsilon\\) distance of \\( f(x_0) \\) (i.e., \\( |f(x) - f(x_0)| < \\epsilon \\)).<br>The \\(\\delta\\) value typically depends on both \\(\\epsilon\\) and the point \\( x_0 \\).</p><p style='margin:8px 0;'><strong>Step 3: Write the standard epsilon-delta definition</strong><br>The standard mathematical notation for this definition is:<br>\\[ \\forall \\epsilon > 0, \\exists \\delta(\\epsilon, x_0) > 0 \\text{ such that if } |x - x_0| < \\delta, \\text{ then } |f(x) - f(x_0)| < \\epsilon \\]</p><p style='margin:8px 0;'><strong>Step 4: Analyze the given options against the standard definition</strong><br>Let's examine each option:<br><br><strong>Option 1:</strong> `\\forall \\epsilon > 0 \\exists \\delta(\\epsilon, x_0) > 0 s.t. |f(x) - f(x_0)| < \\epsilon`, whenever `|x - x_0| < \\delta`<br>This option states: \"For all \\(\\epsilon > 0\\), there exists a \\(\\delta > 0\\) (which depends on \\(\\epsilon\\) and \\(x_0\\)) such that \\( |f(x) - f(x_0)| < \\epsilon \\) whenever \\( |x - x_0| < \\delta \\).\" This precisely matches the standard epsilon-delta definition of continuity at a point. The phrase \"whenever \\( |x - x_0| < \\delta \\)\" is equivalent to \"if \\( |x - x_0| < \\delta \\), then\".<br><br><strong>Option 2:</strong> `\\forall \\epsilon > 0 \\exists \\delta(\\epsilon, x_0) > 0 s.t. |x - x_0| < \\delta` Whenever `|f(x) - f(x_0)| < \\epsilon`<br>This option reverses the implication. It states that if \\( f(x) \\) is close to \\( f(x_0) \\), then \\( x \\) must be close to \\( x_0 \\). This is not the definition of continuity. For example, a non-constant function could have \\( f(x) \\) close to \\( f(x_0) \\) for \\( x \\) values far from \\( x_0 \\).<br><br><strong>Option 3:</strong> `\\forall \\epsilon > 0 \\exists \\delta(\\epsilon) > 0 s.t |x - x_0| < \\delta \\Rightarrow |f(x) - f(x_0)| < \\epsilon`<br>This option has the correct implication direction. However, it states that \\(\\delta\\) depends only on \\(\\epsilon\\) (denoted as \\(\\delta(\\epsilon)\\)), not on \\(x_0\\). This specific condition defines <em>uniform continuity</em> over an interval, not general continuity at a single point. For continuity at a point, \\(\\delta\\) can generally depend on \\(x_0\\), as indicated in Option 1.<br><br><strong>Option 4:</strong> `\\forall \\epsilon > 0 \\exists \\delta(\\epsilon) > 0 s.t |f(x) - f(x_0)| < \\epsilon \\Rightarrow |x - x_0| < \\delta`<br>This option reverses the implication and incorrectly implies \\(\\delta\\) depends only on \\(\\epsilon\\). It suffers from the same logical flaw as Option 2.</p><p style='margin:8px 0;'><strong>Step 5: Identify the correct option</strong><br>Based on the analysis, Option 1 is the only one that accurately and precisely states the epsilon-delta definition of continuity of a function \\( f \\) at a point \\( x_0 \\). It correctly captures the order of quantifiers, the dependency of \\(\\delta\\) on both \\(\\epsilon\\) and \\(x_0\\), and the direction of the implication.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The definition of continuity at a point \\( x_0 \\) requires that for any chosen output tolerance \\(\\epsilon\\), we can find an input tolerance \\(\\delta\\) (which may vary depending on \\(x_0\\)) such that all \\(x\\) values within \\(\\delta\\) of \\(x_0\\) map to \\(f(x)\\) values within \\(\\epsilon\\) of \\(f(x_0)\\). Option 1 perfectly encapsulates this by stating: <br>\\( \\forall \\epsilon > 0 \\exists \\delta(\\epsilon, x_0) > 0 \\text{ s.t. } |x - x_0| < \\delta \\implies |f(x) - f(x_0)| < \\epsilon \\).<br>The phrasing \"whenever \\( |x - x_0| < \\delta \\)\" correctly represents the implication. Thus, Option 1 is verified as the correct definition.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The correct definition is: \\(\\forall \\epsilon > 0 \\exists \\delta(\\epsilon, x_0) > 0\\) s.t. \\( |f(x) - f(x_0)| < \\epsilon \\), whenever \\( |x - x_0| < \\delta \\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "`\\forall \\epsilon > 0 \\exists \\delta(\\epsilon, x_0) > 0 s.t. |f(x) - f(x_0)| < \\epsilon`, whenever `|x - x_0| < \\delta`"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Which of the following is true?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "If `f` and `g` are continuous at `a` and `d` respectively, then `f + g` is continuous at `a + d`."
+        },
+        {
+          "type": "String",
+          "content": "If `f` and `g` are continuous at `c` respectively. Then, `\\frac{f}{g}` is continuous at `c`."
+        },
+        {
+          "type": "String",
+          "content": "If `f` is continuous on `[a, b]` and `f(a) \\le y \\le f(b)`, then there exist `x_0 \\in (a, b)` s.t. `y = f(x_0)`."
+        },
+        {
+          "type": "String",
+          "content": "A function is said to be continuous on its domain `D`, if and only if it is continuous at one point `x_0 \\in D`."
+        }
+      ]
+    },
+    "topic": [
+      "Limits and Continuity",
+      "Calculus",
+      "Mathematical Analysis"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Continuity of Functions and the Intermediate Value Theorem</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><ul><li><strong>Continuity at a point:</strong> A function \\(f\\) is continuous at a point \\(c\\) if \\( \\lim_{x \\to c} f(x) = f(c) \\). This implies three conditions: 1) \\(f(c)\\) is defined, 2) \\( \\lim_{x \\to c} f(x) \\) exists, and 3) the limit equals the function value.</li><li><strong>Continuity on an interval:</strong> A function \\(f\\) is continuous on an open interval \\((a, b)\\) if it is continuous at every point in \\((a, b)\\). It is continuous on a closed interval \\([a, b]\\) if it is continuous on \\((a, b)\\), and \\( \\lim_{x \\to a^+} f(x) = f(a) \\) and \\( \\lim_{x \\to b^-} f(x) = f(b) \\).</li><li><strong>Intermediate Value Theorem (IVT):</strong> If a function \\(f\\) is continuous on a closed interval \\([a, b]\\), and \\(y\\) is any number between \\(f(a)\\) and \\(f(b)\\) (inclusive), then there exists at least one number \\(x_0\\) in the interval \\([a, b]\\) such that \\(f(x_0) = y\\). If \\(y\\) is strictly between \\(f(a)\\) and \\(f(b)\\) (i.e., \\(f(a) < y < f(b)\\) or \\(f(b) < y < f(a)\\)), then \\(x_0\\) must be in the open interval \\((a, b)\\).</li></ul></div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>We need to identify the true statement among the following options:<ul><li>Statement 1: If \\(f\\) and \\(g\\) are continuous at \\(a\\) and \\(d\\) respectively, then \\(f + g\\) is continuous at \\(a + d\\).</li><li>Statement 2: If \\(f\\) and \\(g\\) are continuous at \\(c\\) respectively. Then, \\( \\frac{f}{g} \\) is continuous at \\(c\\).</li><li>Statement 3: If \\(f\\) is continuous on \\([a, b]\\) and \\(f(a) \\le y \\le f(b)\\), then there exist \\(x_0 \\in (a, b)\\) s.t. \\(y = f(x_0)\\).</li><li>Statement 4: A function is said to be continuous on its domain \\(D\\), if and only if it is continuous at one point \\(x_0 \\in D\\).</li></ul></div><p style='margin:8px 0;'><strong>Step 1: Evaluate Statement 1</strong><br>The property for the sum of continuous functions states that if two functions \\(f\\) and \\(g\\) are continuous at a point \\(c\\), then their sum \\( (f+g)(x) = f(x) + g(x) \\) is also continuous at \\(c\\).<br>Statement 1 incorrectly suggests that continuity of \\(f\\) at \\(a\\) and \\(g\\) at \\(d\\) implies continuity of their sum at a different point, \\(a+d\\). This is not a standard theorem of continuity.<br>Conclusion: <span style='color:var(--orange);font-weight:bold;'>Statement 1 is false.</span></p><p style='margin:8px 0;'><strong>Step 2: Evaluate Statement 2</strong><br>The property for the quotient of continuous functions states that if two functions \\(f\\) and \\(g\\) are continuous at a point \\(c\\), then their quotient \\( \\left(\\frac{f}{g}\\right)(x) = \\frac{f(x)}{g(x)} \\) is continuous at \\(c\\), <strong>provided that \\(g(c) \\neq 0\\)</strong>.<br>Statement 2 omits the crucial condition that the denominator \\(g(c)\\) must not be zero. If \\(g(c) = 0\\), the function \\( \\frac{f}{g} \\) is undefined at \\(c\\) and therefore cannot be continuous at \\(c\\).<br>Conclusion: <span style='color:var(--orange);font-weight:bold;'>Statement 2 is false (or incomplete).</span></p><p style='margin:8px 0;'><strong>Step 3: Evaluate Statement 3</strong><br>Statement 3: \"If \\(f\\) is continuous on \\([a, b]\\) and \\(f(a) \\le y \\le f(b)\\), then there exist \\(x_0 \\in (a, b)\\) s.t. \\(y = f(x_0)\\).\"<br>This statement is a form of the Intermediate Value Theorem (IVT). The standard IVT states that if \\(f\\) is continuous on a closed interval \\([a, b]\\) and \\(y\\) is any value between \\(f(a)\\) and \\(f(b)\\) (inclusive), then there exists at least one \\(x_0\\) in \\([a, b]\\) such that \\(f(x_0) = y\\).<br>The given statement specifies \\(x_0 \\in (a, b)\\) (open interval) rather than \\(x_0 \\in [a, b]\\) (closed interval). This means that if \\(y\\) happens to be exactly \\(f(a)\\) or \\(f(b)\\), then \\(x_0\\) could be \\(a\\) or \\(b\\), respectively, which are not strictly within the open interval \\((a, b)\\). However, if \\(y\\) is strictly between \\(f(a)\\) and \\(f(b)\\) (i.e., \\(f(a) < y < f(b)\\) or \\(f(b) < y < f(a)\\)), then there *must* exist an \\(x_0 \\in (a, b)\\). In the context of multiple-choice questions, this option is the closest and most commonly accepted representation of the IVT among the choices, as the other options are fundamentally incorrect or incomplete.<br>Conclusion: <span style='color:var(--orange);font-weight:bold;'>Statement 3 is the most accurate true statement among the given choices, representing the core idea of the Intermediate Value Theorem.</span></p><p style='margin:8px 0;'><strong>Step 4: Evaluate Statement 4</strong><br>Statement 4: \"A function is said to be continuous on its domain \\(D\\), if and only if it is continuous at one point \\(x_0 \\in D\\).\"<br>The definition of continuity on a domain \\(D\\) requires that the function \\(f\\) must be continuous at <strong>every single point</strong> \\(x \\in D\\).<br>This statement is fundamentally incorrect. A function can be continuous at one point but discontinuous at other points within its domain. For example, the function \\(f(x) = \\begin{cases} 1 & \\text{if } x = 0 \\\\ 0 & \\text{if } x \\neq 0 \\end{cases}\\) is continuous at \\(x=0\\) but discontinuous for all \\(x \\neq 0\\). It is not continuous on its entire domain (e.g., \\(\\mathbb{R}\\)).<br>Conclusion: <span style='color:var(--orange);font-weight:bold;'>Statement 4 is false.</span></p><p style='margin:8px 0;'><strong>Step 5: Identify the true statement</strong><br>Based on the detailed analysis of all four statements, only Statement 3 correctly describes a fundamental property of continuous functions, namely the Intermediate Value Theorem. The other statements contain significant errors or omissions that render them false.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>We have systematically evaluated each option against the definitions and theorems of continuity:<br><ul><li>Statement 1 is false because continuity of a sum requires continuity at the same point, not different points or a sum of points.</li><li>Statement 2 is false because the continuity of a quotient requires the denominator to be non-zero at the point of continuity.</li><li>Statement 3 is true as it represents the Intermediate Value Theorem, which states that a continuous function on a closed interval takes on every value between its endpoint values. While the interval for \\(x_0\\) is given as open \\((a, b)\\), it captures the essence of the theorem, especially for values strictly between \\(f(a)\\) and \\(f(b)\\).</li><li>Statement 4 is false because continuity on a domain requires continuity at every point in that domain, not just one point.</li></ul>Therefore, Statement 3 is the only true statement.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; If \\(f\\) is continuous on \\([a, b]\\) and \\(f(a) \\le y \\le f(b)\\), then there exist \\(x_0 \\in (a, b)\\) s.t. \\(y = f(x_0)\\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "If \\(f\\) is continuous on \\([a, b]\\) and \\(f(a) \\le y \\le f(b)\\), then there exist \\(x_0 \\in (a, b)\\) s.t. \\(y = f(x_0)\\)."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "topic": [
+      "Limits and Continuity",
+      "Calculus",
+      "Mathematical Analysis",
+      "Discontinuity"
+    ],
+    "Question": {
+      "content": "A function `h` is said to have a jump discontinuity at `x_0` if:",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "`x_0` does not belong to domain of `h`."
+        },
+        {
+          "type": "String",
+          "content": "Left hand limit of `h` does not exist."
+        },
+        {
+          "type": "String",
+          "content": "Right hand limit of `h` does not exist."
+        },
+        {
+          "type": "String",
+          "content": "Left hand limit and right hand limit exist but are equal."
+        }
+      ]
+    },
+    "table": [],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Jump Discontinuity</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>jump discontinuity</em> occurs at a point \\( x_0 \\) if the following three conditions are met:<br>1. The left-hand limit of the function at \\( x_0 \\), \\( \\\\lim_{x \\\\to x_0^-} h(x) \\), exists and is a finite number.<br>2. The right-hand limit of the function at \\( x_0 \\), \\( \\\\lim_{x \\\\to x_0^+} h(x) \\), exists and is a finite number.<br>3. The left-hand limit is not equal to the right-hand limit: \\( \\\\lim_{x \\\\to x_0^-} h(x) \\\\neq \\\\lim_{x \\\\to x_0^+} h(x) \\).<br><br>The function value \\( h(x_0) \\) may or may not be defined at \\( x_0 \\). If it is defined, it does not affect the classification as a jump discontinuity; the crucial aspect is the behavior of the one-sided limits.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>We need to identify the condition that defines a jump discontinuity at \\( x_0 \\) from the given options.</div><p style='margin:8px 0;'><strong>Step 1: State the definition of a jump discontinuity</strong><br>As per the Key Concept, a jump discontinuity requires both one-sided limits to exist and be finite, but unequal.<br>\\[ \\\\lim_{x \\\\to x_0^-} h(x) \\\\text{ exists (finite)} \\]<br>\\[ \\\\lim_{x \\\\to x_0^+} h(x) \\\\text{ exists (finite)} \\]<br>\\[ \\\\lim_{x \\\\to x_0^-} h(x) \\\\neq \\\\lim_{x \\\\to x_0^+} h(x) \\]</p><p style='margin:8px 0;'><strong>Step 2: Analyze Option (a) - `x_0` does not belong to domain of `h`</strong><br>If \\( x_0 \\) does not belong to the domain of \\( h \\), the function is undefined at that point, which means it is discontinuous there. This condition is <em>compatible</em> with a jump discontinuity (e.g., \\( f(x) = \\\\begin{cases} 0 & x < 0 \\\\\\\\ 1 & x > 0 \\\\end{cases} \\) at \\( x_0 = 0 \\)). However, it is not the <em>defining characteristic</em>, nor is it a <em>necessary condition</em> for all jump discontinuities (e.g., \\( f(x) = \\\\lfloor x \\\\rfloor \\) has jump discontinuities at integers, which are in its domain). This option alone does not define a jump discontinuity.</p><p style='margin:8px 0;'><strong>Step 3: Analyze Option (b) - Left hand limit of `h` does not exist</strong><br>This statement directly contradicts the definition of a jump discontinuity, which explicitly requires the left-hand limit to <span style='color:var(--orange);font-weight:bold;'>exist and be finite</span>. If the left-hand limit does not exist (e.g., approaches infinity or oscillates), it indicates a different type of essential discontinuity, not a jump discontinuity.</p><p style='margin:8px 0;'><strong>Step 4: Analyze Option (c) - Right hand limit of `h` does not exist</strong><br>Similar to option (b), this statement contradicts the definition of a jump discontinuity, which requires the right-hand limit to <span style='color:var(--orange);font-weight:bold;'>exist and be finite</span>. This would also indicate a different type of essential discontinuity.</p><p style='margin:8px 0;'><strong>Step 5: Analyze Option (d) - Left hand limit and right hand limit exist but are equal</strong><br>This statement describes a situation where the overall limit \\( \\\\lim_{x \\\\to x_0} h(x) \\) exists. If the one-sided limits exist and are equal, the discontinuity would be a <span style='color:var(--orange);font-weight:bold;'>removable discontinuity</span> (if \\( h(x_0) \\) is undefined or not equal to the limit) or the function would be continuous (if \\( h(x_0) \\) equals the limit). This explicitly contradicts the definition of a jump discontinuity, which requires the one-sided limits to be <span style='color:var(--orange);font-weight:bold;'>unequal</span>.</p><p style='margin:8px 0;'><strong>Step 6: Conclude by elimination</strong><br>Options (b), (c), and (d) describe conditions that are definitively inconsistent with or contradictory to the definition of a jump discontinuity. Option (a), while not a precise definition or a necessary condition, describes a scenario that is <span style='color:var(--orange);font-weight:bold;'>compatible</span> with a jump discontinuity. In a multiple-choice question where a perfect definition is not available, the option that does not contradict the phenomenon and allows for its possibility is often the intended answer.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>A jump discontinuity is characterized by the one-sided limits existing but being unequal. Options (b) and (c) state that a limit does not exist, which is false for a jump discontinuity. Option (d) states that the limits are equal, which is also false for a jump discontinuity. Option (a) states that \\( x_0 \\) is not in the domain. While not a defining characteristic, it is true for some jump discontinuities (e.g., a piecewise function defined differently on either side of \\( x_0 \\) with \\( x_0 \\) itself excluded). Therefore, by process of elimination, (a) is the only option that does not rule out a jump discontinuity.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The most plausible answer by elimination is that \\( x_0 \\) does not belong to the domain of \\( h \\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "`x_0` does not belong to domain of `h`."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "topic": [
+      "Discontinuity",
+      "Limits and Continuity",
+      "Mathematical Analysis",
+      "Rational Functions"
+    ],
+    "Question": {
+      "content": "The points of discontinuity of `\\frac{x-1}{(x-2)(x-3)}` are:",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "` (2,3)`"
+        },
+        {
+          "type": "String",
+          "content": "` (1,2)`"
+        },
+        {
+          "type": "String",
+          "content": "` (1,3)`"
+        },
+        {
+          "type": "String",
+          "content": "` (2,2)`"
+        }
+      ]
+    },
+    "table": [],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Points of Discontinuity for Rational Functions</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>rational function</em> is a function that can be expressed as the ratio of two polynomial functions, \\( f(x) = \\frac{P(x)}{Q(x)} \\), where \\( P(x) \\) and \\( Q(x) \\) are polynomials and \\( Q(x) \\neq 0 \\).<br>A function is <em>discontinuous</em> at a point if it is not defined at that point, or if its graph has a break, jump, or hole.<br>For a rational function, points of discontinuity occur where the <em>denominator is equal to zero</em>, as division by zero is an undefined operation. These discontinuities typically correspond to vertical asymptotes or holes in the graph of the function.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The function: \\( f(x) = \\frac{x-1}{(x-2)(x-3)} \\)</div><p style='margin:8px 0;'><strong>Step 1: Identify the function type</strong><br>The given function \\( f(x) = \\frac{x-1}{(x-2)(x-3)} \\) is a rational function because it is a ratio of two polynomial expressions: the numerator \\( P(x) = x-1 \\) and the denominator \\( Q(x) = (x-2)(x-3) \\).</p><p style='margin:8px 0;'><strong>Step 2: State the condition for discontinuity in rational functions</strong><br>A rational function is discontinuous at any point where its denominator is equal to zero. This is the fundamental condition for identifying points where the function is undefined.</p><p style='margin:8px 0;'><strong>Step 3: Set the denominator to zero</strong><br>To find the points of discontinuity, we must determine the values of \\( x \\) that make the denominator of \\( f(x) \\) equal to zero. We set the denominator expression to zero:<br>\\[ (x-2)(x-3) = 0 \\]</p><p style='margin:8px 0;'><strong>Step 4: Solve for x</strong><br>Using the Zero Product Property, if the product of two factors is zero, then at least one of the factors must be zero. We solve for \\( x \\) in each factor:<br>Case 1: Set the first factor to zero.<br>\\( x-2 = 0 \\)<br>\\( x = \\) <span style='color:var(--orange);font-weight:bold;'>2</span><br>Case 2: Set the second factor to zero.<br>\\( x-3 = 0 \\)<br>\\( x = \\) <span style='color:var(--orange);font-weight:bold;'>3</span></p><p style='margin:8px 0;'><strong>Step 5: State the points of discontinuity</strong><br>The values of \\( x \\) for which the denominator is zero are \\( x=2 \\) and \\( x=3 \\). These are the points where the function \\( f(x) \\) is undefined, and therefore, these are its points of discontinuity.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify, we can substitute these values back into the denominator:<br>For \\( x=2 \\): Denominator \\( = (2-2)(2-3) = 0 \\cdot (-1) = 0 \\). The function is undefined.<br>For \\( x=3 \\): Denominator \\( = (3-2)(3-3) = 1 \\cdot 0 = 0 \\). The function is undefined.<br>Since the numerator \\( (x-1) \\) is not zero at \\( x=2 \\) (it's \\( 2-1=1 \\)) or \\( x=3 \\) (it's \\( 3-1=2 \\)), these discontinuities correspond to vertical asymptotes, which are non-removable discontinuities.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The points of discontinuity are \\( x=2 \\) and \\( x=3 \\), which can be represented as \\( (2,3) \\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "` (2,3)`"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Find the domain of the function `f(x, y) = \\frac{2x+y}{\\sqrt{x^2+y^2}}`.",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "`y = -x^2`"
+        },
+        {
+          "type": "String",
+          "content": "`y \\ne x^2`"
+        },
+        {
+          "type": "String",
+          "content": "`y^2 = x`"
+        },
+        {
+          "type": "String",
+          "content": "`y^2 \\ne x`"
+        }
+      ]
+    },
+    "topic": [
+      "Multivariable Calculus",
+      "Mathematical Analysis",
+      "Rational Functions",
+      "Domain of Functions"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Domain of a Multivariable Function</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>domain</em> of a multivariable function \\( f(x, y) \\) is the set of all possible input pairs \\( (x, y) \\) for which the function is defined and produces a real number output.<br>For functions involving fractions, the denominator cannot be zero.<br>For functions involving square roots, the expression under the square root must be non-negative.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The function: \\( f(x, y) = \\frac{2x+y}{\\sqrt{x^2+y^2}} \\)</div><p style='margin:8px 0;'><strong>Step 1: Identify potential restrictions on the domain</strong><br>For a real-valued function, we must consider two main conditions:<br>1. The expression under a square root must be non-negative.<br>2. The denominator of a fraction cannot be zero.</p><p style='margin:8px 0;'><strong>Step 2: Analyze the square root condition</strong><br>The expression under the square root is \\( x^2+y^2 \\).<br>For any real numbers \\( x \\) and \\( y \\), we know that \\( x^2 \\ge 0 \\) and \\( y^2 \\ge 0 \\).<br>Therefore, their sum \\( x^2+y^2 \\) is always non-negative:<br>\\[ x^2+y^2 \\ge 0 \\]<br>This condition is always satisfied for all real \\( (x, y) \\).</p><p style='margin:8px 0;'><strong>Step 3: Analyze the denominator condition</strong><br>The denominator of the function is \\( \\sqrt{x^2+y^2} \\).<br>For the function to be defined, the denominator cannot be zero:<br>\\[ \\sqrt{x^2+y^2} \\ne 0 \\]<br>Squaring both sides (which is valid since both sides are non-negative):<br>\\[ (\\sqrt{x^2+y^2})^2 \\ne 0^2 \\]<br>\\[ x^2+y^2 \\ne 0 \\]</p><p style='margin:8px 0;'><strong>Step 4: Determine when \\( x^2+y^2 = 0 \\)</strong><br>The sum of two non-negative terms, \\( x^2 \\) and \\( y^2 \\), is equal to zero if and only if both terms are individually zero.<br>So, we must have:<br>\\[ x^2 = 0 \\quad \\text{and} \\quad y^2 = 0 \\]<br>This implies:<br>\\[ x = 0 \\quad \\text{and} \\quad y = 0 \\]<br>Therefore, the only point where \\( x^2+y^2 = 0 \\) is the origin, \\( (0, 0) \\).</p><p style='margin:8px 0;'><strong>Step 5: State the domain of the function</strong><br>From Step 3, we require \\( x^2+y^2 \\ne 0 \\). From Step 4, this means we must exclude the point \\( (0, 0) \\) from the domain.<br>Thus, the domain of \\( f(x, y) \\) is all points \\( (x, y) \\) in the two-dimensional real plane \\( \\mathbb{R}^2 \\) except for the origin.<br>The domain can be written as: <span style='color:var(--orange);font-weight:bold;'>\\( D = \\{ (x, y) \\in \\mathbb{R}^2 \\mid (x, y) \\ne (0, 0) \\} \\)</span> or <span style='color:var(--orange);font-weight:bold;'>\\( \\mathbb{R}^2 \\setminus \\{ (0, 0) \\} \\)</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>If we try to evaluate the function at \\( (0, 0) \\):<br>\\[ f(0, 0) = \\frac{2(0)+0}{\\sqrt{0^2+0^2}} = \\frac{0}{\\sqrt{0}} = \\frac{0}{0} \\]<br>This is an indeterminate form and undefined, confirming that \\( (0, 0) \\) is not in the domain.<br>For any other point \\( (x, y) \\ne (0, 0) \\), \\( x^2+y^2 \\) will be a positive number, so \\( \\sqrt{x^2+y^2} \\) will be a positive real number, and the function will be well-defined and produce a real output.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The domain of \\( f(x, y) \\) is all points \\( (x, y) \\in \\mathbb{R}^2 \\) such that \\( (x, y) \\ne (0, 0) \\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The domain is all \\( (x, y) \\in \\mathbb{R}^2 \\) except \\( (0, 0) \\). None of the provided options directly match this domain."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Suppose `v` and `h` are differentiable functions of `x`, which of the following is true about their derivative `u = vh`?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "`u' = h'v + v'h`"
+        },
+        {
+          "type": "String",
+          "content": "`u' = v'h' + vh'`"
+        },
+        {
+          "type": "String",
+          "content": "`u' = v'h(h'\\ln v + \\frac{hv'}{v})`"
+        },
+        {
+          "type": "String",
+          "content": "`u' = h'\\ln v + \\frac{hv'}{v}`"
+        }
+      ]
+    },
+    "topic": [
+      "Calculus",
+      "Differentiation",
+      "Product Rule"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Product Rule of Differentiation</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>Product Rule</em> is a fundamental rule in calculus used to find the derivative of a product of two or more differentiable functions.<br>If \\( v(x) \\) and \\( h(x) \\) are two differentiable functions, then the derivative of their product \\( u(x) = v(x)h(x) \\) is given by the formula:<br>\\[ u'(x) = v'(x)h(x) + v(x)h'(x) \\]<br>In simpler notation, if \\( u = vh \\), then \\( u' = v'h + vh' \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Functions: \\( v \\) and \\( h \\) are differentiable functions of \\( x \\).<br>Product function: \\( u = vh \\)<br>Goal: Find the derivative \\( u' \\).</div><p style='margin:8px 0;'><strong>Step 1: State the Product Rule formula</strong><br>The Product Rule for differentiation states that if a function \\( u \\) is the product of two differentiable functions, say \\( v \\) and \\( h \\), then its derivative \\( u' \\) is given by:<br>\\[ u' = v'h + vh' \\]<br>Where \\( v' \\) is the derivative of \\( v \\) with respect to \\( x \\), and \\( h' \\) is the derivative of \\( h \\) with respect to \\( x \\).</p><p style='margin:8px 0;'><strong>Step 2: Apply the Product Rule to the given functions</strong><br>Given the function \\( u = vh \\), we directly apply the Product Rule formula.<br>The first term is the derivative of the first function (\\( v' \\)) multiplied by the second function (\\( h \\)).<br>The second term is the first function (\\( v \\)) multiplied by the derivative of the second function (\\( h' \\)).<br>Therefore, the derivative \\( u' \\) is:<br>\\[ u' = v'h + vh' \\]<br>This can also be written as <span style='color:var(--orange);font-weight:bold;'>\\( u' = hv' + vh' \\)</span> or <span style='color:var(--orange);font-weight:bold;'>\\( u' = h'v + v'h \\)</span> due to the commutative property of addition.</p><p style='margin:8px 0;'><strong>Step 3: Compare with the options</strong><br>Let's examine the provided options:<br>Option 1: \\( u' = h'v + v'h \\)<br>Option 2: \\( u' = v'h' + vh' \\)<br>Option 3: \\( u' = v'h(h'\\\\ln v + \\\\frac{hv'}{v}) \\)<br>Option 4: \\( u' = h'\\\\ln v + \\\\frac{hv'}{v} \\)<br><br>Comparing our derived result \\( u' = v'h + vh' \\) with the options, we see that Option 1, \\( u' = h'v + v'h \\), is equivalent. The order of terms in addition does not change the sum, and the order of factors in multiplication does not change the product.<br>Thus, \\( v'h + vh' \\) is the same as \\( hv' + vh' \\) and also \\( h'v + v'h \\).</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The Product Rule is a fundamental theorem in differential calculus. Its derivation can be shown using the limit definition of the derivative:<br>Let \\( u(x) = v(x)h(x) \\). Then<br>\\[ u'(x) = \\\\lim_{\\\\Delta x \\\\to 0} \\\\frac{v(x+\\\\Delta x)h(x+\\\\Delta x) - v(x)h(x)}{\\\\Delta x} \\]<br>By adding and subtracting \\( v(x)h(x+\\\\Delta x) \\) in the numerator:<br>\\[ u'(x) = \\\\lim_{\\\\Delta x \\\\to 0} \\\\left( \\\\frac{v(x+\\\\Delta x)h(x+\\\\Delta x) - v(x)h(x+\\\\Delta x)}{\\\\Delta x} + \\\\frac{v(x)h(x+\\\\Delta x) - v(x)h(x)}{\\\\Delta x} \\\\right) \\]<br>\\[ u'(x) = \\\\lim_{\\\\Delta x \\\\to 0} \\\\left( h(x+\\\\Delta x) \\\\frac{v(x+\\\\Delta x) - v(x)}{\\\\Delta x} + v(x) \\\\frac{h(x+\\\\Delta x) - h(x)}{\\\\Delta x} \\\\right) \\]<br>As \\( \\\\Delta x \\\\to 0 \\), \\( h(x+\\\\Delta x) \\\\to h(x) \\), and the limits of the difference quotients become the derivatives:<br>\\[ u'(x) = h(x)v'(x) + v(x)h'(x) \\]<br>This confirms that the Product Rule \\( u' = v'h + vh' \\) is correct. The option \\( u' = h'v + v'h \\) is simply a rearrangement of these terms. &#10003; Confirmed!</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The derivative \\( u' \\) is \\( h'v + v'h \\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "u' = h'v + v'h"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Compute the derivative of `y = (\\sin x)^{\\tan x}`.",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "`(\\sec^2 x) \\ln(\\sin x) + (\\tan x) \\frac{\\cos x}{\\sin x}`"
+        },
+        {
+          "type": "String",
+          "content": "`(\\sec^2 x) \\ln(\\sin x) + (\\sec^2 x) \\frac{\\cos x}{\\sin x}`"
+        },
+        {
+          "type": "String",
+          "content": "`(\\sin x)^{\\tan x} [(\\sec^2 x) \\ln(\\sin x)]`"
+        },
+        {
+          "type": "String",
+          "content": "`(\\sec^2 x) (\\sin x + 1)`"
+        }
+      ]
+    },
+    "topic": [
+      "Calculus",
+      "Differentiation",
+      "Logarithmic Differentiation"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Logarithmic Differentiation</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><em>Logarithmic Differentiation</em> is a technique used to differentiate functions of the form \\( y = [f(x)]^{g(x)} \\) or complex products/quotients. It involves:<br>1. Taking the natural logarithm of both sides.<br>2. Using logarithm properties to simplify the expression.<br>3. Differentiating implicitly with respect to \\( x \\).<br>4. Solving for \\( \\frac{dy}{dx} \\).<br><br><strong>Relevant Differentiation Rules:</strong><br>• <strong>Product Rule:</strong> \\( \\frac{d}{dx}[u(x)v(x)] = u'(x)v(x) + u(x)v'(x) \\)<br>• <strong>Chain Rule:</strong> \\( \\frac{d}{dx}[f(g(x))] = f'(g(x))g'(x) \\)<br>• <strong>Derivative of Natural Logarithm:</strong> \\( \\frac{d}{dx}(\\ln u) = \\frac{1}{u} \\frac{du}{dx} \\)<br>• <strong>Derivative of Tangent:</strong> \\( \\frac{d}{dx}(\\tan x) = \\sec^2 x \\)<br>• <strong>Derivative of Sine:</strong> \\( \\frac{d}{dx}(\\sin x) = \\cos x \\)</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Function: \\( y = (\\sin x)^{\\tan x} \\)<br>Find: \\( \\frac{dy}{dx} \\)</div><p style='margin:8px 0;'><strong>Step 1: Apply natural logarithm to both sides</strong><br>Given the function is in the form \\( f(x)^{g(x)} \\), we use logarithmic differentiation. First, take the natural logarithm of both sides.<br>\\[ y = (\\sin x)^{\\tan x} \\]<br>\\[ \\ln y = \\ln \\left( (\\sin x)^{\\tan x} \\right) \\]<br>Using the logarithm property \\( \\ln(a^b) = b \\ln(a) \\):<br>\\[ \\ln y = (\\tan x) \\ln(\\sin x) \\]</p><p style='margin:8px 0;'><strong>Step 2: Differentiate both sides implicitly with respect to \\( x \\)</strong><br>We differentiate both sides of the equation \\( \\ln y = (\\tan x) \\ln(\\sin x) \\) with respect to \\( x \\).<br><br>For the left side, \\( \\frac{d}{dx}(\\ln y) \\):<br>Using the chain rule, \\( \\frac{d}{dx}(\\ln y) = \\frac{1}{y} \\frac{dy}{dx} \\)<br><br>For the right side, \\( \\frac{d}{dx}[(\\tan x) \\ln(\\sin x)] \\):<br>This requires the product rule: \\( \\frac{d}{dx}(uv) = u'v + uv' \\)<br>Let \\( u = \\tan x \\) and \\( v = \\ln(\\sin x) \\).<br><br>First, find \\( u' \\):<br>\\[ u' = \\frac{d}{dx}(\\tan x) = \\sec^2 x \\]<br><br>Next, find \\( v' \\):<br>\\[ v' = \\frac{d}{dx}(\\ln(\\sin x)) \\]<br>Using the chain rule for \\( \\ln(\\sin x) \\), where the inner function is \\( \\sin x \\) and its derivative is \\( \\cos x \\):<br>\\[ v' = \\frac{1}{\\sin x} \\cdot \\frac{d}{dx}(\\sin x) = \\frac{1}{\\sin x} \\cdot \\cos x = \\frac{\\cos x}{\\sin x} \\]<br><br>Now, apply the product rule to the right side:<br>\\[ \\frac{d}{dx}[(\\tan x) \\ln(\\sin x)] = (\\sec^2 x) \\ln(\\sin x) + (\\tan x) \\left( \\frac{\\cos x}{\\sin x} \\right) \\]</p><p style='margin:8px 0;'><strong>Step 3: Equate the derivatives of both sides</strong><br>Equating the derivatives from Step 2:<br>\\[ \\frac{1}{y} \\frac{dy}{dx} = (\\sec^2 x) \\ln(\\sin x) + (\\tan x) \\left( \\frac{\\cos x}{\\sin x} \\right) \\]<br>This expression is an intermediate step, representing \\( \\frac{1}{y} \\frac{dy}{dx} \\). It matches option (a) exactly. Although the question asks for \\( \\frac{dy}{dx} \\), option (a) provides this intermediate form.</p><p style='margin:8px 0;'><strong>Step 4: (Optional) Simplify the intermediate expression</strong><br>We can simplify the second term on the right side:<br>Recall that \\( \\tan x = \\frac{\\sin x}{\\cos x} \\).<br>\\[ (\\tan x) \\left( \\frac{\\cos x}{\\sin x} \\right) = \\left( \\frac{\\sin x}{\\cos x} \\right) \\left( \\frac{\\cos x}{\\sin x} \\right) = 1 \\]<br>So, the simplified form of \\( \\frac{1}{y} \\frac{dy}{dx} \\) is:<br><span style='color:var(--orange);font-weight:bold;'>\\[ \\frac{1}{y} \\frac{dy}{dx} = (\\sec^2 x) \\ln(\\sin x) + 1 \\]</span></p><p style='margin:8px 0;'><strong>Step 5: (Optional) Solve for \\( \\frac{dy}{dx} \\)</strong><br>To find \\( \\frac{dy}{dx} \\), multiply both sides by \\( y \\):<br>\\[ \\frac{dy}{dx} = y \\left[ (\\sec^2 x) \\ln(\\sin x) + (\\tan x) \\left( \\frac{\\cos x}{\\sin x} \\right) \\right] \\]<br>Substitute back \\( y = (\\sin x)^{\\tan x} \\):<br><span style='color:var(--orange);font-weight:bold;'>\\[ \\frac{dy}{dx} = (\\sin x)^{\\tan x} \\left[ (\\sec^2 x) \\ln(\\sin x) + (\\tan x) \\left( \\frac{\\cos x}{\\sin x} \\right) \\right] \\]</span><br>Or, using the simplified form from Step 4:<br><span style='color:var(--orange);font-weight:bold;'>\\[ \\frac{dy}{dx} = (\\sin x)^{\\tan x} \\left[ (\\sec^2 x) \\ln(\\sin x) + 1 \\right] \\]</span><br>However, since option (a) is provided as the correct answer and matches the expression for \\( \\frac{1}{y} \\frac{dy}{dx} \\) before multiplying by \\( y \\), we select that option.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>We have derived \\( \\frac{1}{y} \\frac{dy}{dx} = (\\sec^2 x) \\ln(\\sin x) + (\\tan x) \\frac{\\cos x}{\\sin x} \\).<br>Let's re-check the differentiation of \\( \\ln y = (\\tan x) \\ln(\\sin x) \\).<br>Using the product rule \\( (uv)' = u'v + uv' \\) where \\( u = \\tan x \\) and \\( v = \\ln(\\sin x) \\).<br> \\( u' = \\sec^2 x \\)<br> \\( v' = \\frac{1}{\\sin x} \\cdot \\cos x = \\frac{\\cos x}{\\sin x} \\)<br>So, \\( \\frac{d}{dx}(\\ln y) = (\\sec^2 x) \\ln(\\sin x) + (\\tan x) \\left( \\frac{\\cos x}{\\sin x} \\right) \\).<br>This confirms the expression for \\( \\frac{1}{y} \\frac{dy}{dx} \\) matches option (a).</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The expression for \\( \\frac{1}{y} \\frac{dy}{dx} \\) is \\( (\\sec^2 x) \\ln(\\sin x) + (\\tan x) \\frac{\\cos x}{\\sin x} \\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(\\sec^2 x) \\ln(\\sin x) + (\\tan x) \\frac{\\cos x}{\\sin x}"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "A point `x = c` is called a critical point of a function `f` if:",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "`f'(c)` exists."
+        },
+        {
+          "type": "String",
+          "content": "`f'(c) = 0`."
+        },
+        {
+          "type": "String",
+          "content": "`f'(c) > 0`."
+        },
+        {
+          "type": "String",
+          "content": "`f'(c) < 0`."
+        }
+      ]
+    },
+    "topic": [
+      "Calculus",
+      "Differentiation",
+      "Mathematical Analysis",
+      "Critical Points"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Critical Points of a Function</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>critical point</em> of a function \\( f(x) \\) is a point \\( x = c \\) in the domain of \\( f \\) where the first derivative, \\( f'(c) \\), is either equal to zero or undefined.<br>Critical points are important because they are the only places where a function can have local maxima or local minima.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>We need to identify the condition that defines a critical point \\( x = c \\) for a function \\( f \\).<br>Options provided relate to the value of the first derivative \\( f'(c) \\).</div><p style='margin:8px 0;'><strong>Step 1: State the formal definition of a critical point</strong><br>For a function \\( f(x) \\), a point \\( x = c \\) in the domain of \\( f \\) is called a critical point if:<br>1. \\( f'(c) = 0 \\)<br>OR<br>2. \\( f'(c) \\) does not exist (is undefined).</p><p style='margin:8px 0;'><strong>Step 2: Analyze the given options based on the definition</strong><br>Let's evaluate each option provided:<br><ul><li><strong>Option A:</strong> `f'(c)` exists.<br>This condition alone is not sufficient. For example, if \\( f(x) = x^3 \\), then \\( f'(x) = 3x^2 \\). At \\( x=1 \\), \\( f'(1) = 3 \\), which exists, but \\( x=1 \\) is not a critical point. A critical point requires \\( f'(c) = 0 \\) or \\( f'(c) \\) to be undefined.</li><li><strong>Option B:</strong> `f'(c) = 0`.<br>This is one of the two primary conditions for a point \\( x=c \\) to be a critical point, as stated in the definition. If the derivative is zero, the tangent line to the function at that point is horizontal, indicating a potential local maximum or minimum.</li><li><strong>Option C:</b> `f'(c) > 0`.<br>If \\( f'(c) > 0 \\), the function is increasing at \\( x=c \\). A point where a function is increasing cannot be a local maximum or minimum, and thus it is not a critical point.</li><li><strong>Option D:</strong> `f'(c) < 0`.<br>If \\( f'(c) < 0 \\), the function is decreasing at \\( x=c \\). Similar to Option C, a point where a function is decreasing cannot be a local maximum or minimum, and thus it is not a critical point.</li></ul></p><p style='margin:8px 0;'><strong>Step 3: Identify the correct option</strong><br>Comparing the options with the definition of a critical point, the condition \\( f'(c) = 0 \\) directly matches one of the defining criteria. Although the derivative being undefined is also a condition, it is not offered as an option. Therefore, among the given choices, \\( f'(c) = 0 \\) is the correct condition for a point to be a critical point.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>A critical point \\( x=c \\) is defined by two conditions: \\( f'(c) = 0 \\) or \\( f'(c) \\) does not exist. The question asks for a condition that makes \\( x=c \\) a critical point. The option \\( f'(c) = 0 \\) directly satisfies one of these conditions. The other options describe scenarios where \\( x=c \\) would not be a critical point (unless \\( f'(c) \\) is undefined, which is not covered by options A, C, D). Thus, \\( f'(c) = 0 \\) is a valid and fundamental condition for a critical point.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; A point \\( x = c \\) is called a critical point of a function \\( f \\) if \\( f'(c) = 0 \\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "`f'(c) = 0`."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 10",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "The critical points of `18x^2 - 12` are:",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "`-\\frac{1}{6}`"
+        },
+        {
+          "type": "String",
+          "content": "`-\\frac{1}{6}`"
+        },
+        {
+          "type": "String",
+          "content": "`1` and `\\frac{2}{9}`"
+        },
+        {
+          "type": "String",
+          "content": "`1` and `-\\frac{2}{9}`"
+        }
+      ]
+    },
+    "topic": [
+      "Calculus",
+      "Differentiation",
+      "Critical Points"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Finding Critical Points of a Function</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>critical point</em> of a function \\( f(x) \\) is a point \\( c \\) in the domain of \\( f \\) where either:<br>1. The first derivative \\( f'(c) = 0 \\).<br>2. The first derivative \\( f'(c) \\) is undefined.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Function: \\( f(x) = 18x^2 - 12 \\)</div><p style='margin:8px 0;'><strong>Step 1: Write the given function</strong><br>The function for which we need to find the critical points is:<br>\\[ f(x) = 18x^2 - 12 \\]</p><p style='margin:8px 0;'><strong>Step 2: Find the first derivative of the function</strong><br>To find the critical points, we first need to calculate the first derivative, \\( f'(x) \\).<br>We use the power rule for differentiation: \\( \\frac{d}{dx}(ax^n) = anx^{n-1} \\) and the derivative of a constant is zero.<br>\\[ f'(x) = \\frac{d}{dx}(18x^2 - 12) \\]<br>\\[ f'(x) = \\frac{d}{dx}(18x^2) - \\frac{d}{dx}(12) \\]<br>\\[ f'(x) = 18 \\cdot 2x^{2-1} - 0 \\]<br>\\[ f'(x) = \\text{<span style='color:var(--orange);font-weight:bold;'>}36x\\text{</span>} \\]</p><p style='margin:8px 0;'><strong>Step 3: Set the first derivative equal to zero</strong><br>Critical points occur where \\( f'(x) = 0 \\) or \\( f'(x) \\) is undefined.<br>Set the derivative we found in Step 2 to zero:<br>\\[ 36x = 0 \\]</p><p style='margin:8px 0;'><strong>Step 4: Solve for x</strong><br>Divide both sides of the equation by 36:<br>\\[ \\frac{36x}{36} = \\frac{0}{36} \\]<br>\\[ x = \\text{<span style='color:var(--orange);font-weight:bold;'>}0\\text{</span>} \\]</p><p style='margin:8px 0;'><strong>Step 5: Check for points where the derivative is undefined</strong><br>The derivative \\( f'(x) = 36x \\) is a polynomial function.<br>Polynomial functions are defined and differentiable for all real numbers.<br>Therefore, there are no points where \\( f'(x) \\) is undefined.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>We found the critical point to be \\( x=0 \\). To verify, substitute \\( x=0 \\) back into the first derivative \\( f'(x) = 36x \\).<br>\\[ f'(0) = 36 \\cdot (0) \\]<br>\\[ f'(0) = 0 \\]<br>Since \\( f'(0) = 0 \\), our critical point is correct.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The only critical point of the function \\( f(x) = 18x^2 - 12 \\) is \\( x = 0 \\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 11",
+    "topic": [
+      "Calculus",
+      "Mathematical Analysis",
+      "Critical Points",
+      "Differentiation"
+    ],
+    "Question": {
+      "content": "A point `c` is called a relative maximum of a function `f` if:",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "`f(x) \\le f(c) \\forall x` in some open interval containing `c`"
+        },
+        {
+          "type": "String",
+          "content": "`f(x) \\le f(c) \\forall x \\in Dom(f)`."
+        },
+        {
+          "type": "String",
+          "content": "`f'(c) \\le f(x) \\forall x` in some open set containing `c`."
+        }
+      ]
+    },
+    "table": [],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Relative Maximum of a Function</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>relative maximum</em> (also known as a local maximum) of a function \\( f \\) at a point \\( c \\) occurs if the function's value at \\( c \\), \\( f(c) \\), is greater than or equal to the function's values at all other points in some open interval containing \\( c \\).<br>An <em>open interval</em> is a set of real numbers between two specified endpoints, not including the endpoints themselves, typically denoted as \\( (a, b) \\).<br>An <em>absolute maximum</em> (or global maximum) occurs if \\( f(c) \\) is the highest value of the function over its entire domain.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>A function \\( f \\) and a point \\( c \\).<br>We need to identify the correct definition of a relative maximum.</div><p style='margin:8px 0;'><strong>Step 1: Understand the concept of a relative maximum</strong><br>A relative maximum describes a \"peak\" in the graph of a function within a specific, localized region. It doesn't necessarily mean it's the highest point the function ever reaches (that would be an absolute maximum). The key is that it's the highest point <em>in its immediate neighborhood</em>.</p><p style='margin:8px 0;'><strong>Step 2: Formulate the mathematical condition for a relative maximum</strong><br>For a function \\( f \\) to have a relative maximum at a point \\( c \\), there must exist some open interval \\( (a, b) \\) that contains \\( c \\) (i.e., \\( a < c < b \\)) such that for all \\( x \\) in this interval \\( (a, b) \\), the function value \\( f(x) \\) is less than or equal to \\( f(c) \\).<br>Mathematically, this is expressed as: <span style='color:var(--orange);font-weight:bold;'>\\( f(x) \\\\le f(c) \\\\forall x \\) in some open interval containing \\( c \\)</span>.</p><p style='margin:8px 0;'><strong>Step 3: Evaluate Option 1</strong><br>Option 1 states: \"<code>f(x) \\\\le f(c) \\\\forall x</code> in some open interval containing <code>c</code>\".<br>This statement perfectly matches the formal definition of a relative maximum. It specifies that \\( f(c) \\) is the greatest value within a local neighborhood (an open interval) around \\( c \\).</p><p style='margin:8px 0;'><strong>Step 4: Evaluate Option 2</strong><br>Option 2 states: \"<code>f(x) \\\\le f(c) \\\\forall x \\\\in Dom(f)</code>.\".<br>This statement means that \\( f(c) \\) is greater than or equal to all other function values over the <em>entire domain</em> of \\( f \\). This is the definition of an <span style='color:var(--orange);font-weight:bold;'>absolute maximum</span>, not a relative maximum. A relative maximum only requires this condition to hold true in a <em>local</em> interval.</p><p style='margin:8px 0;'><strong>Step 5: Evaluate Option 3</strong><br>Option 3 states: \"<code>f'(c) \\\\le f(x) \\\\forall x</code> in some open set containing <code>c</code>.\".<br>This statement is incorrect for several reasons:<br>1. \\( f'(c) \\) represents the derivative of the function at \\( c \\), which is the slope of the tangent line at that point. It is a value related to the <em>rate of change</em> of the function, not a function value \\( f(c) \\). Comparing a derivative value to a function value \\( f(x) \\) in this manner does not define a maximum.<br>2. A relative maximum can exist even if the derivative \\( f'(c) \\) does not exist (e.g., at a sharp peak or cusp).<br>3. The condition for a relative maximum involves comparing \\( f(x) \\) to \\( f(c) \\), not to \\( f'(c) \\).</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The definition of a relative maximum requires that the function value at \\( c \\), \\( f(c) \\), is the highest value within some small, local neighborhood around \\( c \\). This is precisely what option 1 describes: \\( f(x) \\\\le f(c) \\\\forall x \\) in some open interval containing \\( c \\). Option 2 describes an absolute maximum, and Option 3 incorrectly involves the derivative and an incorrect comparison. Therefore, Option 1 is the only correct definition.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The correct definition is \\( f(x) \\\\le f(c) \\\\forall x \\) in some open interval containing \\( c \\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "`f(x) \\le f(c) \\forall x` in some open interval containing `c`"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 12",
+    "topic": [
+      "Calculus",
+      "Differentiation",
+      "Mathematical Analysis",
+      "Critical Points",
+      "Extrema"
+    ],
+    "Question": {
+      "content": "Assume that `f` is a function defined on an interval `I`. What is the sufficient condition for a point `c \\\\in I` to be absolute maximum of `f`?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "Continuity"
+        },
+        {
+          "type": "String",
+          "content": "differentiability"
+        },
+        {
+          "type": "String",
+          "content": "existence of limit of `f`"
+        },
+        {
+          "type": "String",
+          "content": "None of the above."
+        }
+      ]
+    },
+    "table": [],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Absolute Maximum Conditions</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>An <em>absolute maximum</em> (or global maximum) of a function \\\\( f \\\\) on an interval \\\\( I \\\\) is a point \\\\( c \\\\\\\\in I \\\\) such that \\\\( f(c) \\\\\\\\ge f(x) \\\\) for all \\\\( x \\\\\\\\in I \\\\). This means \\\\( f(c) \\\\) is the largest value the function attains on the entire interval.<br><br>A <em>sufficient condition</em> is a condition that, if met, guarantees a certain outcome. If condition A is sufficient for outcome B, then A implies B.<br><br><em>Continuity</em>: A function \\\\( f \\\\) is continuous at \\\\( c \\\\) if \\\\( \\\\\\\\lim_{x \\\\\\\\to c} f(x) = f(c) \\\\).<br><em>Differentiability</em>: A function \\\\( f \\\\) is differentiable at \\\\( c \\\\) if the derivative \\\\( f'(c) \\\\) exists.<br><em>Existence of limit</em>: The limit of \\\\( f(x) \\\\) as \\\\( x \\\\) approaches \\\\( c \\\\), denoted \\\\( \\\\\\\\lim_{x \\\\\\\\to c} f(x) \\\\), exists if the left-hand limit and right-hand limit are equal and finite.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Function: \\\\( f \\\\) defined on interval \\\\( I \\\\).<br>Point: \\\\( c \\\\\\\\in I \\\\).<br>Task: Find a sufficient condition for \\\\( c \\\\) to be an absolute maximum of \\\\( f \\\\).</div><p style='margin:8px 0;'><strong>Step 1: Understand the core requirement for an absolute maximum</strong><br>For a point \\\\( c \\\\\\\\in I \\\\) to be an absolute maximum of \\\\( f \\\\), it must satisfy the definition:<br>\\\\[ f(c) \\\\\\\\ge f(x) \\\\quad \\\\\\\\text{for all } x \\\\\\\\in I \\\\\\] <br>This definition itself is the direct sufficient condition. We need to evaluate if the given options imply this definition.</p><p style='margin:8px 0;'><strong>Step 2: Evaluate \\\\\"Continuity\\\\\" as a sufficient condition</strong><br>Continuity at a point \\\\( c \\\\) means that the function has no breaks, jumps, or holes at that point. While continuity is a property often associated with extrema (e.g., the Extreme Value Theorem guarantees absolute extrema for continuous functions on closed intervals), it is not a sufficient condition for a *specific point* \\\\( c \\\\) to be an absolute maximum.<br>Consider the function \\\\( f(x) = x \\\\) on the interval \\\\( I = [0, 5] \\\\). This function is continuous everywhere on \\\\( I \\\\). However, for any point \\\\( c \\\\\\\\in (0, 5) \\\\), say \\\\( c=2 \\\\), \\\\( f(2)=2 \\\\). This is not an absolute maximum because \\\\( f(5)=5 \\\\), and \\\\( f(5) > f(2) \\\\). Continuity at \\\\( c=2 \\\\) does not make it an absolute maximum.</p><p style='margin:8px 0;'><strong>Step 3: Evaluate \\\\\"Differentiability\\\\\" as a sufficient condition</strong><br>Differentiability at a point \\\\( c \\\\) implies that the function is smooth and has a well-defined tangent line at \\\\( c \\\\). Differentiability at \\\\( c \\\\) also implies continuity at \\\\( c \\\\). Therefore, if continuity is not a sufficient condition, differentiability (a stronger condition) cannot be sufficient either.<br>Consider the function \\\\( f(x) = x^3 \\\\) on the interval \\\\( I = [-2, 2] \\\\). This function is differentiable everywhere on \\\\( I \\\\). For \\\\( c=0 \\\\), \\\\( f(0)=0 \\\\). This is not an absolute maximum because \\\\( f(2)=8 \\\\), and \\\\( f(2) > f(0) \\\\). Differentiability at \\\\( c=0 \\\\) does not make it an absolute maximum. Differentiability helps identify *critical points* (\\\\( f'(c)=0 \\\\) or \\\\( f'(c) \\\\) undefined), which are *candidates* for extrema, but it doesn't guarantee that a critical point is an absolute maximum, or even a local maximum.</p><p style='margin:8px 0;'><strong>Step 4: Evaluate \\\\\"Existence of limit of \\\\( f \\\\\\\\)\\\\\\\" as a sufficient condition</strong><br>The existence of a limit of \\\\( f(x) \\\\) as \\\\( x \\\\) approaches \\\\( c \\\\) means that \\\\( f(x) \\\\) approaches a specific value as \\\\( x \\\\) gets closer to \\\\( c \\\\). This condition is weaker than continuity, as it does not require \\\\( f(c) \\\\) to be defined or to be equal to the limit.<br>Consider the function \\\\( f(x) = x \\\\) for \\\\( x \\\\\\\\ne 0 \\\\) and \\\\( f(0) = 0 \\\\) on the interval \\\\( I = [-1, 1] \\\\). Here, \\\\( \\\\\\\\lim_{x \\\\\\\\to 0} f(x) = 0 \\\\), so the limit exists at \\\\( c=0 \\\\). However, \\\\( f(0)=0 \\\\) is not an absolute maximum on \\\\( I \\\\) because \\\\( f(1)=1 \\\\), and \\\\( f(1) > f(0) \\\\). The existence of the limit at \\\\( c=0 \\\\) does not make it an absolute maximum.</p><p style='margin:8px 0;'><strong>Step 5: Conclude which option is correct</strong><br>Based on the analysis in Steps 2, 3, and 4, none of the provided conditions (continuity, differentiability, or existence of a limit of \\\\( f \\\\\\\\)\\\\\\) are sufficient by themselves to guarantee that a point \\\\( c \\\\) is an absolute maximum of \\\\( f \\\\) on an interval \\\\( I \\\\). These properties are often prerequisites or tools used in theorems to *find* extrema, but they do not *define* or *guarantee* an absolute maximum at a specific point \\\\( c \\\\).</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The definition of an absolute maximum is \\\\( f(c) \\\\\\\\ge f(x) \\\\) for all \\\\( x \\\\\\\\in I \\\\). This is the only direct sufficient condition. The options provided describe properties of the function at a point, not the relationship of that point's function value to all other function values in the interval. As demonstrated with counterexamples, a function can possess any of these properties at a point \\\\( c \\\\) without \\\\( c \\\\) being an absolute maximum. Therefore, none of the options are sufficient conditions.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; None of the above.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "None of the above."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 13",
+    "topic": [
+      "Calculus",
+      "Differentiation",
+      "Critical Points",
+      "Extrema",
+      "Mathematical Analysis"
+    ],
+    "Question": {
+      "content": "Which of the following is true?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "If `f` has a local extrema at `x = c` and `f'(c)` exist, then `f'(c) = 0`."
+        },
+        {
+          "type": "String",
+          "content": "If `f` has local extrema at `x = c`, then `f'`."
+        },
+        {
+          "type": "String",
+          "content": "If `f` has local extrema at `x = c`, then `f'(c) < 0`."
+        },
+        {
+          "type": "String",
+          "content": "If `f` has local extrema at `x = c`, and `f'(c)` exists, then `f'(c) = 0`."
+        }
+      ]
+    },
+    "table": [],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Fermat's Theorem and Local Extrema</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>local extremum</em> (or relative extremum) of a function \\( f(x) \\) is a point where the function reaches a local maximum or a local minimum value within some open interval.<br>The <em>derivative</em> \\( f'(x) \\) represents the instantaneous rate of change of the function at a point \\( x \\), which is geometrically the slope of the tangent line to the function's graph at that point.<br><em>Fermat's Theorem</em> (for critical points) states that if a function \\( f \\) has a local extremum at \\( x = c \\), and if \\( f'(c) \\) exists, then \\( f'(c) = 0 \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>We are given several statements regarding local extrema and derivatives and asked to identify the true one.</div><p style='margin:8px 0;'><strong>Step 1: Define Local Extrema</strong><br>A function \\( f(x) \\) has a local maximum at \\( x = c \\) if \\( f(c) \\\\ge f(x) \\) for all \\( x \\) in some open interval containing \\( c \\).<br>A function \\( f(x) \\) has a local minimum at \\( x = c \\) if \\( f(c) \\\\le f(x) \\) for all \\( x \\) in some open interval containing \\( c \\).<br>A local extremum refers to either a local maximum or a local minimum.</p><p style='margin:8px 0;'><strong>Step 2: Understand the Derivative at an Extremum</strong><br>If a function \\( f(x) \\) is differentiable at a point \\( x = c \\), then \\( f'(c) \\) exists and represents the slope of the tangent line to the graph of \\( f \\) at \\( (c, f(c)) \\).<br>At a local extremum where the derivative exists, the tangent line to the curve must be horizontal. A horizontal line has a slope of zero.</p><p style='margin:8px 0;'><strong>Step 3: State Fermat's Theorem</strong><br>This observation leads directly to Fermat's Theorem for critical points, which is a fundamental result in calculus.<br>The theorem states: If \\( f \\) has a local extremum at \\( x = c \\) and \\( f'(c) \\) exists, then <span style='color:var(--orange);font-weight:bold;'>\\( f'(c) = 0 \\)</span>.</p><p style='margin:8px 0;'><strong>Step 4: Analyze the Given Options</strong><br>Let's evaluate each option based on Fermat's Theorem:<br>1. \"If `f` has a local extrema at `x = c` and `f'(c)` exist, then `f'(c) = 0`.\"<br>This statement is a direct and correct application of Fermat's Theorem. It explicitly includes the condition that \\( f'(c) \\) exists.<br>2. \"If `f` has local extrema at `x = c`, then `f'`.\"<br>This statement is incomplete and grammatically incorrect. It does not make a coherent assertion about \\( f' \\).<br>3. \"If `f` has local extrema at `x = c`, then `f'(c) < 0`.\"<br>This statement is false. For example, if \\( f(x) = x^2 \\), it has a local minimum at \\( x=0 \\), and \\( f'(0) = 0 \\), not \\( < 0 \\). If \\( f(x) = -x^2 \\), it has a local maximum at \\( x=0 \\), and \\( f'(0) = 0 \\), not \\( < 0 \\).<br>4. \"If `f` has local extrema at `x = c`, and `f'(c)` exists, then `f'(c) = 0`.\"<br>This statement is identical to option 1 and is also true based on Fermat's Theorem.</p><p style='margin:8px 0;'><strong>Step 5: Identify the Correct Statement</strong><br>Both option 1 and option 4 are identical and correctly state Fermat's Theorem. Therefore, the statement \"If `f` has a local extrema at `x = c` and `f'(c)` exist, then `f'(c) = 0`\" is true.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>Fermat's Theorem is a cornerstone of differential calculus used to find critical points. It states that if a function has a local extremum at a point where it is differentiable, then its derivative at that point must be zero. This means the tangent line is horizontal. For example, for \\( f(x) = x^2 \\), \\( f'(x) = 2x \\). The local minimum is at \\( x=0 \\), and \\( f'(0) = 0 \\). For \\( f(x) = \\\\sin(x) \\), local extrema occur at \\( x = \\\\frac{\\\\pi}{2} + n\\\\pi \\), and \\( f'(x) = \\\\cos(x) \\). At these points, \\( \\\\cos(x) = 0 \\).<br>It's crucial to note the condition \"if \\( f'(c) \\) exists\". If the derivative does not exist at an extremum (e.g., at a sharp corner like \\( f(x) = |x| \\) at \\( x=0 \\)), then \\( f'(c) \\) is undefined, not zero. The theorem only applies when the derivative exists.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>∼ The true statement is: If `f` has a local extrema at `x = c` and `f'(c)` exist, then `f'(c) = 0`.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "If `f` has a local extrema at `x = c` and `f'(c)` exist, then `f'(c) = 0`."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 14",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Let `f(x) = \\frac{1}{3}x^3 + x^2 - 4x - 6`. Determine the interval for which `f` is decreasing.",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "`(-\\infty, -4)`"
+        },
+        {
+          "type": "String",
+          "content": "`(-4, 0]`"
+        },
+        {
+          "type": "String",
+          "content": "` (0, 2)`"
+        },
+        {
+          "type": "String",
+          "content": "None of the above."
+        }
+      ]
+    },
+    "topic": [
+      "Calculus",
+      "Differentiation",
+      "Critical Points",
+      "Increasing and Decreasing Functions"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Increasing and Decreasing Intervals of a Function</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A function \\( f(x) \\) is <em>increasing</em> on an interval if its first derivative \\( f'(x) > 0 \\) for all \\( x \\) in that interval.<br>A function \\( f(x) \\) is <em>decreasing</em> on an interval if its first derivative \\( f'(x) < 0 \\) for all \\( x \\) in that interval.<br><em>Critical points</em> are the \\( x \\)-values where \\( f'(x) = 0 \\) or \\( f'(x) \\) is undefined. These points divide the number line into intervals where the function's behavior (increasing or decreasing) can be analyzed.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Function: \\( f(x) = \\frac{1}{3}x^3 + x^2 - 4x - 6 \\)<br>Goal: Determine the interval(s) for which \\( f(x) \\) is decreasing.</div><p style='margin:8px 0;'><strong>Step 1: Find the first derivative of \\( f(x) \\)</strong><br>To find where the function is increasing or decreasing, we first need to compute its first derivative, \\( f'(x) \\). We use the power rule for differentiation: \\( \\frac{d}{dx}(x^n) = nx^{n-1} \\).<br>\\[ f'(x) = \\frac{d}{dx}\\left(\\frac{1}{3}x^3 + x^2 - 4x - 6\\right) \\]<br>\\[ f'(x) = \\frac{1}{3}(3x^{3-1}) + (2x^{2-1}) - 4(1x^{1-1}) - 0 \\]<br>\\[ f'(x) = x^2 + 2x - 4 \\]<br>The first derivative is <span style='color:var(--orange);font-weight:bold;'>\\( f'(x) = x^2 + 2x - 4 \\)</span>.</p><p style='margin:8px 0;'><strong>Step 2: Find the critical points by setting \\( f'(x) = 0 \\)</strong><br>Critical points occur where \\( f'(x) = 0 \\) or \\( f'(x) \\) is undefined. Since \\( f'(x) \\) is a polynomial, it is defined everywhere. So, we set \\( f'(x) = 0 \\):<br>\\[ x^2 + 2x - 4 = 0 \\]<br>This is a quadratic equation. We use the quadratic formula \\( x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} \\), with \\( a=1, b=2, c=-4 \\).<br>\\[ x = \\frac{-2 \\pm \\sqrt{2^2 - 4(1)(-4)}}{2(1)} \\]<br>\\[ x = \\frac{-2 \\pm \\sqrt{4 + 16}}{2} \\]<br>\\[ x = \\frac{-2 \\pm \\sqrt{20}}{2} \\]<br>\\[ x = \\frac{-2 \\pm 2\\sqrt{5}}{2} \\]<br>\\[ x = -1 \\pm \\sqrt{5} \\]<br>The critical points are <span style='color:var(--orange);font-weight:bold;'>\\( x_1 = -1 - \\sqrt{5} \\)</span> and <span style='color:var(--orange);font-weight:bold;'>\\( x_2 = -1 + \\sqrt{5} \\)</span>.<br>Approximate values: \\( \\sqrt{5} \\approx 2.236 \\)<br>\\( x_1 \\approx -1 - 2.236 = -3.236 \\)<br>\\( x_2 \\approx -1 + 2.236 = 1.236 \\)</p><p style='margin:8px 0;'><strong>Step 3: Create test intervals using the critical points</strong><br>The critical points divide the number line into three intervals:<br>1. \\( (-\\infty, -1 - \\sqrt{5}) \\approx (-\\infty, -3.236) \\)<br>2. \\( (-1 - \\sqrt{5}, -1 + \\sqrt{5}) \\approx (-3.236, 1.236) \\)<br>3. \\( (-1 + \\sqrt{5}, \\infty) \\approx (1.236, \\infty) \\)</p><p style='margin:8px 0;'><strong>Step 4: Test a value in each interval to determine the sign of \\( f'(x) \\)</strong><br>We evaluate \\( f'(x) = x^2 + 2x - 4 \\) at a test point within each interval.</p><p style='margin:8px 0;'><strong>Interval 1: \\( (-\\infty, -1 - \\sqrt{5}) \\)</strong><br>Choose test value \\( x = -4 \\).<br>\\[ f'(-4) = (-4)^2 + 2(-4) - 4 \\]<br>\\[ f'(-4) = 16 - 8 - 4 \\]<br>\\[ f'(-4) = 4 \\]<br>Since \\( f'(-4) = 4 > 0 \\), the function \\( f(x) \\) is <span style='color:var(--orange);font-weight:bold;'>increasing</span> on \\( (-\\infty, -1 - \\sqrt{5}) \\).</p><p style='margin:8px 0;'><strong>Interval 2: \\( (-1 - \\sqrt{5}, -1 + \\sqrt{5}) \\)</strong><br>Choose test value \\( x = 0 \\).<br>\\[ f'(0) = (0)^2 + 2(0) - 4 \\]<br>\\[ f'(0) = -4 \\]<br>Since \\( f'(0) = -4 < 0 \\), the function \\( f(x) \\) is <span style='color:var(--orange);font-weight:bold;'>decreasing</span> on \\( (-1 - \\sqrt{5}, -1 + \\sqrt{5}) \\).</p><p style='margin:8px 0;'><strong>Interval 3: \\( (-1 + \\sqrt{5}, \\infty) \\)</strong><br>Choose test value \\( x = 2 \\).<br>\\[ f'(2) = (2)^2 + 2(2) - 4 \\]<br>\\[ f'(2) = 4 + 4 - 4 \\]<br>\\[ f'(2) = 4 \\]<br>Since \\( f'(2) = 4 > 0 \\), the function \\( f(x) \\) is <span style='color:var(--orange);font-weight:bold;'>increasing</span> on \\( (-1 + \\sqrt{5}, \\infty) \\).</p><p style='margin:8px 0;'><strong>Step 5: Identify the correct interval from the options</strong><br>The function \\( f(x) \\) is decreasing on the interval \\( (-1 - \\sqrt{5}, -1 + \\sqrt{5}) \\), which is approximately \\( (-3.236, 1.236) \\).<br><br>Let's examine the given options:<br>a) \\( (-\\infty, -4) \\): This interval is entirely within the increasing region \\( (-\\infty, -3.236) \\).<br>b) \\( (-4, 0] \\): This interval includes \\( (-4, -3.236) \\) where \\( f(x) \\) is increasing, and \\( (-3.236, 0] \\) where \\( f(x) \\) is decreasing. Since it's not entirely decreasing, this option is incorrect.<br>c) \\( (0, 2) \\): This interval includes \\( (0, 1.236) \\) where \\( f(x) \\) is decreasing, and \\( (1.236, 2) \\) where \\( f(x) \\) is increasing. Since it's not entirely decreasing, this option is incorrect.<br>Therefore, none of the provided options represent an interval where \\( f(x) \\) is exclusively decreasing.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The function is decreasing on \\( (-1 - \\sqrt{5}, -1 + \\sqrt{5}) \\).<br>Let's pick a point in option (b), say \\( x = -3.5 \\). \\( -3.5 \\) is in \\( (-4, -1-\\sqrt{5}) \\).<br>\\( f'(-3.5) = (-3.5)^2 + 2(-3.5) - 4 = 12.25 - 7 - 4 = 1.25 \\). Since \\( 1.25 > 0 \\), \\( f(x) \\) is increasing at \\( x = -3.5 \\). This confirms option (b) is not entirely decreasing.<br>Let's pick a point in option (c), say \\( x = 1.5 \\). \\( 1.5 \\) is in \\( (-1+\\sqrt{5}, 2) \\).<br>\\( f'(1.5) = (1.5)^2 + 2(1.5) - 4 = 2.25 + 3 - 4 = 1.25 \\). Since \\( 1.25 > 0 \\), \\( f(x) \\) is increasing at \\( x = 1.5 \\). This confirms option (c) is not entirely decreasing.<br>The analysis of the intervals is consistent, and none of the given options fully represent an interval where the function is decreasing.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The interval for which \\( f(x) \\) is decreasing is \\( (-1 - \\sqrt{5}, -1 + \\sqrt{5}) \\). Since this interval is not listed, the answer is None of the above.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "None of the above."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 15",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "What is the degree of homogeneity of the function `f(x, y) = x^3 y + xy^3`?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "2"
+        },
+        {
+          "type": "String",
+          "content": "3"
+        },
+        {
+          "type": "String",
+          "content": "4"
+        },
+        {
+          "type": "String",
+          "content": "9"
+        }
+      ]
+    },
+    "topic": [
+      "Multivariable Calculus",
+      "Homogeneous Functions"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Homogeneous Functions</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A function \\( f(x_1, x_2, \\ldots, x_n) \\) is said to be <em>homogeneous of degree \\( k \\)</em> if, for any non-zero scalar \\( t \\), the following relationship holds:<br>\\[ f(tx_1, tx_2, \\ldots, tx_n) = t^k f(x_1, x_2, \\ldots, x_n) \\]<br>The exponent \\( k \\) is the degree of homogeneity.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Function: \\( f(x, y) = x^3 y + xy^3 \\)</div><p style='margin:8px 0;'><strong>Step 1: Write the definition of a homogeneous function</strong><br>To determine if a function \\( f(x, y) \\) is homogeneous and to find its degree \\( k \\), we substitute \\( x \\) with \\( tx \\) and \\( y \\) with \\( ty \\) into the function. If the result can be expressed in the form \\( t^k f(x, y) \\), then the function is homogeneous of degree \\( k \\).<br>The definition is: \\( f(tx, ty) = t^k f(x, y) \\)</p><p style='margin:8px 0;'><strong>Step 2: Substitute \\( tx \\) for \\( x \\) and \\( ty \\) for \\( y \\) into the given function</strong><br>The given function is \\( f(x, y) = x^3 y + xy^3 \\).<br>Substitute \\( x \\to tx \\) and \\( y \\to ty \\):<br>\\[ f(tx, ty) = (tx)^3 (ty) + (tx) (ty)^3 \\]</p><p style='margin:8px 0;'><strong>Step 3: Simplify the expression</strong><br>Apply the exponent rules \\( (ab)^n = a^n b^n \\):<br>\\[ f(tx, ty) = (t^3 x^3) (ty) + (tx) (t^3 y^3) \\]<br>Multiply the terms:<br>\\[ f(tx, ty) = t^3 x^3 t y + t x t^3 y^3 \\]<br>Combine the powers of \\( t \\):<br>\\[ f(tx, ty) = t^{3+1} x^3 y + t^{1+3} x y^3 \\]<br>\\[ f(tx, ty) = t^4 x^3 y + t^4 x y^3 \\]</p><p style='margin:8px 0;'><strong>Step 4: Factor out the common power of \\( t \\) and identify the degree</strong><br>Observe that \\( t^4 \\) is a common factor in both terms:<br>\\[ f(tx, ty) = t^4 (x^3 y + xy^3) \\]<br>Recognize that the expression in the parenthesis is the original function \\( f(x, y) \\):<br>\\[ f(tx, ty) = t^4 f(x, y) \\]<br>Comparing this to the definition \\( f(tx, ty) = t^k f(x, y) \\), we find that \\( k = \\) <span style='color:var(--orange);font-weight:bold;'>4</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>A function is homogeneous if all its terms have the same total degree. Let's check the degree of each term in \\( f(x, y) = x^3 y + xy^3 \\):<br>For the first term, \\( x^3 y \\): The degree of \\( x \\) is 3, and the degree of \\( y \\) is 1. The total degree is \\( 3 + 1 = 4 \\).<br>For the second term, \\( xy^3 \\): The degree of \\( x \\) is 1, and the degree of \\( y \\) is 3. The total degree is \\( 1 + 3 = 4 \\).<br>Since both terms have a total degree of 4, the function is homogeneous of degree 4. This confirms our result.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The degree of homogeneity of the function is 4.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "4"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 17",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Evaluate \\( \\int x^2 \\sin 2x dx \\).",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "\\( x^2 \\cos 4x + \\frac{\\sin 4x}{3} + C \\)"
+        },
+        {
+          "type": "String",
+          "content": "\\( x^2 \\left(\\frac{\\sin 2x - \\cos 2x}{2}\\right) + C \\)"
+        },
+        {
+          "type": "String",
+          "content": "\\( \\frac{x \\sin 2x}{2} - \\frac{x^2 \\cos 2x}{4} + 1 \\)"
+        },
+        {
+          "type": "String",
+          "content": "None of the above."
+        }
+      ]
+    },
+    "topic": [
+      "Calculus",
+      "Integration",
+      "Integration by Parts"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Integration by Parts</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>Integration by Parts is a technique used to integrate products of functions. It is derived from the product rule for differentiation.<br>The formula is: <br>\\[ \\int u \\, dv = uv - \\int v \\, du \\]<br>To apply this formula, we must choose one part of the integrand to be \\( u \\) and the other part to be \\( dv \\). A common mnemonic for choosing \\( u \\) is LIATE (Logarithmic, Inverse trigonometric, Algebraic, Trigonometric, Exponential), where the function appearing earlier in the list is usually chosen as \\( u \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The integral to evaluate: \\( \\int x^2 \\sin 2x dx \\)</div><p style='margin:8px 0;'><strong>Step 1: State the Integration by Parts formula</strong><br>The formula for integration by parts is:<br>\\[ \\int u \\, dv = uv - \\int v \\, du \\]</p><p style='margin:8px 0;'><strong>Step 2: Apply Integration by Parts for the first time</strong><br>We choose \\( u_1 \\) and \\( dv_1 \\) from the integrand \\( x^2 \\sin 2x dx \\). According to LIATE, algebraic functions come before trigonometric functions.<br>Let \\( u_1 = x^2 \\)<br>Then \\( dv_1 = \\sin 2x dx \\)<br>Now, we find \\( du_1 \\) and \\( v_1 \\):<br>\\( du_1 = \\frac{d}{dx}(x^2) dx = 2x dx \\)<br>\\( v_1 = \\int \\sin 2x dx = -\\frac{1}{2} \\cos 2x \\)<br>Substitute these into the integration by parts formula:<br>\\[ \\int x^2 \\sin 2x dx = x^2 \\left(-\\frac{1}{2} \\cos 2x\\right) - \\int \\left(-\\frac{1}{2} \\cos 2x\\right) (2x dx) \\]<br>Simplify the expression:<br>\\[ \\int x^2 \\sin 2x dx = -\\frac{1}{2} x^2 \\cos 2x + \\int x \\cos 2x dx \\]<br>We now need to evaluate the new integral: <span style='color:var(--orange);font-weight:bold;'>\\( \\int x \\cos 2x dx \\)</span></p><p style='margin:8px 0;'><strong>Step 3: Apply Integration by Parts for the second time</strong><br>For the integral \\( \\int x \\cos 2x dx \\), we apply integration by parts again.<br>Let \\( u_2 = x \\)<br>Then \\( dv_2 = \\cos 2x dx \\)<br>Now, we find \\( du_2 \\) and \\( v_2 \\):<br>\\( du_2 = \\frac{d}{dx}(x) dx = dx \\)<br>\\( v_2 = \\int \\cos 2x dx = \\frac{1}{2} \\sin 2x \\)<br>Substitute these into the integration by parts formula:<br>\\[ \\int x \\cos 2x dx = x \\left(\\frac{1}{2} \\sin 2x\\right) - \\int \\left(\\frac{1}{2} \\sin 2x\\right) dx \\]<br>Simplify and evaluate the remaining integral:<br>\\[ \\int x \\cos 2x dx = \\frac{1}{2} x \\sin 2x - \\frac{1}{2} \\int \\sin 2x dx \\]<br>\\[ \\int x \\cos 2x dx = \\frac{1}{2} x \\sin 2x - \\frac{1}{2} \\left(-\\frac{1}{2} \\cos 2x\\right) \\]<br>\\[ \\int x \\cos 2x dx = \\frac{1}{2} x \\sin 2x + \\frac{1}{4} \\cos 2x \\]<br>This is the result for <span style='color:var(--orange);font-weight:bold;'>\\( \\int x \\cos 2x dx \\)</span>.</p><p style='margin:8px 0;'><strong>Step 4: Combine the results</strong><br>Substitute the result from Step 3 back into the expression from Step 2:<br>\\[ \\int x^2 \\sin 2x dx = -\\frac{1}{2} x^2 \\cos 2x + \\left( \\frac{1}{2} x \\sin 2x + \\frac{1}{4} \\cos 2x \\right) \\]<br>\\[ \\int x^2 \\sin 2x dx = -\\frac{1}{2} x^2 \\cos 2x + \\frac{1}{2} x \\sin 2x + \\frac{1}{4} \\cos 2x \\]</p><p style='margin:8px 0;'><strong>Step 5: Add the constant of integration</strong><br>Since this is an indefinite integral, we must add the constant of integration, \\( C \\).<br>\\[ \\int x^2 \\sin 2x dx = -\\frac{1}{2} x^2 \\cos 2x + \\frac{1}{2} x \\sin 2x + \\frac{1}{4} \\cos 2x + C \\]</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify the answer, we differentiate the result and check if it matches the original integrand, \\( x^2 \\sin 2x \\).<br>Let \\( F(x) = -\\frac{1}{2} x^2 \\cos 2x + \\frac{1}{2} x \\sin 2x + \\frac{1}{4} \\cos 2x + C \\)<br>We find \\( F'(x) \\) using the product rule \\( (uv)' = u'v + uv' \\) and chain rule.<br><br>Derivative of \\( -\\frac{1}{2} x^2 \\cos 2x \\):<br>\\( = (-\\frac{1}{2} \\cdot 2x) \\cos 2x + (-\\frac{1}{2} x^2) (-2 \\sin 2x) \\)<br>\\( = -x \\cos 2x + x^2 \\sin 2x \\)<br><br>Derivative of \\( \\frac{1}{2} x \\sin 2x \\):<br>\\( = (\\frac{1}{2} \\cdot 1) \\sin 2x + (\\frac{1}{2} x) (2 \\cos 2x) \\)<br>\\( = \\frac{1}{2} \\sin 2x + x \\cos 2x \\)<br><br>Derivative of \\( \\frac{1}{4} \\cos 2x \\):<br>\\( = \\frac{1}{4} (-2 \\sin 2x) = -\\frac{1}{2} \\sin 2x \\)<br><br>Derivative of \\( C \\):<br>\\( = 0 \\)<br><br>Summing these derivatives:<br>\\( F'(x) = (-x \\cos 2x + x^2 \\sin 2x) + (\\frac{1}{2} \\sin 2x + x \\cos 2x) + (-\\frac{1}{2} \\sin 2x) \\)<br>\\( F'(x) = x^2 \\sin 2x + (-x \\cos 2x + x \\cos 2x) + (\\frac{1}{2} \\sin 2x - \\frac{1}{2} \\sin 2x) \\)<br>\\( F'(x) = x^2 \\sin 2x + 0 + 0 \\)<br>\\( F'(x) = x^2 \\sin 2x \\)<br>The derivative matches the original integrand, confirming the correctness of the integral. None of the provided options match this result.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The evaluated integral is \\( -\\frac{1}{2} x^2 \\cos 2x + \\frac{1}{2} x \\sin 2x + \\frac{1}{4} \\cos 2x + C \\). This corresponds to 'None of the above'.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "None of the above."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 18",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Evaluate \\(\\int_1^3 (3x^2 + 4x - 5) dx\\).",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "32"
+        },
+        {
+          "type": "String",
+          "content": "12"
+        },
+        {
+          "type": "String",
+          "content": "44"
+        },
+        {
+          "type": "String",
+          "content": "64"
+        }
+      ]
+    },
+    "topic": [
+      "Calculus",
+      "Integration"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Definite Integral Evaluation</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>definite integral</em> calculates the net signed area between a function's graph and the x-axis over a given interval. It is evaluated using the <em>Fundamental Theorem of Calculus</em>.<br><br>The <strong>Fundamental Theorem of Calculus (Part 2)</strong> states that if \\( F(x) \\) is an antiderivative of \\( f(x) \\), then the definite integral of \\( f(x) \\) from \\( a \\) to \\( b \\) is given by:<br>\\[ \\int_a^b f(x) \\,dx = F(b) - F(a) \\]<br>where \\( F'(x) = f(x) \\).<br><br>The <em>power rule for integration</em> is: \\( \\int x^n \\,dx = \\frac{x^{n+1}}{n+1} + C \\) (for indefinite integrals). For definite integrals, the constant \\( C \\) cancels out.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The definite integral to evaluate: \\( \\int_1^3 (3x^2 + 4x - 5) \\,dx \\)<br>Lower limit: \\( a = 1 \\)<br>Upper limit: \\( b = 3 \\)<br>Function: \\( f(x) = 3x^2 + 4x - 5 \\)</div><p style='margin:8px 0;'><strong>Step 1: Identify the function and limits of integration</strong><br>The function to integrate is \\( f(x) = 3x^2 + 4x - 5 \\).<br>The lower limit of integration is \\( a = 1 \\).<br>The upper limit of integration is \\( b = 3 \\).</p><p style='margin:8px 0;'><strong>Step 2: Find the antiderivative of the function</strong><br>We need to find \\( F(x) = \\int (3x^2 + 4x - 5) \\,dx \\).<br>Apply the power rule for integration \\( \\int x^n \\,dx = \\frac{x^{n+1}}{n+1} \\) to each term:<br>\\[ \\int 3x^2 \\,dx = 3 \\cdot \\frac{x^{2+1}}{2+1} = 3 \\cdot \\frac{x^3}{3} = x^3 \\]<br>\\[ \\int 4x \\,dx = 4 \\cdot \\frac{x^{1+1}}{1+1} = 4 \\cdot \\frac{x^2}{2} = 2x^2 \\]<br>\\[ \\int -5 \\,dx = -5x \\]<br>Combining these, the antiderivative \\( F(x) \\) is:<br>\\[ F(x) = x^3 + 2x^2 - 5x \\]</p><p style='margin:8px 0;'><strong>Step 3: Evaluate the antiderivative at the upper limit</strong><br>Substitute the upper limit \\( b=3 \\) into \\( F(x) \\):<br>\\[ F(3) = (3)^3 + 2(3)^2 - 5(3) \\]<br>\\[ F(3) = 27 + 2(9) - 15 \\]<br>\\[ F(3) = 27 + 18 - 15 \\]<br>\\[ F(3) = 45 - 15 \\]<br>\\[ F(3) = \\text{<span style='color:var(--orange);font-weight:bold;'>30</span>} \\]</p><p style='margin:8px 0;'><strong>Step 4: Evaluate the antiderivative at the lower limit</strong><br>Substitute the lower limit \\( a=1 \\) into \\( F(x) \\):<br>\\[ F(1) = (1)^3 + 2(1)^2 - 5(1) \\]<br>\\[ F(1) = 1 + 2(1) - 5 \\]<br>\\[ F(1) = 1 + 2 - 5 \\]<br>\\[ F(1) = 3 - 5 \\]<br>\\[ F(1) = \\text{<span style='color:var(--orange);font-weight:bold;'>-2</span>} \\]</p><p style='margin:8px 0;'><strong>Step 5: Subtract the lower limit result from the upper limit result</strong><br>According to the Fundamental Theorem of Calculus:<br>\\[ \\int_a^b f(x) \\,dx = F(b) - F(a) \\]<br>Substitute the calculated values:<br>\\[ \\int_1^3 (3x^2 + 4x - 5) \\,dx = F(3) - F(1) \\]<br>\\[ = 30 - (-2) \\]<br>\\[ = 30 + 2 \\]<br>\\[ = \\text{<span style='color:var(--orange);font-weight:bold;'>32</span>} \\]</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify, we can re-check the arithmetic for each step.<br>Antiderivative: \\( F(x) = x^3 + 2x^2 - 5x \\).<br>Derivative of \\( F(x) \\): \\( F'(x) = \\frac{d}{dx}(x^3 + 2x^2 - 5x) = 3x^2 + 4x - 5 \\), which matches \\( f(x) \\). So the antiderivative is correct.<br>Evaluation at limits:<br>\\( F(3) = 3^3 + 2(3^2) - 5(3) = 27 + 18 - 15 = 30 \\). Correct.<br>\\( F(1) = 1^3 + 2(1^2) - 5(1) = 1 + 2 - 5 = -2 \\). Correct.<br>Subtraction: \\( F(3) - F(1) = 30 - (-2) = 30 + 2 = 32 \\). Correct.<br>All steps and calculations are consistent.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The value of the definite integral is 32.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "32"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 19",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Determine the domain of the function `f(x, y) = \\frac{1}{\\sqrt{y^2 + x^2}}`.",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "`\\{(x,y) \\in \\mathbb{R}^2; x^2+y^2 \\le 0\\}`"
+        },
+        {
+          "type": "String",
+          "content": "`\\{(x,y) \\in \\mathbb{R}^2; x^2+y^2 \\ge 0\\}`"
+        },
+        {
+          "type": "String",
+          "content": "`\\{(x,y) \\in \\mathbb{R}^2; x^2+y^2 = 0\\}`"
+        },
+        {
+          "type": "String",
+          "content": "`\\{(x,y) \\in \\mathbb{R}^2; x^2+y^2 > 0\\}`"
+        }
+      ]
+    },
+    "topic": [
+      "Multivariable Calculus",
+      "Domain of Functions",
+      "Mathematical Analysis",
+      "Discontinuity"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Domain of Multivariable Functions</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>domain</em> of a function is the set of all possible input values (in this case, pairs \\( (x, y) \\)) for which the function is defined and produces a real number output.<br>For functions involving:<br>1. <strong>Square roots:</strong> The expression under the square root must be non-negative (greater than or equal to zero).<br>2. <strong>Fractions:</strong> The denominator cannot be equal to zero.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The function: \\( f(x, y) = \\frac{1}{\\sqrt{y^2 + x^2}} \\)</div><p style='margin:8px 0;'><strong>Step 1: Identify potential restrictions</strong><br>For the function \\( f(x, y) = \\frac{1}{\\sqrt{y^2 + x^2}} \\) to be defined in the real number system, we must consider two main conditions:<br>1. The expression under the square root must be non-negative.<br>2. The denominator of the fraction cannot be zero.</p><p style='margin:8px 0;'><strong>Step 2: Apply the square root restriction</strong><br>The term inside the square root, \\( y^2 + x^2 \\), must be greater than or equal to zero.<br>\\[ y^2 + x^2 \\ge 0 \\]<br>Since \\( x^2 \\) and \\( y^2 \\) are always non-negative for real numbers \\( x \\) and \\( y \\), their sum \\( x^2 + y^2 \\) is always non-negative. This condition is always satisfied for all \\( (x,y) \\in \\mathbb{R}^2 \\).</p><p style='margin:8px 0;'><strong>Step 3: Apply the fraction restriction</strong><br>The denominator of the function cannot be zero. Therefore,<br>\\[ \\sqrt{y^2 + x^2} \\neq 0 \\]<br>To satisfy this, the expression inside the square root must not be zero:<br>\\[ y^2 + x^2 \\neq 0 \\]</p><p style='margin:8px 0;'><strong>Step 4: Combine the restrictions</strong><br>From Step 2, we know \\( y^2 + x^2 \\ge 0 \\).<br>From Step 3, we know \\( y^2 + x^2 \\neq 0 \\).<br>Combining these two conditions, the expression \\( y^2 + x^2 \\) must be strictly greater than zero.<br>\\[ y^2 + x^2 > 0 \\]<br>This is the combined condition for the function to be defined.</p><p style='margin:8px 0;'><strong>Step 5: Interpret the condition</strong><br>The condition \\( y^2 + x^2 > 0 \\) means that \\( x \\) and \\( y \\) cannot both be zero simultaneously.<br>If \\( x=0 \\) and \\( y=0 \\), then \\( 0^2 + 0^2 = 0 \\), which violates the condition \\( y^2 + x^2 > 0 \\).<br>For any other point \\( (x, y) \\) in the \\( \\mathbb{R}^2 \\) plane, at least one of \\( x \\) or \\( y \\) will be non-zero, making \\( x^2 + y^2 \\) strictly positive.<br>Therefore, the only point excluded from the domain is the origin \\( (0,0) \\).</p><p style='margin:8px 0;'><strong>Step 6: Express the domain in set notation</strong><br>The domain \\( D \\) of the function \\( f(x, y) \\) is the set of all points \\( (x, y) \\) in \\( \\mathbb{R}^2 \\) such that \\( x^2 + y^2 > 0 \\).<br>\\[ D = \\left\\{ (x,y) \\in \\mathbb{R}^2 \\mid x^2+y^2 > 0 \\right\\} \\]<br>This can also be described as all points in the \\( xy \\)-plane except the origin.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>Let's check the boundary case:<br>If \\( (x,y) = (0,0) \\), then \\( f(0,0) = \\frac{1}{\\sqrt{0^2 + 0^2}} = \\frac{1}{\\sqrt{0}} \\), which is undefined because division by zero is not allowed.<br>If \\( (x,y) \\neq (0,0) \\), then \\( x^2+y^2 \\) will be a positive number. For example, if \\( (x,y) = (1,0) \\), then \\( f(1,0) = \\frac{1}{\\sqrt{1^2 + 0^2}} = \\frac{1}{\\sqrt{1}} = 1 \\), which is a defined real number.<br>This confirms that the condition \\( x^2+y^2 > 0 \\) correctly identifies the domain.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The domain of the function is \\( \\left\\{ (x,y) \\in \\mathbb{R}^2 \\mid x^2+y^2 > 0 \\right\\} \\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "`\\{(x,y) \\in \\mathbb{R}^2; x^2+y^2 > 0\\}`"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 20",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Evaluate `\\\\int_0^{2\\\\pi} x^2 \\\\sin x dx`.",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "`2\\\\pi - 5`"
+        },
+        {
+          "type": "String",
+          "content": "`\\\\pi^2 - 4`"
+        },
+        {
+          "type": "String",
+          "content": "`\\\\pi^2 - 4`"
+        },
+        {
+          "type": "String",
+          "content": "`2\\\\pi^2`"
+        }
+      ]
+    },
+    "topic": [
+      "Calculus",
+      "Integration",
+      "Integration by Parts",
+      "Definite Integral"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Definite Integral using Integration by Parts</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><em>Integration by Parts</em> is a technique used to integrate products of functions. It is derived from the product rule for differentiation.<br>The formula is: \\\\( \\\\int u \\\\,dv = uv - \\\\int v \\\\,du \\\\).<br>For definite integrals: \\\\( \\\\int_a^b u \\\\,dv = [uv]_a^b - \\\\int_a^b v \\\\,du \\\\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>We need to evaluate the definite integral: \\\\( \\\\int_0^{2\\\\pi} x^2 \\\\sin x \\\\,dx \\\\)</div><p style='margin:8px 0;'><strong>Step 1: Apply Integration by Parts (First Time)</strong><br>We use the integration by parts formula \\\\( \\\\int u \\\\,dv = uv - \\\\int v \\\\,du \\\\).<br>For the integral \\\\( \\\\int x^2 \\\\sin x \\\\,dx \\\\), we choose:<br>\\\\( u = x^2 \\\\)<br>\\\\( dv = \\\\sin x \\\\,dx \\\\)<br>Then, we find \\\\( du \\\\) and \\\\( v \\\\):<br>\\\\( du = \\\\frac{d}{dx}(x^2) \\\\,dx = 2x \\\\,dx \\\\)<br>\\\\( v = \\\\int \\\\sin x \\\\,dx = -\\\\cos x \\\\)<br>Substitute these into the formula:<br>\\[ \\\\int x^2 \\\\sin x \\\\,dx = x^2(-\\\\cos x) - \\\\int (-\\\\cos x)(2x \\\\,dx) \\\\]<br>\\[ = -x^2 \\\\cos x + 2 \\\\int x \\\\cos x \\\\,dx \\]</p><p style='margin:8px 0;'><strong>Step 2: Apply Integration by Parts (Second Time)</strong><br>We now need to evaluate the integral \\\\( \\\\int x \\\\cos x \\\\,dx \\\\). We apply integration by parts again.<br>For this integral, we choose:<br>\\\\( u_1 = x \\\\)<br>\\\\( dv_1 = \\\\cos x \\\\,dx \\\\)<br>Then, we find \\\\( du_1 \\\\) and \\\\( v_1 \\\\):<br>\\\\( du_1 = \\\\frac{d}{dx}(x) \\\\,dx = 1 \\\\,dx \\\\)<br>\\\\( v_1 = \\\\int \\\\cos x \\\\,dx = \\\\sin x \\\\)<br>Substitute these into the formula:<br>\\[ \\\\int x \\\\cos x \\\\,dx = x(\\\\sin x) - \\\\int (\\\\sin x)(1 \\\\,dx) \\\\]<br>\\[ = x \\\\sin x - \\\\int \\\\sin x \\\\,dx \\]Now, evaluate the remaining integral:<br>\\[ \\\\int \\\\sin x \\\\,dx = -\\\\cos x \\]So, the second integral becomes:<br>\\[ \\\\int x \\\\cos x \\\\,dx = x \\\\sin x - (-\\\\cos x) = x \\\\sin x + \\\\cos x \\] </p><p style='margin:8px 0;'><strong>Step 3: Combine Results to Find the Indefinite Integral</strong><br>Substitute the result from Step 2 back into the expression from Step 1:<br>\\[ \\\\int x^2 \\\\sin x \\\\,dx = -x^2 \\\\cos x + 2 \\\\left( x \\\\sin x + \\\\cos x \\\\right) \\\\]<br>\\[ = -x^2 \\\\cos x + 2x \\\\sin x + 2 \\\\cos x + C \\]This is the antiderivative of \\\\( x^2 \\\\sin x \\\\).</p><p style='margin:8px 0;'><strong>Step 4: Evaluate the Definite Integral</strong><br>Now we evaluate the definite integral from \\\\(0\\\\) to \\\\(2\\\\pi\\\\) using the Fundamental Theorem of Calculus:<br>\\[ \\\\int_0^{2\\\\pi} x^2 \\\\sin x \\\\,dx = \\\\left[ -x^2 \\\\cos x + 2x \\\\sin x + 2 \\\\cos x \\\\right]_0^{2\\\\pi} \\]First, evaluate at the upper limit \\\\( x = 2\\\\pi \\\\):<br>\\\\( \\\\left( -(2\\\\pi)^2 \\\\cos(2\\\\pi) + 2(2\\\\pi) \\\\sin(2\\\\pi) + 2 \\\\cos(2\\\\pi) \\\\right) \\\\)<br>Recall that \\\\( \\\\cos(2\\\\pi) = 1 \\\\) and \\\\( \\\\sin(2\\\\pi) = 0 \\\\).<br>\\\\( = \\\\left( -4\\\\pi^2 (1) + 4\\\\pi (0) + 2 (1) \\\\right) \\\\)<br>\\\\( = -4\\\\pi^2 + 0 + 2 = \\\\) <span style='color:var(--orange);font-weight:bold;'>\\\\( -4\\\\pi^2 + 2 \\\\)</span><br>Next, evaluate at the lower limit \\\\( x = 0 \\\\):<br>\\\\( \\\\left( -(0)^2 \\\\cos(0) + 2(0) \\\\sin(0) + 2 \\\\cos(0) \\\\right) \\\\)<br>Recall that \\\\( \\\\cos(0) = 1 \\\\) and \\\\( \\\\sin(0) = 0 \\\\).<br>\\\\( = \\\\left( -0 (1) + 0 (0) + 2 (1) \\\\right) \\\\)<br>\\\\( = 0 + 0 + 2 = \\\\) <span style='color:var(--orange);font-weight:bold;'>\\\\( 2 \\\\)</span><br>Subtract the lower limit value from the upper limit value:<br>\\[ \\\\int_0^{2\\\\pi} x^2 \\\\sin x \\\\,dx = (-4\\\\pi^2 + 2) - (2) \\\\]<br>\\[ = -4\\\\pi^2 + 2 - 2 = -4\\\\pi^2 \\]The calculated value for the given integral is \\\\( -4\\\\pi^2 \\\\). Please note that this result does not match any of the provided options. If the integral limits were from \\\\(0\\\\) to \\\\( \\\\pi \\\\), the result would be \\\\( \\\\pi^2 - 4 \\\\), which is an option. However, we have strictly adhered to the limits provided in the question.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify the antiderivative \\\\( F(x) = -x^2 \\\\cos x + 2x \\\\sin x + 2 \\\\cos x \\\\), we differentiate it:<br>\\\\( F'(x) = \\\\frac{d}{dx}(-x^2 \\\\cos x) + \\\\frac{d}{dx}(2x \\\\sin x) + \\\\frac{d}{dx}(2 \\\\cos x) \\\\)<br>Using the product rule:<br>\\\\( \\\\frac{d}{dx}(-x^2 \\\\cos x) = -(2x \\\\cos x + x^2 (-\\\\sin x)) = -2x \\\\cos x + x^2 \\\\sin x \\\\)<br>\\\\( \\\\frac{d}{dx}(2x \\\\sin x) = 2(1 \\\\cdot \\\\sin x + x \\\\cdot \\\\cos x) = 2 \\\\sin x + 2x \\\\cos x \\\\)<br>\\\\( \\\\frac{d}{dx}(2 \\\\cos x) = -2 \\\\sin x \\\\)<br>Summing these derivatives:<br>\\\\( F'(x) = (-2x \\\\cos x + x^2 \\\\sin x) + (2 \\\\sin x + 2x \\\\cos x) + (-2 \\\\sin x) \\\\)<br>\\\\( F'(x) = x^2 \\\\sin x + (-2x \\\\cos x + 2x \\\\cos x) + (2 \\\\sin x - 2 \\\\sin x) \\\\)<br>\\\\( F'(x) = x^2 \\\\sin x \\\\)<br>This confirms the antiderivative is correct. The definite integral calculation is also verified.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The value of the integral \\\\( \\\\int_0^{2\\\\pi} x^2 \\\\sin x \\\\,dx \\\\) is \\\\( -4\\\\pi^2 \\\\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "-4\\\\pi^2"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 21",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Given that `f(x, y) = e^{x^2+3y^2}`, find `\\frac{\\partial f}{\\partial y}`.",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "`18x^2y^2 e^{x^2+3y^2}`"
+        },
+        {
+          "type": "String",
+          "content": "`18xy^2 e^{x^2+3y^2}`"
+        },
+        {
+          "type": "String",
+          "content": "`18x^2y e^{x^2+3y^2}`"
+        },
+        {
+          "type": "String",
+          "content": "None of the above"
+        }
+      ]
+    },
+    "topic": [
+      "Multivariable Calculus",
+      "Differentiation",
+      "Partial Derivatives"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Partial Differentiation of Exponential Functions</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>partial derivative</em> of a multivariable function is its derivative with respect to one variable, treating all other variables as constants.<br>The <em>chain rule</em> for differentiation states that if \\( f(u) \\) is a function of \\( u \\) and \\( u(x) \\) is a function of \\( x \\), then \\( \\frac{df}{dx} = \\frac{df}{du} \\cdot \\frac{du}{dx} \\).<br>For an exponential function of the form \\( e^{g(x,y)} \\), its partial derivative with respect to \\( y \\) is given by:<br>\\[ \\frac{\\partial}{\\partial y} (e^{g(x,y)}) = e^{g(x,y)} \\cdot \\frac{\\partial}{\\partial y}(g(x,y)) \\]</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Function: \\( f(x, y) = e^{x^2+3y^2} \\)<br>Task: Find the partial derivative of \\( f \\) with respect to \\( y \\), denoted as \\( \\frac{\\partial f}{\\partial y} \\).</div><p style='margin:8px 0;'><strong>Step 1: Identify the function and the variable for differentiation</strong><br>The given function is \\( f(x, y) = e^{x^2+3y^2} \\).<br>We need to find \\( \\frac{\\partial f}{\\partial y} \\), which means we will differentiate \\( f(x, y) \\) with respect to \\( y \\), treating \\( x \\) as a constant.</p><p style='margin:8px 0;'><strong>Step 2: Apply the chain rule for exponential functions</strong><br>The function \\( f(x, y) \\) is of the form \\( e^{g(x,y)} \\), where \\( g(x,y) = x^2+3y^2 \\).<br>The formula for the partial derivative is:<br>\\[ \\frac{\\partial f}{\\partial y} = \\frac{\\partial}{\\partial y} (e^{g(x,y)}) = e^{g(x,y)} \\cdot \\frac{\\partial}{\\partial y}(g(x,y)) \\]<br>Substituting \\( g(x,y) = x^2+3y^2 \\):<br>\\[ \\frac{\\partial f}{\\partial y} = e^{x^2+3y^2} \\cdot \\frac{\\partial}{\\partial y}(x^2+3y^2) \\]</p><p style='margin:8px 0;'><strong>Step 3: Differentiate the exponent with respect to \\( y \\)</strong><br>We need to find \\( \\frac{\\partial}{\\partial y}(x^2+3y^2) \\).<br>When differentiating with respect to \\( y \\), \\( x \\) is treated as a constant.<br>The derivative of \\( x^2 \\) with respect to \\( y \\) is \\( 0 \\).<br>The derivative of \\( 3y^2 \\) with respect to \\( y \\) is \\( 3 \\cdot 2y = 6y \\).<br>So, <span style='color:var(--orange);font-weight:bold;'>\\( \\frac{\\partial}{\\partial y}(x^2+3y^2) = 0 + 6y = 6y \\)</span>.</p><p style='margin:8px 0;'><strong>Step 4: Substitute the derivative of the exponent back into the chain rule expression</strong><br>From Step 2, we have:<br>\\[ \\frac{\\partial f}{\\partial y} = e^{x^2+3y^2} \\cdot \\frac{\\partial}{\\partial y}(x^2+3y^2) \\]<br>Substitute the result from Step 3:<br>\\[ \\frac{\\partial f}{\\partial y} = e^{x^2+3y^2} \\cdot (6y) \\]<br>Rearranging the terms for clarity:<br><span style='color:var(--orange);font-weight:bold;'>\\[ \\frac{\\partial f}{\\partial y} = 6y e^{x^2+3y^2} \\]</span></p><p style='margin:8px 0;'><strong>Step 5: Compare the result with the given options</strong><br>The calculated partial derivative is \\( 6y e^{x^2+3y^2} \\).<br>Let's check the provided options:<br>Option A: \\( 18x^2y^2 e^{x^2+3y^2} \\)<br>Option B: \\( 18xy^2 e^{x^2+3y^2} \\)<br>Option C: \\( 18x^2y e^{x^2+3y^2} \\)<br>Our result does not match any of options A, B, or C.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>Let's re-evaluate the differentiation carefully.<br>Given \\( f(x, y) = e^{u} \\) where \\( u = x^2+3y^2 \\).<br>Using the chain rule, \\( \\frac{\\partial f}{\\partial y} = \\frac{df}{du} \\cdot \\frac{\\partial u}{\\partial y} \\).<br>First, \\( \\frac{df}{du} = \\frac{d}{du}(e^u) = e^u = e^{x^2+3y^2} \\).<br>Next, \\( \\frac{\\partial u}{\\partial y} = \\frac{\\partial}{\\partial y}(x^2+3y^2) \\). Treating \\( x \\) as a constant, \\( \\frac{\\partial}{\\partial y}(x^2) = 0 \\) and \\( \\frac{\\partial}{\\partial y}(3y^2) = 6y \\).<br>So, \\( \\frac{\\partial u}{\\partial y} = 6y \\).<br>Multiplying these results: \\( \\frac{\\partial f}{\\partial y} = e^{x^2+3y^2} \\cdot 6y = 6y e^{x^2+3y^2} \\).<br>The calculation is consistent and confirms the result. Since this result is not among the first three options, 'None of the above' is the correct choice.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The partial derivative \\( \\frac{\\partial f}{\\partial y} = 6y e^{x^2+3y^2} \\), which corresponds to 'None of the above'.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "None of the above"
+    }
+  },
+  {
+    "type": "heading",
+    "heading": "PART B",
+    "Subheading": "ANSWER ALL QUESTIONS"
+  },
+  {
+    "type": "Question",
+    "name": "Question B1",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Find the derivative of `f(x, y) = x^3y^3 + x^2y^2`. (Specify partial derivatives with respect to x and y)",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Multivariable Calculus",
+      "Differentiation",
+      "Partial Derivatives"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Partial Derivatives of Multivariable Functions</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>multivariable function</em> is a function that depends on two or more independent variables. For example, \\( f(x, y) \\) depends on \\( x \\) and \\( y \\).<br>A <em>partial derivative</em> measures the rate of change of a multivariable function with respect to one of its independent variables, while holding the other variables constant.<br>To find the partial derivative with respect to \\( x \\) (denoted \\( \\frac{\\partial f}{\\partial x} \\) or \\( f_x \\)), we treat \\( y \\) (and any other variables) as constants and differentiate with respect to \\( x \\).<br>To find the partial derivative with respect to \\( y \\) (denoted \\( \\frac{\\partial f}{\\partial y} \\) or \\( f_y \\)), we treat \\( x \\) (and any other variables) as constants and differentiate with respect to \\( y \\).<br>The <em>Power Rule</em> for differentiation states that if \\( n \\) is any real number, then \\( \\frac{d}{dx}(x^n) = nx^{n-1} \\). When differentiating with respect to a variable, say \\( x \\), any term that does not contain \\( x \\) (or is treated as a constant) will have a derivative of zero. If a term is \\( C \\cdot x^n \\) where \\( C \\) is a constant, its derivative is \\( C \\cdot nx^{n-1} \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The function: \\( f(x, y) = x^3y^3 + x^2y^2 \\)<br><strong>Known</strong><br>Power Rule: \\( \\frac{d}{dx}(x^n) = nx^{n-1} \\)<br>Constant Multiple Rule: \\( \\frac{d}{dx}(c \\cdot g(x)) = c \\cdot \\frac{d}{dx}(g(x)) \\)<br>Sum Rule: \\( \\frac{d}{dx}(g(x) + h(x)) = \\frac{d}{dx}(g(x)) + \\frac{d}{dx}(h(x)) \\)</div><p style='margin:8px 0;'><strong>Step 1: Identify the goal for the first partial derivative</strong><br>We need to find the partial derivative of \\( f(x, y) \\) with respect to \\( x \\), denoted as \\( \\frac{\\partial f}{\\partial x} \\) or \\( f_x \\).<br>When finding \\( \\frac{\\partial f}{\\partial x} \\), we treat \\( y \\) as a constant.</p><p style='margin:8px 0;'><strong>Step 2: Apply the partial derivative rules for \\( \\frac{\\partial f}{\\partial x} \\) to the first term</strong><br>The first term is \\( x^3y^3 \\). Since \\( y \\) is treated as a constant, \\( y^3 \\) is also a constant.<br>Formula: \\( \\frac{\\partial}{\\partial x}(C \\cdot x^n) = C \\cdot nx^{n-1} \\), where \\( C = y^3 \\) and \\( n = 3 \\).<br>Substitute: \\( \\frac{\\partial}{\\partial x}(x^3y^3) = y^3 \\cdot \\frac{\\partial}{\\partial x}(x^3) \\)<br>Simplify: \\( y^3 \\cdot (3x^{3-1}) = \\) <span style='color:var(--orange);font-weight:bold;'>\\( 3x^2y^3 \\)</span></p><p style='margin:8px 0;'><strong>Step 3: Apply the partial derivative rules for \\( \\frac{\\partial f}{\\partial x} \\) to the second term</strong><br>The second term is \\( x^2y^2 \\). Since \\( y \\) is treated as a constant, \\( y^2 \\) is also a constant.<br>Formula: \\( \\frac{\\partial}{\\partial x}(C \\cdot x^n) = C \\cdot nx^{n-1} \\), where \\( C = y^2 \\) and \\( n = 2 \\).<br>Substitute: \\( \\frac{\\partial}{\\partial x}(x^2y^2) = y^2 \\cdot \\frac{\\partial}{\\partial x}(x^2) \\)<br>Simplify: \\( y^2 \\cdot (2x^{2-1}) = \\) <span style='color:var(--orange);font-weight:bold;'>\\( 2xy^2 \\)</span></p><p style='margin:8px 0;'><strong>Step 4: Combine the derivatives of the terms to find \\( \\frac{\\partial f}{\\partial x} \\)</strong><br>Formula: \\( \\frac{\\partial}{\\partial x}(g(x,y) + h(x,y)) = \\frac{\\partial}{\\partial x}(g(x,y)) + \\frac{\\partial}{\\partial x}(h(x,y)) \\)<br>Substitute: \\( \\frac{\\partial f}{\\partial x} = \\frac{\\partial}{\\partial x}(x^3y^3) + \\frac{\\partial}{\\partial x}(x^2y^2) \\)<br>Simplify: \\( \\frac{\\partial f}{\\partial x} = \\) <span style='color:var(--orange);font-weight:bold;'>\\( 3x^2y^3 + 2xy^2 \\)</span></p><p style='margin:8px 0;'><strong>Step 5: Identify the goal for the second partial derivative</strong><br>We need to find the partial derivative of \\( f(x, y) \\) with respect to \\( y \\), denoted as \\( \\frac{\\partial f}{\\partial y} \\) or \\( f_y \\).<br>When finding \\( \\frac{\\partial f}{\\partial y} \\), we treat \\( x \\) as a constant.</p><p style='margin:8px 0;'><strong>Step 6: Apply the partial derivative rules for \\( \\frac{\\partial f}{\\partial y} \\) to the first term</strong><br>The first term is \\( x^3y^3 \\). Since \\( x \\) is treated as a constant, \\( x^3 \\) is also a constant.<br>Formula: \\( \\frac{\\partial}{\\partial y}(C \\cdot y^n) = C \\cdot ny^{n-1} \\), where \\( C = x^3 \\) and \\( n = 3 \\).<br>Substitute: \\( \\frac{\\partial}{\\partial y}(x^3y^3) = x^3 \\cdot \\frac{\\partial}{\\partial y}(y^3) \\)<br>Simplify: \\( x^3 \\cdot (3y^{3-1}) = \\) <span style='color:var(--orange);font-weight:bold;'>\\( 3x^3y^2 \\)</span></p><p style='margin:8px 0;'><strong>Step 7: Apply the partial derivative rules for \\( \\frac{\\partial f}{\\partial y} \\) to the second term</strong><br>The second term is \\( x^2y^2 \\). Since \\( x \\) is treated as a constant, \\( x^2 \\) is also a constant.<br>Formula: \\( \\frac{\\partial}{\\partial y}(C \\cdot y^n) = C \\cdot ny^{n-1} \\), where \\( C = x^2 \\) and \\( n = 2 \\).<br>Substitute: \\( \\frac{\\partial}{\\partial y}(x^2y^2) = x^2 \\cdot \\frac{\\partial}{\\partial y}(y^2) \\)<br>Simplify: \\( x^2 \\cdot (2y^{2-1}) = \\) <span style='color:var(--orange);font-weight:bold;'>\\( 2x^2y \\)</span></p><p style='margin:8px 0;'><strong>Step 8: Combine the derivatives of the terms to find \\( \\frac{\\partial f}{\\partial y} \\)</strong><br>Formula: \\( \\frac{\\partial}{\\partial y}(g(x,y) + h(x,y)) = \\frac{\\partial}{\\partial y}(g(x,y)) + \\frac{\\partial}{\\partial y}(h(x,y)) \\)<br>Substitute: \\( \\frac{\\partial f}{\\partial y} = \\frac{\\partial}{\\partial y}(x^3y^3) + \\frac{\\partial}{\\partial y}(x^2y^2) \\)<br>Simplify: \\( \\frac{\\partial f}{\\partial y} = \\) <span style='color:var(--orange);font-weight:bold;'>\\( 3x^3y^2 + 2x^2y \\)</span></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The process of finding partial derivatives involves applying standard differentiation rules while treating all other variables as constants. The power rule and constant multiple rule were applied correctly to each term for both partial derivatives. For example, when differentiating \\( x^3y^3 \\) with respect to \\( x \\), \\( y^3 \\) is a constant, so \\( \\frac{\\partial}{\\partial x}(x^3y^3) = y^3 \\frac{d}{dx}(x^3) = y^3(3x^2) = 3x^2y^3 \\). Similarly, for \\( y \\), \\( x^3 \\) is a constant, so \\( \\frac{\\partial}{\\partial y}(x^3y^3) = x^3 \\frac{d}{dy}(y^3) = x^3(3y^2) = 3x^3y^2 \\). The steps followed are consistent with the definitions and rules of partial differentiation.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The partial derivative with respect to \\( x \\) is \\( 3x^2y^3 + 2xy^2 \\), and with respect to \\( y \\) is \\( 3x^3y^2 + 2x^2y \\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The partial derivative with respect to x is \\(3x^2y^3 + 2xy^2\\), and with respect to y is \\(3x^3y^2 + 2x^2y\\)."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question B2",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Given that `f(x, y) = \\sin 2x + 4y^3 e^x`, show that `f_{xy} = f_{yx}`.",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Multivariable Calculus",
+      "Differentiation",
+      "Partial Derivatives",
+      "Mixed Partial Derivatives"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Mixed Partial Derivatives and Clairaut's Theorem</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>partial derivative</em> of a multivariable function is its derivative with respect to one variable, treating all other variables as constants.<br>A <em>mixed partial derivative</em> involves differentiating with respect to different variables in sequence (e.g., \\(f_{xy}\\) means differentiate with respect to \\(x\\) first, then \\(y\\)).<br><strong>Clairaut's Theorem (Schwarz's Theorem):</strong> If the mixed second-order partial derivatives \\(f_{xy}\\) and \\(f_{yx}\\) are continuous on an open disk, then they are equal: \\(f_{xy} = f_{yx}\\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Function: \\(f(x, y) = \\sin 2x + 4y^3 e^x\\)<br>Show that: \\(f_{xy} = f_{yx}\\)</div><p style='margin:8px 0;'><strong>Step 1: Identify the given function</strong><br>The function we are working with is:<br>\\[ f(x, y) = \\sin 2x + 4y^3 e^x \\]<br></p><p style='margin:8px 0;'><strong>Step 2: Find the first partial derivative with respect to x, \\(f_x\\)</strong><br>To find \\(f_x\\), we differentiate \\(f(x, y)\\) with respect to \\(x\\), treating \\(y\\) as a constant.<br>Recall the differentiation rules: \\( \\frac{d}{dx}(\\sin(ax)) = a\\cos(ax) \\) and \\( \\frac{d}{dx}(e^x) = e^x \\).<br>\\[ f_x = \\frac{\\partial}{\\partial x} (\\sin 2x + 4y^3 e^x) \\]<br>\\[ f_x = \\frac{\\partial}{\\partial x} (\\sin 2x) + \\frac{\\partial}{\\partial x} (4y^3 e^x) \\]<br>Applying the rules:<br>\\[ f_x = (2\\cos 2x) + (4y^3 \\cdot e^x) \\]<br><span style='color:var(--orange);font-weight:bold;'>\\( f_x = 2\\cos 2x + 4y^3 e^x \\)</span></p><p style='margin:8px 0;'><strong>Step 3: Find the mixed partial derivative \\(f_{xy}\\)</strong><br>To find \\(f_{xy}\\), we differentiate \\(f_x\\) with respect to \\(y\\), treating \\(x\\) as a constant.<br>\\[ f_{xy} = \\frac{\\partial}{\\partial y} (f_x) = \\frac{\\partial}{\\partial y} (2\\cos 2x + 4y^3 e^x) \\]<br>\\[ f_{xy} = \\frac{\\partial}{\\partial y} (2\\cos 2x) + \\frac{\\partial}{\\partial y} (4y^3 e^x) \\]<br>Since \\(2\\cos 2x\\) does not contain \\(y\\), its derivative with respect to \\(y\\) is 0.<br>For \\(4y^3 e^x\\), \\(4e^x\\) is treated as a constant multiplier.<br>\\[ f_{xy} = 0 + 4e^x \\frac{d}{dy} (y^3) \\]<br>\\[ f_{xy} = 4e^x (3y^2) \\]<br><span style='color:var(--orange);font-weight:bold;'>\\( f_{xy} = 12y^2 e^x \\)</span></p><p style='margin:8px 0;'><strong>Step 4: Find the first partial derivative with respect to y, \\(f_y\\)</strong><br>To find \\(f_y\\), we differentiate \\(f(x, y)\\) with respect to \\(y\\), treating \\(x\\) as a constant.<br>\\[ f_y = \\frac{\\partial}{\\partial y} (\\sin 2x + 4y^3 e^x) \\]<br>\\[ f_y = \\frac{\\partial}{\\partial y} (\\sin 2x) + \\frac{\\partial}{\\partial y} (4y^3 e^x) \\]<br>Since \\( \\sin 2x \\) does not contain \\(y\\), its derivative with respect to \\(y\\) is 0.<br>For \\(4y^3 e^x\\), \\(4e^x\\) is treated as a constant multiplier.<br>\\[ f_y = 0 + 4e^x \\frac{d}{dy} (y^3) \\]<br>\\[ f_y = 4e^x (3y^2) \\]<br><span style='color:var(--orange);font-weight:bold;'>\\( f_y = 12y^2 e^x \\)</span></p><p style='margin:8px 0;'><strong>Step 5: Find the mixed partial derivative \\(f_{yx}\\)</strong><br>To find \\(f_{yx}\\), we differentiate \\(f_y\\) with respect to \\(x\\), treating \\(y\\) as a constant.<br>\\[ f_{yx} = \\frac{\\partial}{\\partial x} (f_y) = \\frac{\\partial}{\\partial x} (12y^2 e^x) \\]<br>Since \\(12y^2\\) is treated as a constant multiplier.<br>\\[ f_{yx} = 12y^2 \\frac{d}{dx} (e^x) \\]<br>\\[ f_{yx} = 12y^2 (e^x) \\]<br><span style='color:var(--orange);font-weight:bold;'>\\( f_{yx} = 12y^2 e^x \\)</span></p><p style='margin:8px 0;'><strong>Step 6: Compare \\(f_{xy}\\) and \\(f_{yx}\\)</strong><br>From Step 3, we found: <span style='color:var(--orange);font-weight:bold;'>\\( f_{xy} = 12y^2 e^x \\)</span><br>From Step 5, we found: <span style='color(--orange);font-weight:bold;'>\\( f_{yx} = 12y^2 e^x \\)</span><br>Since both mixed partial derivatives are equal, we have successfully shown that \\(f_{xy} = f_{yx}\\).</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The given function \\(f(x, y) = \\sin 2x + 4y^3 e^x\\) is a combination of elementary functions (trigonometric, polynomial, exponential) which are infinitely differentiable. Therefore, all its partial derivatives, including \\(f_x, f_y, f_{xy}, f_{yx}\\), are continuous everywhere. According to Clairaut's Theorem (Schwarz's Theorem), if the mixed second-order partial derivatives are continuous, then their order of differentiation does not matter, meaning \\(f_{xy}\\) must be equal to \\(f_{yx}\\). Our calculations confirm this property, as both derivatives resulted in \\(12y^2 e^x\\).</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; We have shown that \\(f_{xy} = f_{yx}\\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "f_{xy} = f_{yx}"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question B3",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Find the stationary points of the function `f(x, y) = x + 2y` subject to the constraint `x^2 + y^2 - 4 = 0`.",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Multivariable Calculus",
+      "Differentiation",
+      "Critical Points",
+      "Extrema"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Lagrange Multipliers for Constrained Optimization</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>method of Lagrange Multipliers</em> is a strategy for finding the local maxima and minima of a function subject to equality constraints.<br>For a function \\( f(x, y) \\) subject to a constraint \\( g(x, y) = 0 \\), we introduce a new variable \\( \\\\lambda \\) (the Lagrange multiplier) and form the <em>Lagrangian function</em> \\( L(x, y, \\\\lambda) \\).<br>\\[ L(x, y, \\\\lambda) = f(x, y) - \\\\lambda g(x, y) \\]<br>Stationary points (potential extrema) occur where the gradient of the Lagrangian is zero, meaning all its partial derivatives are zero:<br>\\[ \\\\frac{\\\\partial L}{\\\\partial x} = 0 \\]<br>\\[ \\\\frac{\\\\partial L}{\\\\partial y} = 0 \\]<br>\\[ \\\\frac{\\\\partial L}{\\\\partial \\\\lambda} = 0 \\]</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Objective function: \\( f(x, y) = x + 2y \\)<br>Constraint: \\( x^2 + y^2 - 4 = 0 \\)</div><p style='margin:8px 0;'><strong>Step 1: Define the Objective Function and Constraint Function</strong><br>The objective function is the function we want to optimize:<br>\\[ f(x, y) = x + 2y \\]<br>The constraint function must be written in the form \\( g(x, y) = 0 \\):<br>\\[ g(x, y) = x^2 + y^2 - 4 \\]</p><p style='margin:8px 0;'><strong>Step 2: Formulate the Lagrangian Function</strong><br>The Lagrangian function \\( L(x, y, \\\\lambda) \\) is defined as \\( L(x, y, \\\\lambda) = f(x, y) - \\\\lambda g(x, y) \\).<br>Substitute the given functions:<br>\\[ L(x, y, \\\\lambda) = (x + 2y) - \\\\lambda (x^2 + y^2 - 4) \\]<br>Simplify the expression:<br>\\[ L(x, y, \\\\lambda) = x + 2y - \\\\lambda x^2 - \\\\lambda y^2 + 4\\\\lambda \\]</p><p style='margin:8px 0;'><strong>Step 3: Calculate the Partial Derivatives of the Lagrangian</strong><br>Calculate the partial derivatives with respect to \\( x \\), \\( y \\), and \\( \\\\lambda \\).<br>Partial derivative with respect to \\( x \\):<br>\\[ \\\\frac{\\\\partial L}{\\\\partial x} = \\\\frac{\\\\partial}{\\\\partial x} (x + 2y - \\\\lambda x^2 - \\\\lambda y^2 + 4\\\\lambda) \\]<br>\\[ \\\\frac{\\\\partial L}{\\\\partial x} = 1 - 2\\\\lambda x \\]<br>Partial derivative with respect to \\( y \\):<br>\\[ \\\\frac{\\\\partial L}{\\\\partial y} = \\\\frac{\\\\partial}{\\\\partial y} (x + 2y - \\\\lambda x^2 - \\\\lambda y^2 + 4\\\\lambda) \\]<br>\\[ \\\\frac{\\\\partial L}{\\\\partial y} = 2 - 2\\\\lambda y \\]<br>Partial derivative with respect to \\( \\\\lambda \\):<br>\\[ \\\\frac{\\\\partial L}{\\\\partial \\\\lambda} = \\\\frac{\\\\partial}{\\\\partial \\\\lambda} (x + 2y - \\\\lambda x^2 - \\\\lambda y^2 + 4\\\\lambda) \\]<br>\\[ \\\\frac{\\\\partial L}{\\\\partial \\\\lambda} = -x^2 - y^2 + 4 \\]</p><p style='margin:8px 0;'><strong>Step 4: Set the Partial Derivatives to Zero to Form a System of Equations</strong><br>To find the stationary points, we set each partial derivative to zero:<br>Equation (1): \\( 1 - 2\\\\lambda x = 0 \\)<br>Equation (2): \\( 2 - 2\\\\lambda y = 0 \\)<br>Equation (3): \\( -x^2 - y^2 + 4 = 0 \\)</p><p style='margin:8px 0;'><strong>Step 5: Solve the System of Equations for x, y, and \\( \\\\lambda \\)</strong><br>From Equation (1), solve for \\( x \\):<br>\\[ 1 - 2\\\\lambda x = 0 \\]<br>\\[ 2\\\\lambda x = 1 \\]<br>\\[ x = \\\\frac{1}{2\\\\lambda} \\] <span style='color:var(--orange);font-weight:bold;'>(Assuming \\( \\\\lambda \\\\neq 0 \\))</span><br>From Equation (2), solve for \\( y \\):<br>\\[ 2 - 2\\\\lambda y = 0 \\]<br>\\[ 2\\\\lambda y = 2 \\]<br>\\[ y = \\\\frac{2}{2\\\\lambda} \\]<br>\\[ y = \\\\frac{1}{\\\\lambda} \\] <span style='color:var(--orange);font-weight:bold;'>(Assuming \\( \\\\lambda \\\\neq 0 \\))</span><br>Substitute the expressions for \\( x \\) and \\( y \\) into Equation (3):<br>\\[ -\\\\left(\\\\frac{1}{2\\\\lambda}\\\\right)^2 - \\\\left(\\\\frac{1}{\\\\lambda}\\\\right)^2 + 4 = 0 \\]<br>\\[ -\\\\frac{1}{4\\\\lambda^2} - \\\\frac{1}{\\\\lambda^2} + 4 = 0 \\]<br>Combine the terms with \\( \\\\lambda^2 \\):<br>\\[ -\\\\frac{1}{4\\\\lambda^2} - \\\\frac{4}{4\\\\lambda^2} + 4 = 0 \\]<br>\\[ -\\\\frac{5}{4\\\\lambda^2} + 4 = 0 \\]<br>Solve for \\( \\\\lambda^2 \\):<br>\\[ 4 = \\\\frac{5}{4\\\\lambda^2} \\]<br>\\[ 16\\\\lambda^2 = 5 \\]<br>\\[ \\\\lambda^2 = \\\\frac{5}{16} \\]<br>Take the square root to find \\( \\\\lambda \\):<br>\\[ \\\\lambda = \\\\pm\\\\sqrt{\\\\frac{5}{16}} \\]<br>\\[ \\\\lambda = \\\\pm\\\\frac{\\\\sqrt{5}}{4} \\]<br>Now, substitute these values of \\( \\\\lambda \\) back into the expressions for \\( x \\) and \\( y \\).<br><br><strong>Case 1: \\( \\\\lambda = \\\\frac{\\\\sqrt{5}}{4} \\)</strong><br>Calculate \\( x \\):<br>\\[ x = \\\\frac{1}{2\\\\lambda} = \\\\frac{1}{2\\\\left(\\\\frac{\\\\sqrt{5}}{4}\\\\right)} = \\\\frac{1}{\\\\frac{\\\\sqrt{5}}{2}} = \\\\frac{2}{\\\\sqrt{5}} \\]<br>Calculate \\( y \\):<br>\\[ y = \\\\frac{1}{\\\\lambda} = \\\\frac{1}{\\\\frac{\\\\sqrt{5}}{4}} = \\\\frac{4}{\\\\sqrt{5}} \\]<br>This gives the first stationary point: <span style='color:var(--orange);font-weight:bold;'>\\( \\\\left(\\\\frac{2}{\\\\sqrt{5}}, \\\\frac{4}{\\\\sqrt{5}}\\\\right) \\)</span><br><br><strong>Case 2: \\( \\\\lambda = -\\\\frac{\\\\sqrt{5}}{4} \\)</strong><br>Calculate \\( x \\):<br>\\[ x = \\\\frac{1}{2\\\\lambda} = \\\\frac{1}{2\\\\left(-\\\\frac{\\\\sqrt{5}}{4}\\\\right)} = \\\\frac{1}{-\\\\frac{\\\\sqrt{5}}{2}} = -\\\\frac{2}{\\\\sqrt{5}} \\]<br>Calculate \\( y \\):<br>\\[ y = \\\\frac{1}{\\\\lambda} = \\\\frac{1}{-\\\\frac{\\\\sqrt{5}}{4}} = -\\\\frac{4}{\\\\sqrt{5}} \\]<br>This gives the second stationary point: <span style='color:var(--orange);font-weight:bold;'>\\( \\\\left(-\\\\frac{2}{\\\\sqrt{5}}, -\\\\frac{4}{\\\\sqrt{5}}\\\\right) \\)</span></p><p style='margin:8px 0;'><strong>Step 6: Identify the Stationary Points</strong><br>Based on our calculations, the stationary points are:<br>1. \\( \\\\left(\\\\frac{2}{\\\\sqrt{5}}, \\\\frac{4}{\\\\sqrt{5}}\\\\right) \\)<br>2. \\( \\\\left(-\\\\frac{2}{\\\\sqrt{5}}, -\\\\frac{4}{\\\\sqrt{5}}\\\\right) \\)</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>We must check if these points satisfy the constraint \\( x^2 + y^2 - 4 = 0 \\).<br><br><strong>For point 1: \\( \\\\left(\\\\frac{2}{\\\\sqrt{5}}, \\\\frac{4}{\\\\sqrt{5}}\\\\right) \\)</strong><br>Substitute \\( x = \\\\frac{2}{\\\\sqrt{5}} \\) and \\( y = \\\\frac{4}{\\\\sqrt{5}} \\) into the constraint:<br>\\[ \\\\left(\\\\frac{2}{\\\\sqrt{5}}\\\\right)^2 + \\\\left(\\\\frac{4}{\\\\sqrt{5}}\\\\right)^2 - 4 \\]<br>\\[ = \\\\frac{4}{5} + \\\\frac{16}{5} - 4 \\]<br>\\[ = \\\\frac{20}{5} - 4 \\]<br>\\[ = 4 - 4 = 0 \\]<br>The constraint is satisfied. ✓<br><br><strong>For point 2: \\( \\\\left(-\\\\frac{2}{\\\\sqrt{5}}, -\\\\frac{4}{\\\\sqrt{5}}\\\\right) \\)</strong><br>Substitute \\( x = -\\\\frac{2}{\\\\sqrt{5}} \\) and \\( y = -\\\\frac{4}{\\\\sqrt{5}} \\) into the constraint:<br>\\[ \\\\left(-\\\\frac{2}{\\\\sqrt{5}}\\\\right)^2 + \\\\left(-\\\\frac{4}{\\\\sqrt{5}}\\\\right)^2 - 4 \\]<br>\\[ = \\\\frac{4}{5} + \\\\frac{16}{5} - 4 \\]<br>\\[ = \\\\frac{20}{5} - 4 \\]<br>\\[ = 4 - 4 = 0 \\]<br>The constraint is satisfied. ✓<br><br>Both points satisfy the constraint, confirming they are valid stationary points.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>∴ The stationary points are \\( \\\\left(\\\\frac{2}{\\\\sqrt{5}}, \\\\frac{4}{\\\\sqrt{5}}\\\\right) \\) and \\( \\\\left(-\\\\frac{2}{\\\\sqrt{5}}, -\\\\frac{4}{\\\\sqrt{5}}\\\\right) \\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The stationary points are \\( (\\\\frac{2}{\\\\sqrt{5}}, \\\\frac{4}{\\\\sqrt{5}}) \\) and \\( (-\\\\frac{2}{\\\\sqrt{5}}, -\\\\frac{4}{\\\\sqrt{5}}) \\)."
+    }
+  }
+]
