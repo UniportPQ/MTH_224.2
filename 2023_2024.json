@@ -1,0 +1,843 @@
+[
+  {
+    "type": "pageInfo",
+    "course_title": "MATHEMATICAL METHODS",
+    "code": "MTH 224.2",
+    "session": "2023/2024",
+    "kind": "mixed",
+    "topics": [
+      "Differential Calculus",
+      "Integral Calculus",
+      "Linear Algebra",
+      "Ordinary Differential Equations",
+      "Partial Differential Equations",
+      "Vector Calculus",
+      "Complex Analysis",
+      "Fourier Series and Transforms",
+      "Laplace Transforms",
+      "Numerical Methods",
+      "Probability and Statistics",
+      "Limits",
+      "MATHEMATICAL METHODS",
+      "Continuity",
+      "Implicit Differentiation",
+      "Product Rule",
+      "Chain Rule",
+      "Critical Points",
+      "Definite Integrals",
+      "Indefinite Integrals",
+      "Mathematical Methods",
+      "Series Expansion",
+      "Mean Value Theorem",
+      "Rolle's Theorem",
+      "Functions",
+      "Power Series",
+      "Trigonometric Functions",
+      "Total Differential",
+      "Homogeneous Functions",
+      "Function Definitions",
+      "Multivariable Calculus"
+    ],
+    "time": "90"
+  },
+  {
+    "type": "Instruction",
+    "content": [
+      "Solve questions 1-18 and supply the correct answer in the space provided"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "topic": [
+      "Differential Calculus",
+      "Limits"
+    ],
+    "Question": {
+      "content": "Find \\(\\lim_{x \\to \\pi}(2\\sin x - 3\\cos x - 1)\\).",
+      "type": "THEORY",
+      "options": []
+    },
+    "table": [],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Evaluating Limits of Continuous Functions</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>limit</em> describes the value that a function approaches as the input approaches some value.<br>A function \\( f(x) \\) is <em>continuous</em> at a point \\( c \\) if \\( \\lim_{x \\to c} f(x) = f(c) \\).<br>For continuous functions, the limit can be found by <em>direct substitution</em> of the limit value into the function.<br>Polynomial functions, sine functions, and cosine functions are continuous everywhere on their domain. Sums and differences of continuous functions are also continuous.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Function: \\( f(x) = 2\\sin x - 3\\cos x - 1 \\)<br>Limit point: \\( x \\to \\pi \\)<br>Known trigonometric values: \\( \\sin(\\pi) = 0 \\), \\( \\cos(\\pi) = -1 \\)</div><p style='margin:8px 0;'><strong>Step 1: Identify the function and the limit point</strong><br>The function is \\( f(x) = 2\\sin x - 3\\cos x - 1 \\).<br>We need to find the limit as \\( x \\) approaches \\( \\pi \\).</p><p style='margin:8px 0;'><strong>Step 2: Determine if the function is continuous at the limit point</strong><br>The function \\( \\sin x \\) is continuous for all real numbers.<br>The function \\( \\cos x \\) is continuous for all real numbers.<br>Constant functions (like \\( -1 \\)) are continuous for all real numbers.<br>The product of a constant and a continuous function is continuous.<br>The sum or difference of continuous functions is continuous.<br>Therefore, \\( f(x) = 2\\sin x - 3\\cos x - 1 \\) is continuous for all real numbers, including at \\( x = \\pi \\).</p><p style='margin:8px 0;'><strong>Step 3: Apply the direct substitution property for continuous functions</strong><br>Since \\( f(x) \\) is continuous at \\( x = \\pi \\), we can find the limit by directly substituting \\( \\pi \\) into the function.<br>\\[ \\lim_{x \\to \\pi} f(x) = f(\\pi) \\]</p><p style='margin:8px 0;'><strong>Step 4: Substitute the limit value into the function</strong><br>Substitute \\( x = \\pi \\) into the expression:<br>\\[ 2\\sin(\\pi) - 3\\cos(\\pi) - 1 \\]</p><p style='margin:8px 0;'><strong>Step 5: Evaluate the trigonometric functions</strong><br>Recall the values of sine and cosine at \\( \\pi \\):<br>\\( \\sin(\\pi) = 0 \\)<br>\\( \\cos(\\pi) = -1 \\)<br>Substitute these values into the expression:<br>\\[ 2(0) - 3(-1) - 1 \\]</p><p style='margin:8px 0;'><strong>Step 6: Simplify the expression</strong><br>Perform the multiplication:<br>\\( 0 - (-3) - 1 \\)<br>Simplify the double negative:<br>\\( 0 + 3 - 1 \\)<br>Perform the addition and subtraction:<br>\\( 3 - 1 = \\) <span style='color:var(--orange);font-weight:bold;'>2</span></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The direct substitution method is valid because the function is a combination of elementary continuous functions (sine, cosine, and constants). No indeterminate forms (like \\( \\frac{0}{0} \\) or \\( \\frac{\\infty}{\\infty} \\)) were encountered, confirming the direct substitution is the correct approach. The arithmetic steps were carefully checked:<br>\\( 2\\sin(\\pi) - 3\\cos(\\pi) - 1 \\)<br>\\( = 2(0) - 3(-1) - 1 \\)<br>\\( = 0 + 3 - 1 \\)<br>\\( = 2 \\)<br>The result is consistent.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; \\(\\lim_{x \\to \\pi}(2\\sin x - 3\\cos x - 1) = 2\\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "2"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "State the conditions that must be satisfied for a function, \\(f(x)\\), to be continuous at a given point.",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "MATHEMATICAL METHODS",
+      "Limits",
+      "Differential Calculus",
+      "Continuity"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Conditions for Continuity of a Function at a Point</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A function \\(f(x)\\) is said to be <em>continuous</em> at a point \\(x=a\\) if its graph can be drawn through that point without lifting the pen. Intuitively, there are no breaks, jumps, or holes in the graph at \\(x=a\\).<br>The <em>limit of a function</em> \\( \\lim_{x \\to a} f(x) \\) represents the value that \\(f(x)\\) approaches as \\(x\\) gets arbitrarily close to \\(a\\), but not necessarily equal to \\(a\\).<br>The <em>function value</em> \\(f(a)\\) is the actual output of the function when \\(x\\) is exactly \\(a\\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The question asks for the conditions that must be satisfied for a function, \\(f(x)\\), to be continuous at a given point \\(x=a\\).</div><p style='margin:8px 0;'><strong>Step 1: Understand the concept of continuity at a point</strong><br>For a function \\(f(x)\\) to be continuous at a specific point \\(x=a\\), its graph must not have any gaps, holes, or jumps at that point. This implies that the function's behavior as \\(x\\) approaches \\(a\\) must match its actual value at \\(a\\).</p><p style='margin:8px 0;'><strong>Step 2: Condition 1 - The function must be defined at the point</strong><br>The first condition for continuity at \\(x=a\\) is that the function must have a defined value at that point. This means \\(f(a)\\) must exist.<br>If \\(f(a)\\) is undefined (e.g., due to division by zero or a domain restriction), there would be a hole or a vertical asymptote at \\(x=a\\), making the function discontinuous.</p><p style='margin:8px 0;'><strong>Step 3: Condition 2 - The limit of the function must exist at the point</strong><br>The second condition is that the limit of \\(f(x)\\) as \\(x\\) approaches \\(a\\) must exist. This is written as \\( \\lim_{x \\to a} f(x) \\) exists.<br>For the limit to exist, the left-hand limit and the right-hand limit must be equal:<br>\\[ \\lim_{x \\to a^-} f(x) = \\lim_{x \\to a^+} f(x) = L \\]<br>If the limit does not exist (e.g., the left and right limits are different), there would be a jump discontinuity at \\(x=a\\).</p><p style='margin:8px 0;'><strong>Step 4: Condition 3 - The limit must equal the function's value at the point</strong><br>The third and final condition ties the first two together: the value of the limit of \\(f(x)\\) as \\(x\\) approaches \\(a\\) must be equal to the actual function value at \\(a\\).<br>\\[ \\lim_{x \\to a} f(x) = f(a) \\]<br>If \\(f(a)\\) is defined and \\( \\lim_{x \\to a} f(x) \\) exists, but they are not equal, then there would be a removable discontinuity (a hole) at \\(x=a\\), because the point \\( (a, f(a)) \\) would be \"out of place\" from where the graph is heading.</p><p style='margin:8px 0;'><strong>Step 5: Summarize the three conditions for continuity</strong><br>To summarize, a function \\(f(x)\\) is continuous at a point \\(x=a\\) if and only if all three of the following conditions are met:<br>1. <span style='color:var(--orange);font-weight:bold;'>\\(f(a)\\) is defined.</span> (The point exists)<br>2. <span style='color:var(--orange);font-weight:bold;'>\\( \\lim_{x \\to a} f(x) \\) exists.</span> (The limit exists)<br>3. <span style='color:var(--orange);font-weight:bold;'>\\( \\lim_{x \\to a} f(x) = f(a) \\).</span> (The limit equals the function value)</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>These three conditions are fundamental to the definition of continuity in calculus. If any one of these conditions is not met, the function will exhibit a discontinuity at point \\(a\\). For example:<br><ul><li>If \\(f(a)\\) is undefined, there's a hole or asymptote.</li><li>If \\( \\lim_{x \\to a} f(x) \\) does not exist, there's a jump.</li><li>If \\( \\lim_{x \\to a} f(x) \\neq f(a) \\), there's a hole where the function value is defined elsewhere or not at all at the limit point.</li></ul>Therefore, all three conditions are necessary and sufficient for continuity at a point.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; For \\(f(x)\\) to be continuous at a point \\(a\\):<br>1. \\(f(a)\\) must be defined.<br>2. \\( \\lim_{x \\to a} f(x) \\) must exist.<br>3. \\( \\lim_{x \\to a} f(x) = f(a) \\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "For a function \\(f(x)\\) to be continuous at a point \\(a\\):<br>1. \\(f(a)\\) must be defined.<br>2. \\( \\lim_{x \\to a} f(x) \\) must exist.<br>3. \\( \\lim_{x \\to a} f(x) = f(a) \\)."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Find the derivative of the implicit function \\(3xy + 5xy^2 = 4\\).",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "MATHEMATICAL METHODS",
+      "Differential Calculus",
+      "Implicit Differentiation"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Implicit Differentiation</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><em>Implicit Differentiation</em> is a technique used to find the derivative of a function that is not explicitly defined in terms of one variable (e.g., \\( y = f(x) \\)). Instead, \\( y \\) is implicitly defined as a function of \\( x \\) within an equation.<br>When differentiating terms involving \\( y \\) with respect to \\( x \\), we treat \\( y \\) as a function of \\( x \\) and apply the chain rule. For example, \\( \\frac{d}{dx}(y^n) = ny^{n-1}\\frac{dy}{dx} \\).<br>The <em>Product Rule</em> states that if \\( h(x) = u(x)v(x) \\), then \\( h'(x) = u'(x)v(x) + u(x)v'(x) \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Implicit function: \\( 3xy + 5xy^2 = 4 \\)</div><p style='margin:8px 0;'><strong>Step 1: Write the given implicit function</strong><br>The equation we need to differentiate is:<br>\\[ 3xy + 5xy^2 = 4 \\]</p><p style='margin:8px 0;'><strong>Step 2: Differentiate both sides of the equation with respect to \\(x\\)</strong><br>Remember to treat \\(y\\) as a function of \\(x\\) and apply the chain rule where necessary.<br>\\[ \\frac{d}{dx}(3xy + 5xy^2) = \\frac{d}{dx}(4) \\]<br>This can be broken down into differentiating each term separately:<br>\\[ \\frac{d}{dx}(3xy) + \\frac{d}{dx}(5xy^2) = \\frac{d}{dx}(4) \\]</p><p style='margin:8px 0;'><strong>Step 3: Differentiate the first term, \\(3xy\\)</strong><br>Apply the product rule \\( (uv)' = u'v + uv' \\) where \\( u = 3x \\) and \\( v = y \\).<br>\\[ \\frac{d}{dx}(3xy) = \\frac{d}{dx}(3x) \\cdot y + 3x \\cdot \\frac{d}{dx}(y) \\]<br>\\[ = 3 \\cdot y + 3x \\cdot \\frac{dy}{dx} \\]<br>\\[ = 3y + 3x\\frac{dy}{dx} \\]<br>So, the derivative of the first term is <span style='color:var(--orange);font-weight:bold;'>\\( 3y + 3x\\frac{dy}{dx} \\)</span>.</p><p style='margin:8px 0;'><strong>Step 4: Differentiate the second term, \\(5xy^2\\)</strong><br>Apply the product rule \\( (uv)' = u'v + uv' \\) where \\( u = 5x \\) and \\( v = y^2 \\).<br>For \\( \\frac{d}{dx}(y^2) \\), we use the chain rule: \\( \\frac{d}{dx}(y^2) = 2y\\frac{dy}{dx} \\).<br>\\[ \\frac{d}{dx}(5xy^2) = \\frac{d}{dx}(5x) \\cdot y^2 + 5x \\cdot \\frac{d}{dx}(y^2) \\]<br>\\[ = 5 \\cdot y^2 + 5x \\cdot (2y\\frac{dy}{dx}) \\]<br>\\[ = 5y^2 + 10xy\\frac{dy}{dx} \\]<br>So, the derivative of the second term is <span style='color:var(--orange);font-weight:bold;'>\\( 5y^2 + 10xy\\frac{dy}{dx} \\)</span>.</p><p style='margin:8px 0;'><strong>Step 5: Differentiate the right side of the equation, \\(4\\)</strong><br>The derivative of a constant is 0.<br>\\[ \\frac{d}{dx}(4) = 0 \\]</p><p style='margin:8px 0;'><strong>Step 6: Combine the differentiated terms</strong><br>Substitute the derivatives back into the equation from Step 2.<br>\\[ (3y + 3x\\frac{dy}{dx}) + (5y^2 + 10xy\\frac{dy}{dx}) = 0 \\]<br>\\[ 3y + 3x\\frac{dy}{dx} + 5y^2 + 10xy\\frac{dy}{dx} = 0 \\]</p><p style='margin:8px 0;'><strong>Step 7: Rearrange the equation to isolate terms containing \\(\\frac{dy}{dx}\\)</strong><br>Move all terms that do not contain \\( \\frac{dy}{dx} \\) to the right side of the equation.<br>\\[ 3x\\frac{dy}{dx} + 10xy\\frac{dy}{dx} = -3y - 5y^2 \\]</p><p style='margin:8px 0;'><strong>Step 8: Factor out \\(\\frac{dy}{dx}\\) from the terms on the left side</strong><br>\\[ \\frac{dy}{dx}(3x + 10xy) = -3y - 5y^2 \\]</p><p style='margin:8px 0;'><strong>Step 9: Solve for \\(\\frac{dy}{dx}\\)</strong><br>Divide both sides by \\( (3x + 10xy) \\).<br>\\[ \\frac{dy}{dx} = \\frac{-3y - 5y^2}{3x + 10xy} \\]<br>This is the derivative of the implicit function.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify, we can mentally re-trace the steps, ensuring each differentiation and algebraic manipulation was performed correctly. The application of the product rule and chain rule for each term was precise. The rearrangement and factoring steps were also standard algebraic operations. No common factors can be cancelled from the numerator and denominator, so the expression is in its simplest form. The result is consistent with standard implicit differentiation procedures.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; \\(\\frac{dy}{dx} = \\frac{-3y - 5y^2}{3x + 10xy}\\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\frac{dy}{dx} = \\frac{-3y - 5y^2}{3x + 10xy}\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "If \\(f(x) = (3 - 3x^2)e^{2x}\\), then \\(\\frac{d}{dx}f(x) =\\)",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "MATHEMATICAL METHODS",
+      "Differential Calculus",
+      "Product Rule"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Differential Calculus: Product Rule</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><strong>Differentiation:</strong> The process of finding the derivative of a function, which measures the instantaneous rate of change of the function.<br><strong>Product Rule:</strong> If a function \\(f(x)\\) is the product of two differentiable functions, say \\(u(x)\\) and \\(v(x)\\), i.e., \\(f(x) = u(x)v(x)\\), then its derivative is given by the formula:<br>\\[ \\frac{d}{dx}(u(x)v(x)) = u'(x)v(x) + u(x)v'(x) \\]<br>where \\(u'(x)\\) and \\(v'(x)\\) are the derivatives of \\(u(x)\\) and \\(v(x)\\) respectively.<br><strong>Chain Rule:</strong> Used for differentiating composite functions. If \\(y = f(g(x))\\), then \\(\\frac{dy}{dx} = f'(g(x)) \\cdot g'(x)\\). For exponential functions, \\(\\frac{d}{dx}(e^{kx}) = ke^{kx}\\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Function: \\(f(x) = (3 - 3x^2)e^{2x}\\)<br>To find: The derivative of \\(f(x)\\), denoted as \\(\\frac{d}{dx}f(x)\\) or \\(f'(x)\\).</div><p style='margin:8px 0;'><strong>Step 1: Identify the components for the Product Rule</strong><br>The given function \\(f(x)\\) is a product of two functions. Let's define them as \\(u(x)\\) and \\(v(x)\\).<br>Let \\(u(x) = 3 - 3x^2\\)<br>Let \\(v(x) = e^{2x}\\)</p><p style='margin:8px 0;'><strong>Step 2: Calculate the derivative of \\(u(x)\\)</strong><br>We need to find \\(u'(x)\\).<br>Formula for differentiation of a polynomial term: \\(\\frac{d}{dx}(ax^n) = nax^{n-1}\\).<br>\\[ u'(x) = \\frac{d}{dx}(3 - 3x^2) \\]<br>\\[ u'(x) = \\frac{d}{dx}(3) - \\frac{d}{dx}(3x^2) \\]<br>\\[ u'(x) = 0 - 3 \\cdot (2x^{2-1}) \\]<br>\\[ u'(x) = -6x \\]<br>So, <span style='color:var(--orange);font-weight:bold;'>\\(u'(x) = -6x\\)</span>.</p><p style='margin:8px 0;'><strong>Step 3: Calculate the derivative of \\(v(x)\\)</strong><br>We need to find \\(v'(x)\\). This requires the Chain Rule.<br>Formula for derivative of \\(e^{kx}\\): \\(\\frac{d}{dx}(e^{kx}) = ke^{kx}\\).<br>Here, \\(v(x) = e^{2x}\\), so \\(k=2\\).<br>\\[ v'(x) = \\frac{d}{dx}(e^{2x}) \\]<br>\\[ v'(x) = e^{2x} \\cdot \\frac{d}{dx}(2x) \\]<br>\\[ v'(x) = e^{2x} \\cdot 2 \\]<br>\\[ v'(x) = 2e^{2x} \\]<br>So, <span style='color:var(--orange);font-weight:bold;'>\\(v'(x) = 2e^{2x}\\)</span>.</p><p style='margin:8px 0;'><strong>Step 4: Apply the Product Rule formula</strong><br>Now substitute \\(u(x)\\), \\(v(x)\\), \\(u'(x)\\), and \\(v'(x)\\) into the Product Rule formula:<br>\\[ f'(x) = u'(x)v(x) + u(x)v'(x) \\]<br>Substitute the calculated values:<br>\\[ f'(x) = (-6x)(e^{2x}) + (3 - 3x^2)(2e^{2x}) \\]</p><p style='margin:8px 0;'><strong>Step 5: Expand and simplify the expression</strong><br>First, expand the terms:<br>\\[ f'(x) = -6xe^{2x} + (3 \\cdot 2e^{2x}) - (3x^2 \\cdot 2e^{2x}) \\]<br>\\[ f'(x) = -6xe^{2x} + 6e^{2x} - 6x^2e^{2x} \\]<br>Next, factor out the common term \\(e^{2x}\\) from all terms:<br>\\[ f'(x) = e^{2x}(-6x + 6 - 6x^2) \\]<br>Rearrange the terms inside the parenthesis in descending order of powers of \\(x\\):<br>\\[ f'(x) = e^{2x}(-6x^2 - 6x + 6) \\]<br>Finally, factor out the common constant -6 from the terms inside the parenthesis:<br>\\[ f'(x) = -6e^{2x}(x^2 + x - 1) \\]<br>The simplified derivative is <span style='color:var(--orange);font-weight:bold;'>\\(f'(x) = -6e^{2x}(x^2 + x - 1)\\)</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>Let's re-check the steps for correctness:<br>1. \\(u = 3 - 3x^2 \\implies u' = -6x\\). Correct.<br>2. \\(v = e^{2x} \\implies v' = 2e^{2x}\\). Correct (using Chain Rule).<br>3. Product Rule: \\(f'(x) = u'v + uv'\\)<br>   \\(f'(x) = (-6x)e^{2x} + (3 - 3x^2)(2e^{2x})\\)<br>   \\(f'(x) = -6xe^{2x} + 6e^{2x} - 6x^2e^{2x}\\)<br>   \\(f'(x) = e^{2x}(-6x - 6x^2 + 6)\\)<br>   \\(f'(x) = e^{2x}(-6x^2 - 6x + 6)\\)<br>   \\(f'(x) = -6e^{2x}(x^2 + x - 1)\\). All steps are algebraically sound and correctly applied.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; \\(\\frac{d}{dx}f(x) = -6e^{2x}(x^2 + x - 1)\\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(-6e^{2x}(x^2 + x - 1)\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Find \\(\\frac{d}{dx}f(x)\\) if \\(f(x) = \\ln(1 - 3x^2)\\).",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "MATHEMATICAL METHODS",
+      "Differential Calculus",
+      "Chain Rule"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Differentiation of Natural Logarithm using Chain Rule</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>Chain Rule</em> is used to differentiate composite functions. If \\( y = f(g(x)) \\), then its derivative is given by:<br>\\[ \\frac{dy}{dx} = f'(g(x)) \\cdot g'(x) \\]<br>The derivative of the <em>natural logarithm</em> function is:<br>\\[ \\frac{d}{dx}(\\ln(x)) = \\frac{1}{x} \\]</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Function: \\( f(x) = \\ln(1 - 3x^2) \\)<br>Goal: Find \\( \\frac{d}{dx}f(x) \\)</div><p style='margin:8px 0;'><strong>Step 1: Identify the outer and inner functions</strong><br>We have a composite function of the form \\( f(g(x)) \\).<br>Let the inner function be \\( u = g(x) \\).<br>\\[ u = 1 - 3x^2 \\]<br>Let the outer function be \\( y = f(u) \\).<br>\\[ y = \\ln(u) \\]</p><p style='margin:8px 0;'><strong>Step 2: Find the derivative of the outer function with respect to u</strong><br>We need to find \\( \\frac{dy}{du} \\).<br>Formula: \\( \\frac{d}{du}(\\ln(u)) = \\frac{1}{u} \\)<br>So, <span style='color:var(--orange);font-weight:bold;'>\\( \\frac{dy}{du} = \\frac{1}{u} \\)</span></p><p style='margin:8px 0;'><strong>Step 3: Find the derivative of the inner function with respect to x</strong><br>We need to find \\( \\frac{du}{dx} \\).<br>Function: \\( u = 1 - 3x^2 \\)<br>Apply the power rule and constant rule for differentiation.<br>\\[ \\frac{du}{dx} = \\frac{d}{dx}(1) - \\frac{d}{dx}(3x^2) \\]<br>\\[ \\frac{du}{dx} = 0 - 3 \\cdot (2x^{2-1}) \\]<br>\\[ \\frac{du}{dx} = -6x \\]<br>So, <span style='color:var(--orange);font-weight:bold;'>\\( \\frac{du}{dx} = -6x \\)</span></p><p style='margin:8px 0;'><strong>Step 4: Apply the Chain Rule formula</strong><br>The Chain Rule states: \\( \\frac{d}{dx}f(x) = \\frac{dy}{du} \\cdot \\frac{du}{dx} \\)<br>Substitute the expressions from Step 2 and Step 3.<br>\\[ \\frac{d}{dx}f(x) = \\left(\\frac{1}{u}\\right) \\cdot (-6x) \\]<br>Now, substitute \\( u = 1 - 3x^2 \\) back into the expression.<br>\\[ \\frac{d}{dx}f(x) = \\frac{1}{1 - 3x^2} \\cdot (-6x) \\]</p><p style='margin:8px 0;'><strong>Step 5: Simplify the expression</strong><br>Multiply the terms to get the final derivative.<br>\\[ \\frac{d}{dx}f(x) = \\frac{-6x}{1 - 3x^2} \\]<br>The derivative of \\( f(x) = \\ln(1 - 3x^2) \\) is <span style='color:var(--orange);font-weight:bold;'>\\( \\frac{-6x}{1 - 3x^2} \\)</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>A common rule for differentiating a natural logarithm of a function is \\( \\frac{d}{dx}(\\ln(g(x))) = \\frac{g'(x)}{g(x)} \\).<br>Here, \\( g(x) = 1 - 3x^2 \\).<br>First, find \\( g'(x) \\):<br>\\[ g'(x) = \\frac{d}{dx}(1 - 3x^2) = 0 - 6x = -6x \\]<br>Now, apply the rule:<br>\\[ \\frac{d}{dx}(\\ln(1 - 3x^2)) = \\frac{-6x}{1 - 3x^2} \\]<br>This matches the result obtained using the step-by-step Chain Rule, confirming the answer.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; \\(\\frac{d}{dx}f(x) = \\frac{-6x}{1 - 3x^2}\\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\frac{-6x}{1 - 3x^2}\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "The critical points of \\(f(x) = x^3 + 3x^2 - 24x - 9\\) are",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "MATHEMATICAL METHODS",
+      "Differential Calculus",
+      "Critical Points"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Finding Critical Points of a Function</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>critical point</em> of a function \\( f(x) \\) is a point \\( x \\) in the domain of \\( f \\) where the first derivative \\( f'(x) \\) is either zero or undefined.<br>For polynomial functions, the derivative is always defined, so critical points are found by setting the first derivative equal to zero: \\( f'(x) = 0 \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The function: \\( f(x) = x^3 + 3x^2 - 24x - 9 \\)</div><p style='margin:8px 0;'><strong>Step 1: Find the first derivative of the function</strong><br>To find the critical points, we first need to compute the first derivative of \\( f(x) \\).<br>The power rule for differentiation states that \\( \\frac{d}{dx}(ax^n) = nax^{n-1} \\).<br>Applying this rule to each term of \\( f(x) \\):<br>\\[ f'(x) = \\frac{d}{dx}(x^3) + \\frac{d}{dx}(3x^2) - \\frac{d}{dx}(24x) - \\frac{d}{dx}(9) \\]<br>\\[ f'(x) = 3x^{3-1} + 3(2)x^{2-1} - 24(1)x^{1-1} - 0 \\]<br>\\[ f'(x) = 3x^2 + 6x - 24 \\]<br>The first derivative is <span style='color:var(--orange);font-weight:bold;'>\\( f'(x) = 3x^2 + 6x - 24 \\)</span>.</p><p style='margin:8px 0;'><strong>Step 2: Set the first derivative equal to zero</strong><br>Critical points occur where \\( f'(x) = 0 \\).<br>\\[ 3x^2 + 6x - 24 = 0 \\]</p><p style='margin:8px 0;'><strong>Step 3: Simplify the quadratic equation</strong><br>We can simplify the equation by dividing all terms by the common factor of 3.<br>\\[ \\frac{3x^2}{3} + \\frac{6x}{3} - \\frac{24}{3} = \\frac{0}{3} \\]<br>\\[ x^2 + 2x - 8 = 0 \\]<br>The simplified quadratic equation is <span style='color:var(--orange);font-weight:bold;'>\\( x^2 + 2x - 8 = 0 \\)</span>.</p><p style='margin:8px 0;'><strong>Step 4: Solve the quadratic equation for x</strong><br>We can solve this quadratic equation by factoring. We need two numbers that multiply to -8 and add to 2. These numbers are 4 and -2.<br>\\[ (x + 4)(x - 2) = 0 \\]<br>Set each factor equal to zero to find the values of \\( x \\):<br>Factor 1: \\( x + 4 = 0 \\)<br>\\[ x = -4 \\]<br>Factor 2: \\( x - 2 = 0 \\)<br>\\[ x = 2 \\]<br>The values of \\( x \\) are <span style='color:var(--orange);font-weight:bold;'>\\( x = -4 \\)</span> and <span style='color:var(--orange);font-weight:bold;'>\\( x = 2 \\)</span>.</p><p style='margin:8px 0;'><strong>Step 5: Identify the critical points</strong><br>The values of \\( x \\) for which \\( f'(x) = 0 \\) are the critical points of the function.<br>Therefore, the critical points are \\( x = -4 \\) and \\( x = 2 \\).</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify, substitute the critical points back into the first derivative \\( f'(x) = 3x^2 + 6x - 24 \\).<br>For \\( x = -4 \\):<br>\\[ f'(-4) = 3(-4)^2 + 6(-4) - 24 \\]<br>\\[ f'(-4) = 3(16) - 24 - 24 \\]<br>\\[ f'(-4) = 48 - 48 = 0 \\]<br>For \\( x = 2 \\):<br>\\[ f'(2) = 3(2)^2 + 6(2) - 24 \\]<br>\\[ f'(2) = 3(4) + 12 - 24 \\]<br>\\[ f'(2) = 12 + 12 - 24 \\]<br>\\[ f'(2) = 24 - 24 = 0 \\]<br>Both values result in \\( f'(x) = 0 \\), confirming they are indeed critical points.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>∴ The critical points are \\( x = -4 \\) and \\( x = 2 \\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "x = -4, 2"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Find \\(\\int_{0}^{2} (3\\cos 3x - 3\\sin 3x + 1) dx\\).",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "MATHEMATICAL METHODS",
+      "Integral Calculus",
+      "Definite Integrals"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Definite Integral Calculation</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>definite integral</em> \\( \\int_{a}^{b} f(x) dx \\) represents the net signed area between the function \\( f(x) \\) and the x-axis from \\( x=a \\) to \\( x=b \\).<br>The <em>Fundamental Theorem of Calculus (Part 2)</em> states that if \\( F(x) \\) is an antiderivative of \\( f(x) \\) (i.e., \\( F'(x) = f(x) \\)), then<br>\\[ \\int_{a}^{b} f(x) dx = F(b) - F(a) \\]<br>Basic integration rules:<br>\\( \\int k dx = kx + C \\)<br>\\( \\int \\cos(ax) dx = \\frac{1}{a}\\sin(ax) + C \\)<br>\\( \\int \\sin(ax) dx = -\\frac{1}{a}\\cos(ax) + C \\)</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The definite integral: \\( \\int_{0}^{2} (3\\cos 3x - 3\\sin 3x + 1) dx \\)<br>Lower limit: \\( a = 0 \\)<br>Upper limit: \\( b = 2 \\)</div><p style='margin:8px 0;'><strong>Step 1: Apply the linearity property of integrals</strong><br>The integral of a sum/difference of functions is the sum/difference of their integrals.<br>\\[ \\int_{a}^{b} [f(x) \\pm g(x)] dx = \\int_{a}^{b} f(x) dx \\pm \\int_{a}^{b} g(x) dx \\]<br>So, we can write the given integral as:<br>\\[ \\int_{0}^{2} 3\\cos 3x dx - \\int_{0}^{2} 3\\sin 3x dx + \\int_{0}^{2} 1 dx \\]</p><p style='margin:8px 0;'><strong>Step 2: Find the indefinite integral of each term</strong><br>We will find the antiderivative \\( F(x) \\) of the integrand \\( f(x) = 3\\cos 3x - 3\\sin 3x + 1 \\).<br>Recall the integration rules:<br>\\( \\int \\cos(ax) dx = \\frac{1}{a}\\sin(ax) \\)<br>\\( \\int \\sin(ax) dx = -\\frac{1}{a}\\cos(ax) \\)<br>\\( \\int k dx = kx \\)</p><p style='margin:8px 0;'><strong>Step 3: Integrate the first term</strong><br>Term: \\( 3\\cos 3x \\)<br>Formula: \\( \\int 3\\cos 3x dx = 3 \\cdot \\frac{1}{3}\\sin 3x \\)<br>Simplified: <span style='color:var(--orange);font-weight:bold;'>\\( \\sin 3x \\)</span></p><p style='margin:8px 0;'><strong>Step 4: Integrate the second term</strong><br>Term: \\( -3\\sin 3x \\)<br>Formula: \\( \\int -3\\sin 3x dx = -3 \\cdot \\left(-\\frac{1}{3}\\cos 3x\\right) \\)<br>Simplified: <span style='color:var(--orange);font-weight:bold;'>\\( \\cos 3x \\)</span></p><p style='margin:8px 0;'><strong>Step 5: Integrate the third term</strong><br>Term: \\( 1 \\)<br>Formula: \\( \\int 1 dx = 1 \\cdot x \\)<br>Simplified: <span style='color:var(--orange);font-weight:bold;'>\\( x \\)</span></p><p style='margin:8px 0;'><strong>Step 6: Combine the indefinite integrals to form \\(F(x)\\)</strong><br>The antiderivative \\( F(x) \\) is the sum of the individual indefinite integrals (we omit the constant of integration for definite integrals).<br>\\[ F(x) = \\sin 3x + \\cos 3x + x \\]</p><p style='margin:8px 0;'><strong>Step 7: Apply the Fundamental Theorem of Calculus</strong><br>The definite integral is evaluated as \\( F(b) - F(a) \\).<br>\\[ \\int_{0}^{2} (3\\cos 3x - 3\\sin 3x + 1) dx = F(2) - F(0) \\] </p><p style='margin:8px 0;'><strong>Step 8: Evaluate \\(F(x)\\) at the upper limit \\(x=2\\)</strong><br>Substitute \\( x=2 \\) into \\( F(x) \\):<br>\\[ F(2) = \\sin(3 \\cdot 2) + \\cos(3 \\cdot 2) + 2 \\]<br>\\[ F(2) = \\sin(6) + \\cos(6) + 2 \\] </p><p style='margin:8px 0;'><strong>Step 9: Evaluate \\(F(x)\\) at the lower limit \\(x=0\\)</strong><br>Substitute \\( x=0 \\) into \\( F(x) \\):<br>\\[ F(0) = \\sin(3 \\cdot 0) + \\cos(3 \\cdot 0) + 0 \\]<br>\\[ F(0) = \\sin(0) + \\cos(0) + 0 \\]<br>Known values: \\( \\sin(0) = 0 \\) and \\( \\cos(0) = 1 \\).<br>\\[ F(0) = 0 + 1 + 0 \\]<br>\\[ F(0) = 1 \\] </p><p style='margin:8px 0;'><strong>Step 10: Calculate the definite integral \\(F(2) - F(0)\\)</strong><br>Substitute the values of \\( F(2) \\) and \\( F(0) \\):<br>\\[ \\int_{0}^{2} (3\\cos 3x - 3\\sin 3x + 1) dx = (\\sin(6) + \\cos(6) + 2) - (1) \\]<br>\\[ = \\sin(6) + \\cos(6) + 2 - 1 \\]<br>\\[ = \\sin(6) + \\cos(6) + 1 \\]<br>The result is <span style='color:var(--orange);font-weight:bold;'>\\( \\sin(6) + \\cos(6) + 1 \\)</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify the antiderivative \\( F(x) = \\sin 3x + \\cos 3x + x \\), we can differentiate it to see if we get the original integrand \\( f(x) = 3\\cos 3x - 3\\sin 3x + 1 \\).<br>Recall differentiation rules:<br>\\( \\frac{d}{dx}(\\sin(ax)) = a\\cos(ax) \\)<br>\\( \\frac{d}{dx}(\\cos(ax)) = -a\\sin(ax) \\)<br>\\( \\frac{d}{dx}(kx) = k \\)<br>Differentiating \\( F(x) \\):<br>\\[ F'(x) = \\frac{d}{dx}(\\sin 3x) + \\frac{d}{dx}(\\cos 3x) + \\frac{d}{dx}(x) \\]<br>\\[ F'(x) = (3\\cos 3x) + (-3\\sin 3x) + 1 \\]<br>\\[ F'(x) = 3\\cos 3x - 3\\sin 3x + 1 \\]<br>This matches the original integrand. The antiderivative is correct. The evaluation at the limits was performed carefully, so the final result is confirmed. &#10003;</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The definite integral is \\( \\sin(6) + \\cos(6) + 1 \\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\sin 6 + \\cos 6 + 1\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Find \\(\\int \\frac{4x}{x^2+3} dx\\).",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "Integral Calculus",
+      "Indefinite Integrals",
+      "Mathematical Methods"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Indefinite Integral using U-Substitution</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>An <em>indefinite integral</em>, denoted as \\( \\int f(x) \\,dx \\), represents the family of all antiderivatives of a function \\( f(x) \\). If \\( F'(x) = f(x) \\), then \\( \\int f(x) \\,dx = F(x) + C \\), where \\( C \\) is the constant of integration.<br><br><em>U-substitution</em> (or substitution rule) is a technique for finding integrals of composite functions. It works by transforming the integral into a simpler form by substituting a new variable, \\( u \\), for a part of the integrand. If \\( u = g(x) \\), then \\( du = g'(x) \\,dx \\), and the integral \\( \\int f(g(x))g'(x) \\,dx \\) becomes \\( \\int f(u) \\,du \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The integral to evaluate is: \\( \\int \\frac{4x}{x^2+3} \\,dx \\)</div><p style='margin:8px 0;'><strong>Step 1: Write the given integral</strong><br>The integral we need to solve is:<br>\\[ I = \\int \\frac{4x}{x^2+3} \\,dx \\]</p><p style='margin:8px 0;'><strong>Step 2: Choose a suitable substitution for \\( u \\)</strong><br>We observe that the derivative of the denominator, \\( x^2+3 \\), is \\( 2x \\), which is related to the \\( x \\) term in the numerator. This suggests letting \\( u \\) be the denominator.<br>Let \\( u = x^2+3 \\)</p><p style='margin:8px 0;'><strong>Step 3: Calculate the differential \\( du \\)</strong><br>Differentiate \\( u \\) with respect to \\( x \\):<br>\\[ \\frac{du}{dx} = \\frac{d}{dx}(x^2+3) \\]<br>\\[ \\frac{du}{dx} = 2x \\]<br>Rearrange to find \\( du \\):<br>\\[ du = 2x \\,dx \\]</p><p style='margin:8px 0;'><strong>Step 4: Express the numerator in terms of \\( du \\)</strong><br>The numerator in our integral is \\( 4x \\,dx \\). We have \\( du = 2x \\,dx \\). To get \\( 4x \\,dx \\), we multiply \\( du \\) by 2.<br>\\[ 2 \\,du = 2(2x \\,dx) \\]<br>\\[ 2 \\,du = 4x \\,dx \\]<br>So, <span style='color:var(--orange);font-weight:bold;'>\\( 4x \\,dx \\) can be replaced by \\( 2 \\,du \\)</span>.</p><p style='margin:8px 0;'><strong>Step 5: Rewrite the integral in terms of \\( u \\)</strong><br>Substitute \\( u = x^2+3 \\) and \\( 4x \\,dx = 2 \\,du \\) into the original integral:<br>\\[ I = \\int \\frac{4x}{x^2+3} \\,dx \\]<br>\\[ I = \\int \\frac{1}{u} (2 \\,du) \\]<br>\\[ I = 2 \\int \\frac{1}{u} \\,du \\]</p><p style='margin:8px 0;'><strong>Step 6: Integrate with respect to \\( u \\)</strong><br>Recall the standard integral formula for \\( \\frac{1}{u} \\):<br>\\[ \\int \\frac{1}{u} \\,du = \\ln|u| + C \\]<br>Apply this to our integral:<br>\\[ I = 2 \\int \\frac{1}{u} \\,du \\]<br>\\[ I = 2 \\ln|u| + C \\]</p><p style='margin:8px 0;'><strong>Step 7: Substitute back to express the result in terms of \\( x \\)</strong><br>Replace \\( u \\) with \\( x^2+3 \\):<br>\\[ I = 2 \\ln|x^2+3| + C \\]<br>Since \\( x^2 \\) is always non-negative, \\( x^2+3 \\) will always be positive (specifically, \\( x^2+3 \\geq 3 \\)). Therefore, the absolute value is not strictly necessary, and we can write:<br>\\[ I = 2 \\ln(x^2+3) + C \\]<br>The intermediate result is <span style='color:var(--orange);font-weight:bold;'>\\( 2 \\ln(x^2+3) + C \\)</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify the answer, we differentiate the result \\( F(x) = 2 \\ln(x^2+3) + C \\) with respect to \\( x \\) and check if it matches the original integrand \\( f(x) = \\frac{4x}{x^2+3} \\).<br>Recall the chain rule: \\( \\frac{d}{dx} \\ln(g(x)) = \\frac{g'(x)}{g(x)} \\).<br>\\[ \\frac{d}{dx} \\left( 2 \\ln(x^2+3) + C \\right) \\]<br>\\[ = 2 \\cdot \\frac{d}{dx} \\ln(x^2+3) + \\frac{d}{dx}(C) \\]<br>\\[ = 2 \\cdot \\frac{\\frac{d}{dx}(x^2+3)}{x^2+3} + 0 \\]<br>\\[ = 2 \\cdot \\frac{2x}{x^2+3} \\]<br>\\[ = \\frac{4x}{x^2+3} \\]<br>This matches the original integrand. &#10003; Confirmed!</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; \\( \\int \\frac{4x}{x^2+3} \\,dx = 2 \\ln(x^2+3) + C \\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "2\\ln(x^2+3) + C"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9",
+    "topic": [
+      "MATHEMATICAL METHODS",
+      "Differential Calculus",
+      "Series Expansion"
+    ],
+    "Question": {
+      "content": "State Taylor's theorem (relating to series expansion).",
+      "type": "THEORY",
+      "options": []
+    },
+    "table": [],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Taylor's Theorem and Series Expansion</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>Taylor series</em> is an infinite sum of terms, expressed in terms of the function's derivatives at a single point, that approximates a function as a polynomial. The point where the derivatives are evaluated is called the \"center\" of the series.<br><em>Taylor's Theorem</em> provides a formula for this series expansion and includes a remainder term that quantifies the error when approximating the function with a finite number of terms from the series.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The task is to state Taylor's Theorem, which describes how to represent a function as a series expansion.</div><p style='margin:8px 0;'><strong>Step 1: Introduction to Series Expansion</strong><br>Taylor's Theorem provides a way to approximate a function \\( f(x) \\) by a polynomial whose coefficients are determined by the derivatives of the function at a specific point, \\( a \\). This polynomial approximation becomes more accurate as more terms are included.</p><p style='margin:8px 0;'><strong>Step 2: State Taylor's Theorem (General Form)</strong><br>If a function \\( f(x) \\) has \\( N+1 \\) derivatives in an interval containing \\( a \\), then for any \\( x \\) in that interval, Taylor's Theorem states that:<br>\\[ f(x) = f(a) + f'(a)(x-a) + \\frac{f''(a)}{2!}(x-a)^2 + \\dots + \\frac{f^{(N)}(a)}{N!}(x-a)^N + R_N(x) \\]<br>This can be written in summation notation as:<br>\\[ f(x) = \\sum_{n=0}^{N} \\frac{f^{(n)}(a)}{n!}(x-a)^n + R_N(x) \\]<br>where \\( R_N(x) \\) is the remainder term.</p><p style='margin:8px 0;'><strong>Step 3: Define the Remainder Term (Lagrange Form)</strong><br>The remainder term, \\( R_N(x) \\), quantifies the error in approximating \\( f(x) \\) by the \\( N \\)-th degree Taylor polynomial. The Lagrange form of the remainder is given by:<br>\\[ R_N(x) = \\frac{f^{(N+1)}(c)}{(N+1)!}(x-a)^{N+1} \\]<br>for some number \\( c \\) between \\( a \\) and \\( x \\).</p><p style='margin:8px 0;'><strong>Step 4: Explain the Components of the Formula</strong><br><ul><li>\\( f^{(n)}(a) \\): The \\( n \\)-th derivative of the function \\( f(x) \\) evaluated at the point \\( a \\). For \\( n=0 \\), \\( f^{(0)}(a) = f(a) \\).</li><li>\\( n! \\): \\( n \\) factorial, which is the product of all positive integers up to \\( n \\) (e.g., \\( 3! = 3 \\times 2 \\times 1 = 6 \\)). By definition, \\( 0! = 1 \\).</li><li>\\( (x-a)^n \\): The term involving the difference between \\( x \\) and the center of expansion \\( a \\), raised to the power of \\( n \\).</li><li>\\( a \\): The point around which the series is expanded (the center of the series).</li><li>\\( N \\): The degree of the Taylor polynomial approximation.</li></ul></p><p style='margin:8px 0;'><strong>Step 5: Special Case: Maclaurin's Theorem</strong><br>When the Taylor series is centered at \\( a=0 \\), it is called a Maclaurin series. In this case, Taylor's Theorem becomes:<br>\\[ f(x) = \\sum_{n=0}^{N} \\frac{f^{(n)}(0)}{n!}x^n + R_N(x) \\]<br>where \\( R_N(x) = \\frac{f^{(N+1)}(c)}{(N+1)!}x^{N+1} \\) for some \\( c \\) between \\( 0 \\) and \\( x \\).</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>Taylor's Theorem accurately describes how to represent a sufficiently differentiable function as a polynomial series centered at a point \\( a \\), including a remainder term to quantify the approximation error. The explanation covers the general formula, the remainder term, and the special case of the Maclaurin series, fulfilling the requirement to state the theorem relating to series expansion.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>\\( \\therefore \\) Taylor's Theorem provides a series expansion of a function \\( f(x) \\) around a point \\( a \\) using its derivatives, including a remainder term.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Taylor's Theorem states that a function \\( f(x) \\) can be approximated by a polynomial whose coefficients are derived from its derivatives at a point \\( a \\), with a remainder term quantifying the approximation error."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 10",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "State the mean-value theorem (MVT) for derivatives.",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "MATHEMATICAL METHODS",
+      "Differential Calculus",
+      "Mean Value Theorem"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Mean Value Theorem (MVT) for Derivatives</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>Mean Value Theorem (MVT) for derivatives</em> is a fundamental theorem in calculus that relates the average rate of change of a function over an interval to its instantaneous rate of change at some point within that interval. It is a generalization of Rolle's Theorem.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The task is to state the Mean Value Theorem (MVT) for derivatives.</div><p style='margin:8px 0;'><strong>Step 1: State the Conditions for the Theorem</strong><br>For the Mean Value Theorem to apply, a function \\( f(x) \\) must satisfy two specific conditions over a given interval \\( [a, b] \\):<br>1.  The function \\( f(x) \\) must be continuous on the closed interval \\( [a, b] \\). This means there are no breaks, jumps, or holes in the graph of the function between \\( a \\) and \\( b \\), including the endpoints.<br>2.  The function \\( f(x) \\) must be differentiable on the open interval \\( (a, b) \\). This means the derivative \\( f'(x) \\) exists for every point between \\( a \\) and \\( b \\), implying the graph has no sharp corners, cusps, or vertical tangents in that interval.</p><p style='margin:8px 0;'><strong>Step 2: State the Conclusion of the Theorem</strong><br>If the conditions from Step 1 are met, then the theorem guarantees the existence of at least one number, let's call it \\( c \\), within the open interval \\( (a, b) \\). At this point \\( c \\), the instantaneous rate of change of the function (its derivative) is equal to the average rate of change of the function over the entire interval \\( [a, b] \\).<br>The conclusion can be expressed mathematically as:<br>\\[ f'(c) = \\frac{f(b) - f(a)}{b - a} \\]</p><p style='margin:8px 0;'><strong>Step 3: Explain the Geometric Interpretation</strong><br>The term \\( \\frac{f(b) - f(a)}{b - a} \\) represents the slope of the secant line that connects the two endpoints of the function's graph over the interval, i.e., the points \\( (a, f(a)) \\) and \\( (b, f(b)) \\).<br>The term \\( f'(c) \\) represents the slope of the tangent line to the function's graph at the point \\( (c, f(c)) \\).<br>Geometrically, the Mean Value Theorem states that if a function is continuous on \\( [a, b] \\) and differentiable on \\( (a, b) \\), then there is at least one point \\( c \\) in \\( (a, b) \\) where the tangent line to the curve is parallel to the secant line connecting the endpoints \\( (a, f(a)) \\) and \\( (b, f(b)) \\).</p><p style='margin:8px 0;'><strong>Step 4: Synthesize the Full Theorem Statement</strong><br>Combining the conditions and the conclusion, the Mean Value Theorem for derivatives can be formally stated as:<br><span style='color:var(--orange);font-weight:bold;'>If a function \\( f(x) \\) is continuous on the closed interval \\( [a, b] \\) and differentiable on the open interval \\( (a, b) \\), then there exists at least one number \\( c \\) in \\( (a, b) \\) such that \\( f'(c) = \\frac{f(b) - f(a)}{b - a} \\).</span></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The statement provided aligns with the standard definition of the Mean Value Theorem for derivatives found in calculus textbooks. It correctly specifies the necessary conditions (continuity on the closed interval, differentiability on the open interval) and the resulting conclusion (existence of \\( c \\) where instantaneous rate of change equals average rate of change).</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The Mean Value Theorem states: If \\( f(x) \\) is continuous on \\( [a, b] \\) and differentiable on \\( (a, b) \\), then there exists a number \\( c \\) in \\( (a, b) \\) such that \\( f'(c) = \\frac{f(b) - f(a)}{b - a} \\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "If \\( f(x) \\) is continuous on \\( [a, b] \\) and differentiable on \\( (a, b) \\), then there exists a number \\( c \\) in \\( (a, b) \\) such that \\( f'(c) = \\frac{f(b) - f(a)}{b - a} \\)."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 11",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Does the function \\(f(x) = \\cos 2x - 2\\sin 2x\\), \\(x \\in [-\\pi, \\pi/2]\\) satisfy Rolle's Theorem in the prescribed interval? (Justify your claim).",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "MATHEMATICAL METHODS",
+      "Differential Calculus",
+      "Continuity",
+      "Rolle's Theorem"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Rolle's Theorem</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>Rolle's Theorem states that if a function \\(f(x)\\) satisfies the following three conditions on an interval \\([a, b]\\):<br>1. \\(f(x)\\) is continuous on the closed interval \\([a, b]\\).<br>2. \\(f(x)\\) is differentiable on the open interval \\((a, b)\\).<br>3. \\(f(a) = f(b)\\).<br>Then there exists at least one number \\(c\\) in the open interval \\((a, b)\\) such that \\(f'(c) = 0\\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Function: \\(f(x) = \\cos 2x - 2\\sin 2x\\)<br>Interval: \\(x \\in [-\\pi, \\pi/2]\\)<br>We need to determine if Rolle's Theorem applies to \\(f(x)\\) on the given interval.</div><p style='margin:8px 0;'><strong>Step 1: Understand the conditions of Rolle's Theorem</strong><br>To satisfy Rolle's Theorem, the function \\(f(x)\\) must meet three specific criteria:<br>1.  Continuity on the closed interval \\([-\\pi, \\pi/2]\\).<br>2.  Differentiability on the open interval \\((-\\pi, \\pi/2)\\).<br>3.  Equality of function values at the endpoints: \\(f(-\\pi) = f(\\pi/2)\\).</p><p style='margin:8px 0;'><strong>Step 2: Check for continuity</strong><br>The function \\(f(x) = \\cos 2x - 2\\sin 2x\\) is a combination (sum and difference) of basic trigonometric functions, \\(\\cos 2x\\) and \\(\\sin 2x\\).<br>Both \\(\\cos(kx)\\) and \\(\\sin(kx)\\) are continuous for all real numbers \\(x\\).<br>Therefore, \\(f(x)\\) is continuous on the entire real number line, and specifically on the closed interval <span style='color:var(--orange);font-weight:bold;'>\\([-\\pi, \\pi/2]\\)</span>.</p><p style='margin:8px 0;'><strong>Step 3: Check for differentiability</strong><br>The derivative of \\(f(x)\\) is:<br>\\[ f'(x) = \\frac{d}{dx}(\\cos 2x) - \\frac{d}{dx}(2\\sin 2x) \\]<br>\\[ f'(x) = (-2\\sin 2x) - (2 \\cdot 2\\cos 2x) \\]<br>\\[ f'(x) = -2\\sin 2x - 4\\cos 2x \\]<br>Since \\(f'(x)\\) exists for all real numbers \\(x\\) (as \\(\\sin 2x\\) and \\(\\cos 2x\\) are differentiable everywhere), \\(f(x)\\) is differentiable on the open interval <span style='color:var(--orange);font-weight:bold;'>\\((-\\pi, \\pi/2)\\)</span>.</p><p style='margin:8px 0;'><strong>Step 4: Check the third condition: \\(f(a) = f(b)\\)</strong><br>We need to evaluate the function at the endpoints \\(a = -\\pi\\) and \\(b = \\pi/2\\).<br>Calculate \\(f(-\\pi)\\):<br>\\[ f(-\\pi) = \\cos(2(-\\pi)) - 2\\sin(2(-\\pi)) \\]<br>\\[ f(-\\pi) = \\cos(-2\\pi) - 2\\sin(-2\\pi) \\]<br>Recall that \\(\\cos(-2\\pi) = \\cos(0) = 1\\) and \\(\\sin(-2\\pi) = \\sin(0) = 0\\).<br>\\[ f(-\\pi) = 1 - 2(0) \\]<br>\\[ f(-\\pi) = <span style='color:var(--orange);font-weight:bold;'>1</span> \\]<br>Calculate \\(f(\\pi/2)\\):<br>\\[ f(\\pi/2) = \\cos(2(\\pi/2)) - 2\\sin(2(\\pi/2)) \\]<br>\\[ f(\\pi/2) = \\cos(\\pi) - 2\\sin(\\pi) \\]<br>Recall that \\(\\cos(\\pi) = -1\\) and \\(\\sin(\\pi) = 0\\).<br>\\[ f(\\pi/2) = -1 - 2(0) \\]<br>\\[ f(\\pi/2) = <span style='color:var(--orange);font-weight:bold;'>-1</span> \\]<br>Now, compare \\(f(-\\pi)\\) and \\(f(\\pi/2)\\):<br>\\[ f(-\\pi) = 1 \\]<br>\\[ f(\\pi/2) = -1 \\]<br>Since \\(1 \\neq -1\\), we have <span style='color:var(--orange);font-weight:bold;'>\\(f(-\\pi) \\neq f(\\pi/2)\\)</span>.</p><p style='margin:8px 0;'><strong>Step 5: Conclude whether Rolle's Theorem applies</strong><br>The first two conditions (continuity and differentiability) are satisfied.<br>However, the third condition, \\(f(a) = f(b)\\), is not satisfied because \\(f(-\\pi) = 1\\) and \\(f(\\pi/2) = -1\\).<br>Therefore, Rolle's Theorem does not apply to the function \\(f(x)\\) on the given interval.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>We have carefully checked each condition of Rolle's Theorem.<br>1. Continuity: \\(\\cos 2x\\) and \\(\\sin 2x\\) are continuous everywhere. (Satisfied)<br>2. Differentiability: \\(f'(x) = -2\\sin 2x - 4\\cos 2x\\) exists everywhere. (Satisfied)<br>3. \\(f(a) = f(b)\\):<br>   \\(f(-\\pi) = \\cos(-2\\pi) - 2\\sin(-2\\pi) = 1 - 0 = 1\\).<br>   \\(f(\\pi/2) = \\cos(\\pi) - 2\\sin(\\pi) = -1 - 0 = -1\\).<br>   Since \\(1 \\neq -1\\), the condition \\(f(a) = f(b)\\) is not met. Our calculations are correct.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; No, the function does not satisfy Rolle's Theorem in the prescribed interval.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "No"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 12",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Find the value of \\(c\\) if the function \\(f(x) = x^2 - 4x + 3\\) satisfies the MVT in the interval \\([1,4]\\).",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "MATHEMATICAL METHODS",
+      "Differential Calculus",
+      "Mean Value Theorem",
+      "Functions"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Mean Value Theorem (MVT)</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>Mean Value Theorem (MVT)</em> states that if a function \\( f(x) \\) is continuous on the closed interval \\( [a, b] \\) and differentiable on the open interval \\( (a, b) \\), then there exists at least one number \\( c \\) in \\( (a, b) \\) such that:<br>\\[ f'(c) = \\frac{f(b) - f(a)}{b - a} \\]<br>This means that the instantaneous rate of change (derivative) at some point \\( c \\) is equal to the average rate of change over the entire interval.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Function: \\( f(x) = x^2 - 4x + 3 \\)<br>Interval: \\( [a, b] = [1, 4] \\)<br>Theorem: Mean Value Theorem (MVT)</div><p style='margin:8px 0;'><strong>Step 1: Verify MVT Conditions</strong><br>The function \\( f(x) = x^2 - 4x + 3 \\) is a polynomial function.<br>Polynomial functions are continuous everywhere, so \\( f(x) \\) is continuous on the closed interval \\( [1, 4] \\).<br>Polynomial functions are differentiable everywhere, so \\( f(x) \\) is differentiable on the open interval \\( (1, 4) \\).<br>Since both conditions are met, the Mean Value Theorem applies.</p><p style='margin:8px 0;'><strong>Step 2: Calculate the function values at the endpoints</strong><br>We need to find \\( f(a) \\) and \\( f(b) \\). Here, \\( a=1 \\) and \\( b=4 \\).<br>Substitute \\( x=1 \\) into \\( f(x) \\):<br>\\[ f(1) = (1)^2 - 4(1) + 3 \\]<br>\\[ f(1) = 1 - 4 + 3 \\]<br>\\[ f(1) = <span style='color:var(--orange);font-weight:bold;'>0</span> \\]<br>Substitute \\( x=4 \\) into \\( f(x) \\):<br>\\[ f(4) = (4)^2 - 4(4) + 3 \\]<br>\\[ f(4) = 16 - 16 + 3 \\]<br>\\[ f(4) = <span style='color:var(--orange);font-weight:bold;'>3</span> \\]</p><p style='margin:8px 0;'><strong>Step 3: Calculate the average rate of change</strong><br>The formula for the average rate of change is \\( \\frac{f(b) - f(a)}{b - a} \\).<br>Substitute the values \\( f(4)=3 \\), \\( f(1)=0 \\), \\( b=4 \\), and \\( a=1 \\):<br>\\[ \\frac{f(4) - f(1)}{4 - 1} = \\frac{3 - 0}{4 - 1} \\]<br>\\[ \\frac{3}{3} = <span style='color:var(--orange);font-weight:bold;'>1</span> \\]<br>So, the average rate of change of \\( f(x) \\) over \\( [1, 4] \\) is 1.</p><p style='margin:8px 0;'><strong>Step 4: Find the derivative of the function</strong><br>The function is \\( f(x) = x^2 - 4x + 3 \\).<br>Apply the power rule for differentiation: \\( \\frac{d}{dx}(x^n) = nx^{n-1} \\).<br>\\[ f'(x) = \\frac{d}{dx}(x^2) - \\frac{d}{dx}(4x) + \\frac{d}{dx}(3) \\]<br>\\[ f'(x) = 2x^{2-1} - 4x^{1-1} + 0 \\]<br>\\[ f'(x) = <span style='color:var(--orange);font-weight:bold;'>2x - 4</span> \\]</p><p style='margin:8px 0;'><strong>Step 5: Set the derivative equal to the average rate of change and solve for \\( c \\)</strong><br>According to the MVT, \\( f'(c) = \\frac{f(b) - f(a)}{b - a} \\).<br>We found \\( f'(x) = 2x - 4 \\), so \\( f'(c) = 2c - 4 \\).<br>We found the average rate of change is 1.<br>Set them equal:<br>\\[ 2c - 4 = 1 \\]<br>Add 4 to both sides:<br>\\[ 2c = 1 + 4 \\]<br>\\[ 2c = 5 \\]<br>Divide by 2:<br>\\[ c = \\frac{5}{2} \\]<br>\\[ c = <span style='color:var(--orange);font-weight:bold;'>2.5</span> \\]</p><p style='margin:8px 0;'><strong>Step 6: Verify that \\( c \\) is in the interval \\( (a, b) \\)</strong><br>The interval is \\( (1, 4) \\).<br>The calculated value for \\( c \\) is 2.5.<br>Check if \\( 1 < 2.5 < 4 \\).<br>Since 2.5 is indeed between 1 and 4, the value of \\( c \\) is valid.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>We found \\( c = 2.5 \\).<br>The derivative at \\( c \\) is \\( f'(2.5) = 2(2.5) - 4 = 5 - 4 = 1 \\).<br>The average rate of change over the interval \\( [1, 4] \\) was also 1.<br>Since \\( f'(c) = 1 \\) and \\( \\frac{f(b) - f(a)}{b - a} = 1 \\), the Mean Value Theorem is satisfied. &#10003;</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The value of \\(c\\) is 2.5.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The value of \\(c\\) is 2.5."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 13",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Let \\(f(x) = (x-1)(x-2)(x-3)\\), \\(x \\in [0,4]\\). Find \\(c\\) if the MVT is applied to \\(f(x)\\).",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "MATHEMATICAL METHODS",
+      "Differential Calculus",
+      "Mean Value Theorem",
+      "Functions"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Mean Value Theorem (MVT)</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>Mean Value Theorem (MVT)</em> states that if a function \\(f(x)\\) is continuous on the closed interval \\([a, b]\\) and differentiable on the open interval \\((a, b)\\), then there exists at least one number \\(c\\) in \\((a, b)\\) such that:<br>\\[ f'(c) = \\frac{f(b) - f(a)}{b - a} \\]<br>This means that at some point \\(c\\) within the interval, the instantaneous rate of change (the derivative) is equal to the average rate of change over the entire interval.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Function: \\(f(x) = (x-1)(x-2)(x-3)\\)<br>Interval: \\([a,b] = [0,4]\\)</div><p style='margin:8px 0;'><strong>Step 1: State the Mean Value Theorem (MVT) conditions and formula</strong><br>For the MVT to apply, \\(f(x)\\) must be continuous on \\([a,b]\\) and differentiable on \\((a,b)\\). If these conditions are met, then there exists a \\(c \\in (a,b)\\) such that:<br>\\[ f'(c) = \\frac{f(b) - f(a)}{b - a} \\]</p><p style='margin:8px 0;'><strong>Step 2: Check conditions for MVT</strong><br>The given function \\(f(x) = (x-1)(x-2)(x-3)\\) is a polynomial function.<br>Polynomial functions are continuous everywhere, so \\(f(x)\\) is continuous on the closed interval \\([0,4]\\).<br>Polynomial functions are differentiable everywhere, so \\(f(x)\\) is differentiable on the open interval \\((0,4)\\).<br>Since both conditions are satisfied, the Mean Value Theorem can be applied.</p><p style='margin:8px 0;'><strong>Step 3: Calculate \\(f(a)\\) and \\(f(b)\\)</strong><br>Given \\(a=0\\) and \\(b=4\\).<br>Calculate \\(f(0)\\):<br>\\[ f(0) = (0-1)(0-2)(0-3) \\]<br>\\[ f(0) = (-1)(-2)(-3) \\]<br>\\[ f(0) = <span style='color:var(--orange);font-weight:bold;'>-6</span> \\]<br>Calculate \\(f(4)\\):<br>\\[ f(4) = (4-1)(4-2)(4-3) \\]<br>\\[ f(4) = (3)(2)(1) \\]<br>\\[ f(4) = <span style='color:var(--orange);font-weight:bold;'>6</span> \\]</p><p style='margin:8px 0;'><strong>Step 4: Calculate the slope of the secant line</strong><br>Using the MVT formula, the slope of the secant line is:<br>\\[ \\frac{f(b) - f(a)}{b - a} = \\frac{f(4) - f(0)}{4 - 0} \\]<br>Substitute the values of \\(f(4)\\) and \\(f(0)\\):<br>\\[ \\frac{6 - (-6)}{4 - 0} \\]<br>\\[ \\frac{12}{4} \\]<br>\\[ \\text{Slope} = <span style='color:var(--orange);font-weight:bold;'>3</span> \\]</p><p style='margin:8px 0;'><strong>Step 5: Expand \\(f(x)\\) and find its derivative \\(f'(x)\\)</strong><br>First, expand \\(f(x)\\):<br>\\[ f(x) = (x-1)(x-2)(x-3) \\]<br>\\[ f(x) = (x^2 - 3x + 2)(x-3) \\]<br>\\[ f(x) = x(x^2 - 3x + 2) - 3(x^2 - 3x + 2) \\]<br>\\[ f(x) = x^3 - 3x^2 + 2x - 3x^2 + 9x - 6 \\]<br>\\[ f(x) = <span style='color:var(--orange);font-weight:bold;'>x^3 - 6x^2 + 11x - 6</span> \\]<br>Now, find the derivative \\(f'(x)\\):<br>\\[ f'(x) = \\frac{d}{dx}(x^3 - 6x^2 + 11x - 6) \\]<br>\\[ f'(x) = 3x^{3-1} - 6(2)x^{2-1} + 11(1)x^{1-1} - 0 \\]<br>\\[ f'(x) = <span style='color:var(--orange);font-weight:bold;'>3x^2 - 12x + 11</span> \\]</p><p style='margin:8px 0;'><strong>Step 6: Set \\(f'(c)\\) equal to the slope of the secant line</strong><br>According to the MVT, \\(f'(c) = \\text{slope}\\).<br>\\[ 3c^2 - 12c + 11 = 3 \\]<br>Rearrange the equation to form a standard quadratic equation \\(Ac^2 + Bc + C = 0\\):<br>\\[ 3c^2 - 12c + 11 - 3 = 0 \\]<br>\\[ <span style='color:var(--orange);font-weight:bold;'>3c^2 - 12c + 8 = 0</span> \\]</p><p style='margin:8px 0;'><strong>Step 7: Solve the quadratic equation for \\(c\\)</strong><br>Use the quadratic formula: \\( c = \\frac{-B \\pm \\sqrt{B^2 - 4AC}}{2A} \\)<br>Here, \\(A=3\\), \\(B=-12\\), \\(C=8\\).<br>\\[ c = \\frac{-(-12) \\pm \\sqrt{(-12)^2 - 4(3)(8)}}{2(3)} \\]<br>\\[ c = \\frac{12 \\pm \\sqrt{144 - 96}}{6} \\]<br>\\[ c = \\frac{12 \\pm \\sqrt{48}}{6} \\]<br>Simplify the square root: \\( \\sqrt{48} = \\sqrt{16 \\times 3} = 4\\sqrt{3} \\)<br>\\[ c = \\frac{12 \\pm 4\\sqrt{3}}{6} \\]<br>Divide all terms by 2:<br>\\[ c = <span style='color:var(--orange);font-weight:bold;'>\\frac{6 \\pm 2\\sqrt{3}}{3}</span> \\]<br>Calculate the approximate values:<br>\\[ c_1 = \\frac{6 + 2\\sqrt{3}}{3} \\approx \\frac{6 + 2(1.73205)}{3} \\approx \\frac{9.4641}{3} \\approx <span style='color:var(--orange);font-weight:bold;'>3.1547</span> \\]<br>\\[ c_2 = \\frac{6 - 2\\sqrt{3}}{3} \\approx \\frac{6 - 2(1.73205)}{3} \\approx \\frac{2.5359}{3} \\approx <span style='color:var(--orange);font-weight:bold;'>0.8453</span> \\]</p><p style='margin:8px 0;'><strong>Step 8: Check if the values of \\(c\\) are within the interval \\([a,b]\\)</strong><br>The given interval is \\([0,4]\\). The MVT requires \\(c \\in (0,4)\\).<br>For \\(c_1 \\approx 3.1547\\): \\(0 < 3.1547 < 4\\). This value is within the open interval \\((0,4)\\).<br>For \\(c_2 \\approx 0.8453\\): \\(0 < 0.8453 < 4\\). This value is also within the open interval \\((0,4)\\).<br>Both values of \\(c\\) satisfy the conditions of the Mean Value Theorem.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>We found \\(c = \\frac{6 \\pm 2\\sqrt{3}}{3}\\) such that \\(f'(c) = 3\\). Let's verify by plugging these values back into \\(f'(x) = 3x^2 - 12x + 11\\).<br>If \\(c = \\frac{6 + 2\\sqrt{3}}{3}\\), then \\(3c^2 - 12c + 8 = 0\\). Adding 3 to both sides gives \\(3c^2 - 12c + 11 = 3\\). This confirms that \\(f'(c) = 3\\).<br>The same logic applies to \\(c = \\frac{6 - 2\\sqrt{3}}{3}\\). Since both values of \\(c\\) are roots of \\(3c^2 - 12c + 8 = 0\\), it means that for these \\(c\\) values, \\(3c^2 - 12c + 11 = 3\\). ✓ Confirmed!</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>∴ The values of \\(c\\) are \\( \\frac{6 \\pm 2\\sqrt{3}}{3} \\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( c = \\frac{6 \\pm 2\\sqrt{3}}{3} \\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 14",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Find the Maclaurin series expansion of \\(f(x) = \\frac{1}{1-x}\\), \\(x \\in (-1,1)\\).",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "MATHEMATICAL METHODS",
+      "Differential Calculus",
+      "Series Expansion",
+      "Functions",
+      "Power Series"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Maclaurin Series Expansion</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>Maclaurin series</em> is a special case of a Taylor series expansion of a function about \\(x=0\\). It represents a function \\(f(x)\\) as an infinite sum of terms calculated from the values of the function's derivatives at \\(x=0\\).<br>The formula for the Maclaurin series of a function \\(f(x)\\) is:<br>\\[ f(x) = \\sum_{n=0}^{\\infty} \\frac{f^{(n)}(0)}{n!} x^n = f(0) + f'(0)x + \\frac{f''(0)}{2!}x^2 + \\frac{f'''(0)}{3!}x^3 + \\dots \\]<br>This series is valid for values of \\(x\\) within its radius of convergence.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Function: \\( f(x) = \\frac{1}{1-x} = (1-x)^{-1} \\)<br>Interval: \\( x \\in (-1,1) \\)<br>Task: Find the Maclaurin series expansion.</div><p style='margin:8px 0;'><strong>Step 1: Write the Maclaurin series formula</strong><br>The general formula for a Maclaurin series is:<br>\\[ f(x) = \\sum_{n=0}^{\\infty} \\frac{f^{(n)}(0)}{n!} x^n \\]<br>To use this, we need to find the derivatives of \\(f(x)\\) and evaluate them at \\(x=0\\).</p><p style='margin:8px 0;'><strong>Step 2: Calculate the first few derivatives of \\(f(x)\\)</strong><br>Given \\( f(x) = (1-x)^{-1} \\). We will use the chain rule for differentiation.<br>\\( f^{(0)}(x) = f(x) = (1-x)^{-1} \\)<br>\\( f'(x) = \\frac{d}{dx} (1-x)^{-1} = (-1)(1-x)^{-2}(-1) = (1-x)^{-2} \\)<br>\\( f''(x) = \\frac{d}{dx} (1-x)^{-2} = (-2)(1-x)^{-3}(-1) = 2(1-x)^{-3} \\)<br>\\( f'''(x) = \\frac{d}{dx} 2(1-x)^{-3} = (2)(-3)(1-x)^{-4}(-1) = 6(1-x)^{-4} \\)<br>\\( f^{(4)}(x) = \\frac{d}{dx} 6(1-x)^{-4} = (6)(-4)(1-x)^{-5}(-1) = 24(1-x)^{-5} \\)</p><p style='margin:8px 0;'><strong>Step 3: Evaluate the derivatives at \\(x=0\\)</strong><br>Substitute \\(x=0\\) into each derivative:<br>\\( f^{(0)}(0) = (1-0)^{-1} = 1^{-1} = \\) <span style='color:var(--orange);font-weight:bold;'>1</span><br>\\( f'(0) = (1-0)^{-2} = 1^{-2} = \\) <span style='color:var(--orange);font-weight:bold;'>1</span><br>\\( f''(0) = 2(1-0)^{-3} = 2(1^{-3}) = \\) <span style='color:var(--orange);font-weight:bold;'>2</span><br>\\( f'''(0) = 6(1-0)^{-4} = 6(1^{-4}) = \\) <span style='color:var(--orange);font-weight:bold;'>6</span><br>\\( f^{(4)}(0) = 24(1-0)^{-5} = 24(1^{-5}) = \\) <span style='color:var(--orange);font-weight:bold;'>24</span></p><p style='margin:8px 0;'><strong>Step 4: Identify the pattern for \\(f^{(n)}(0)\\)</strong><br>We observe the following pattern:<br>\\( f^{(0)}(0) = 1 = 0! \\)<br>\\( f^{(1)}(0) = 1 = 1! \\)<br>\\( f^{(2)}(0) = 2 = 2! \\)<br>\\( f^{(3)}(0) = 6 = 3! \\)<br>\\( f^{(4)}(0) = 24 = 4! \\)<br>In general, the \\(n\\)-th derivative evaluated at \\(x=0\\) is <span style='color:var(--orange);font-weight:bold;'>\\( f^{(n)}(0) = n! \\)</span>.</p><p style='margin:8px 0;'><strong>Step 5: Substitute \\(f^{(n)}(0)\\) into the Maclaurin series formula</strong><br>Substitute \\( f^{(n)}(0) = n! \\) into the formula from Step 1:<br>\\[ f(x) = \\sum_{n=0}^{\\infty} \\frac{n!}{n!} x^n \\]</p><p style='margin:8px 0;'><strong>Step 6: Simplify the expression</strong><br>Since \\( n! \\) is in both the numerator and the denominator, they cancel out (for \\(n \\ge 0\\)).<br>\\[ f(x) = \\sum_{n=0}^{\\infty} x^n \\]<br>This is the Maclaurin series expansion for \\( f(x) = \\frac{1}{1-x} \\).</p><p style='margin:8px 0;'><strong>Step 7: Confirm the interval of convergence</strong><br>The series \\( \\sum_{n=0}^{\\infty} x^n \\) is a geometric series with first term \\( a=1 \\) and common ratio \\( r=x \\).<br>A geometric series converges if and only if \\( |r| < 1 \\).<br>Therefore, the series converges for \\( |x| < 1 \\), which means \\( -1 < x < 1 \\). This matches the given interval \\( x \\in (-1,1) \\).</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The Maclaurin series for \\( f(x) = \\frac{1}{1-x} \\) is a well-known geometric series.<br>The sum of an infinite geometric series \\( a + ar + ar^2 + \\dots \\) is given by \\( \\frac{a}{1-r} \\), provided \\( |r| < 1 \\).<br>For the series \\( 1 + x + x^2 + x^3 + \\dots \\), we have \\( a=1 \\) and \\( r=x \\).<br>Therefore, the sum is \\( \\frac{1}{1-x} \\), which is exactly our original function \\( f(x) \\).<br>This confirms that the derived Maclaurin series is correct. &#10003;</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The Maclaurin series expansion of \\( f(x) = \\frac{1}{1-x} \\) is \\( \\sum_{n=0}^{\\infty} x^n \\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( \\sum_{n=0}^{\\infty} x^n \\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 15",
+    "topic": [
+      "MATHEMATICAL METHODS",
+      "Differential Calculus",
+      "Series Expansion",
+      "Power Series",
+      "Functions",
+      "Trigonometric Functions"
+    ],
+    "Question": {
+      "content": "Find the series expansion of \\(f(x) = \\sin x\\) about \\(x = 0\\).",
+      "type": "THEORY",
+      "options": []
+    },
+    "table": [],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Maclaurin Series Expansion of Sine Function</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>Taylor series</em> is a representation of a function as an infinite sum of terms calculated from the values of the function's derivatives at a single point. If the expansion point is \\( x = 0 \\), it is called a <em>Maclaurin series</em>.<br>The general formula for a Maclaurin series of a function \\( f(x) \\) is:<br>\\[ f(x) = \\sum_{n=0}^{\\infty} \\frac{f^{(n)}(0)}{n!} x^n \\]<br>Expanded, this is:<br>\\[ f(x) = f(0) + f'(0)x + \\frac{f''(0)}{2!}x^2 + \\frac{f'''(0)}{3!}x^3 + \\frac{f^{(4)}(0)}{4!}x^4 + \\dots \\]</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Function: \\( f(x) = \\sin x \\)<br>Expansion point: \\( x = 0 \\) (Maclaurin series)</div><p style='margin:8px 0;'><strong>Step 1: Write the Maclaurin series formula</strong><br>The Maclaurin series for a function \\( f(x) \\) is given by:<br>\\[ f(x) = f(0) + f'(0)x + \\frac{f''(0)}{2!}x^2 + \\frac{f'''(0)}{3!}x^3 + \\dots \\]<br>This can also be written in summation notation as:<br>\\[ f(x) = \\sum_{n=0}^{\\infty} \\frac{f^{(n)}(0)}{n!} x^n \\]</p><p style='margin:8px 0;'><strong>Step 2: Find the function and its successive derivatives</strong><br>We need to find the function \\( f(x) \\) and its first few derivatives.<br>\\( f(x) = \\sin x \\)<br>\\( f'(x) = \\frac{d}{dx}(\\sin x) = \\cos x \\)<br>\\( f''(x) = \\frac{d}{dx}(\\cos x) = -\\sin x \\)<br>\\( f'''(x) = \\frac{d}{dx}(-\\sin x) = -\\cos x \\)<br>\\( f^{(4)}(x) = \\frac{d}{dx}(-\\cos x) = \\sin x \\)<br>The derivatives follow a cycle of four: \\( \\sin x, \\cos x, -\\sin x, -\\cos x, \\sin x, \\dots \\)</p><p style='margin:8px 0;'><strong>Step 3: Evaluate the function and its derivatives at the expansion point \\(x=0\\)</strong><br>Substitute \\( x = 0 \\) into each derivative found in Step 2.<br>\\( f(0) = \\sin(0) = \\) <span style='color:var(--orange);font-weight:bold;'>0</span><br>\\( f'(0) = \\cos(0) = \\) <span style='color:var(--orange);font-weight:bold;'>1</span><br>\\( f''(0) = -\\sin(0) = \\) <span style='color:var(--orange);font-weight:bold;'>0</span><br>\\( f'''(0) = -\\cos(0) = \\) <span style='color:var(--orange);font-weight:bold;'>-1</span><br>\\( f^{(4)}(0) = \\sin(0) = \\) <span style='color:var(--orange);font-weight:bold;'>0</span><br>\\( f^{(5)}(0) = \\cos(0) = \\) <span style='color:var(--orange);font-weight:bold;'>1</span><br>The pattern of the evaluated derivatives is: \\( 0, 1, 0, -1, 0, 1, 0, -1, \\dots \\)</p><p style='margin:8px 0;'><strong>Step 4: Substitute the evaluated derivatives into the Maclaurin series formula</strong><br>Using the formula from Step 1 and the values from Step 3:<br>\\[ f(x) = f(0) + f'(0)x + \\frac{f''(0)}{2!}x^2 + \\frac{f'''(0)}{3!}x^3 + \\frac{f^{(4)}(0)}{4!}x^4 + \\frac{f^{(5)}(0)}{5!}x^5 + \\dots \\]<br>Substitute the values:<br>\\[ \\sin x = 0 + (1)x + \\frac{0}{2!}x^2 + \\frac{-1}{3!}x^3 + \\frac{0}{4!}x^4 + \\frac{1}{5!}x^5 + \\dots \\]</p><p style='margin:8px 0;'><strong>Step 5: Simplify the series expression</strong><br>Remove the terms where the derivative at \\( x=0 \\) is zero and simplify the remaining terms.<br>\\[ \\sin x = x - \\frac{1}{3!}x^3 + \\frac{1}{5!}x^5 - \\frac{1}{7!}x^7 + \\dots \\]<br>This can be written in summation notation as:<br>\\[ \\sin x = \\sum_{n=0}^{\\infty} \\frac{(-1)^n}{(2n+1)!} x^{2n+1} \\]</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The Maclaurin series for \\( \\sin x \\) is a well-known result in calculus. The derived series \\( x - \\frac{x^3}{3!} + \\frac{x^5}{5!} - \\frac{x^7}{7!} + \\dots \\) matches the standard Maclaurin series for \\( \\sin x \\). This series converges for all real values of \\( x \\) (its radius of convergence is \\( \\infty \\)). Each term's sign alternates, and only odd powers of \\( x \\) are present, which is consistent with \\( \\sin x \\) being an odd function.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The series expansion of \\(f(x) = \\sin x\\) about \\(x = 0\\) is \\( x - \\frac{x^3}{3!} + \\frac{x^5}{5!} - \\frac{x^7}{7!} + \\dots \\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( x - \\frac{x^3}{3!} + \\frac{x^5}{5!} - \\frac{x^7}{7!} + \\dots \\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 16",
+    "topic": [
+      "MATHEMATICAL METHODS",
+      "Differential Calculus",
+      "Product Rule",
+      "Chain Rule",
+      "Total Differential"
+    ],
+    "Question": {
+      "content": "The total differential of the function \\(f(x, y) = x^2e^{xy}\\) is",
+      "type": "THEORY",
+      "options": []
+    },
+    "table": [],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Total Differential</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>The <em>total differential</em> \\(df\\) of a multivariable function \\(f(x, y)\\) represents the infinitesimal change in \\(f\\) due to infinitesimal changes in \\(x\\) and \\(y\\). It is defined as:<br>\\[ df = \\frac{\\partial f}{\\partial x} dx + \\frac{\\partial f}{\\partial y} dy \\]<br>where \\( \\frac{\\partial f}{\\partial x} \\) and \\( \\frac{\\partial f}{\\partial y} \\) are the partial derivatives of \\(f\\) with respect to \\(x\\) and \\(y\\), respectively.<br><br>The <em>Product Rule</em> for differentiation states: If \\(h(x) = u(x)v(x)\\), then \\(h'(x) = u'(x)v(x) + u(x)v'(x)\\).<br>The <em>Chain Rule</em> for differentiation states: If \\(h(x) = f(g(x))\\), then \\(h'(x) = f'(g(x))g'(x)\\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Function: \\(f(x, y) = x^2e^{xy}\\)<br>Find: The total differential \\(df\\).</div><p style='margin:8px 0;'><strong>Step 1: Write the formula for the total differential</strong><br>The total differential \\(df\\) for a function \\(f(x, y)\\) is given by:<br>\\[ df = \\frac{\\partial f}{\\partial x} dx + \\frac{\\partial f}{\\partial y} dy \\]<br>To find \\(df\\), we must first calculate the partial derivatives \\( \\frac{\\partial f}{\\partial x} \\) and \\( \\frac{\\partial f}{\\partial y} \\).</p><p style='margin:8px 0;'><strong>Step 2: Calculate the partial derivative with respect to x, \\( \\frac{\\partial f}{\\partial x} \\)</strong><br>The function is \\(f(x, y) = x^2e^{xy}\\). When differentiating with respect to \\(x\\), we treat \\(y\\) as a constant.<br>We use the product rule, considering \\(u = x^2\\) and \\(v = e^{xy}\\).<br>Formula for product rule: \\( \\frac{\\partial}{\\partial x}(uv) = \\frac{\\partial u}{\\partial x}v + u\\frac{\\partial v}{\\partial x} \\)<br>Calculate \\( \\frac{\\partial u}{\\partial x} \\):<br>\\[ \\frac{\\partial}{\\partial x}(x^2) = 2x \\]<br>Calculate \\( \\frac{\\partial v}{\\partial x} \\):<br>\\[ \\frac{\\partial}{\\partial x}(e^{xy}) = e^{xy} \\cdot \\frac{\\partial}{\\partial x}(xy) = e^{xy} \\cdot y = ye^{xy} \\]<br>Substitute these into the product rule formula:<br>\\[ \\frac{\\partial f}{\\partial x} = (2x)e^{xy} + x^2(ye^{xy}) \\]<br>Simplify by factoring out \\(xe^{xy}\\):<br>\\[ \\frac{\\partial f}{\\partial x} = xe^{xy}(2 + xy) \\]<br>The partial derivative with respect to \\(x\\) is: <span style='color:var(--orange);font-weight:bold;'>\\( \\frac{\\partial f}{\\partial x} = xe^{xy}(2 + xy) \\)</span></p><p style='margin:8px 0;'><strong>Step 3: Calculate the partial derivative with respect to y, \\( \\frac{\\partial f}{\\partial y} \\)</strong><br>The function is \\(f(x, y) = x^2e^{xy}\\). When differentiating with respect to \\(y\\), we treat \\(x\\) as a constant.<br>Here, \\(x^2\\) is a constant multiplier. We differentiate \\(e^{xy}\\) with respect to \\(y\\) using the chain rule.<br>Formula for chain rule (for \\(e^{g(y)}\\)): \\( \\frac{\\partial}{\\partial y}(e^{g(y)}) = e^{g(y)} \\cdot \\frac{\\partial}{\\partial y}(g(y)) \\)<br>Let \\(g(y) = xy\\). Then \\( \\frac{\\partial}{\\partial y}(xy) = x \\).<br>So, \\( \\frac{\\partial}{\\partial y}(e^{xy}) = e^{xy} \\cdot x = xe^{xy} \\).<br>Now, multiply by the constant \\(x^2\\):<br>\\[ \\frac{\\partial f}{\\partial y} = x^2 \\cdot (xe^{xy}) \\]<br>Simplify:<br>\\[ \\frac{\\partial f}{\\partial y} = x^3e^{xy} \\]<br>The partial derivative with respect to \\(y\\) is: <span style='color:var(--orange);font-weight:bold;'>\\( \\frac{\\partial f}{\\partial y} = x^3e^{xy} \\)</span></p><p style='margin:8px 0;'><strong>Step 4: Substitute the partial derivatives into the total differential formula</strong><br>Using the formula from Step 1:<br>\\[ df = \\frac{\\partial f}{\\partial x} dx + \\frac{\\partial f}{\\partial y} dy \\]<br>Substitute the results from Step 2 and Step 3:<br>\\[ df = \\left(xe^{xy}(2 + xy)\\right) dx + \\left(x^3e^{xy}\\right) dy \\]<br>The total differential is: <span style='color:var(--orange);font-weight:bold;'>\\( df = xe^{xy}(2 + xy) dx + x^3e^{xy} dy \\)</span></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify, we re-examine the partial derivatives. The application of the product rule for \\( \\frac{\\partial f}{\\partial x} \\) and the constant multiple rule combined with the chain rule for \\( \\frac{\\partial f}{\\partial y} \\) were performed meticulously. Each step of differentiation was checked for correctness. The final assembly into the total differential formula is a direct substitution of these verified partial derivatives. Thus, the result is consistent with the rules of differential calculus.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The total differential is \\( df = xe^{xy}(2 + xy) dx + x^3e^{xy} dy \\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( df = xe^{xy}(2 + xy) dx + x^3e^{xy} dy \\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 17",
+    "topic": [
+      "MATHEMATICAL METHODS",
+      "Differential Calculus",
+      "Functions",
+      "Partial Differential Equations",
+      "Homogeneous Functions"
+    ],
+    "Question": {
+      "content": "When is a function \\(f(x, y)\\) said to be homogeneous of degree \\(m\\)?",
+      "type": "THEORY",
+      "options": []
+    },
+    "table": [],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Homogeneous Functions</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>homogeneous function</em> is a function where scaling all its input variables by a common factor \\( t \\) results in the function's output being scaled by some power of \\( t \\). This power is called the <em>degree of homogeneity</em>.<br>For a function \\( f(x, y) \\), it is homogeneous of degree \\( m \\) if \\( f(tx, ty) = t^m f(x, y) \\) for all \\( t > 0 \\) and for all \\((x, y)\\) in the domain of \\( f \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The question asks for the definition of a function \\( f(x, y) \\) being homogeneous of degree \\( m \\).</div><p style='margin:8px 0;'><strong>Step 1: Understand the term \"homogeneous\"</strong><br>In mathematics, \"homogeneous\" generally refers to properties that are uniform or scale consistently. For functions, it implies a specific scaling behavior with respect to its variables.</p><p style='margin:8px 0;'><strong>Step 2: Introduce the scaling factor</strong><br>Consider a function \\( f(x, y) \\) with two independent variables. To test for homogeneity, we introduce a common scaling factor, let's call it \\( t \\), where \\( t > 0 \\). We then replace each variable \\( x \\) with \\( tx \\) and \\( y \\) with \\( ty \\).</p><p style='margin:8px 0;'><strong>Step 3: Define the condition for homogeneity</strong><br>A function \\( f(x, y) \\) is said to be homogeneous of degree \\( m \\) if, after scaling its variables, the new function value can be expressed as the original function multiplied by \\( t \\) raised to the power of \\( m \\).<br>The mathematical definition is:<br>\\[ f(tx, ty) = t^m f(x, y) \\]<br>This condition must hold for all \\( t > 0 \\) and for all \\((x, y)\\) in the domain of \\( f \\).</p><p style='margin:8px 0;'><strong>Step 4: Explain the degree of homogeneity</strong><br>The exponent \\( m \\) in the definition \\( f(tx, ty) = t^m f(x, y) \\) is called the <span style='color:var(--orange);font-weight:bold;'>degree of homogeneity</span>. It indicates how the function scales when its inputs are scaled. For example, if \\( m=1 \\), the function is linearly homogeneous; if \\( m=0 \\), the function is homogeneous of degree zero.</p><p style='margin:8px 0;'><strong>Step 5: Provide an example</strong><br>Consider the function \\( f(x, y) = x^2 + xy \\).<br>Substitute \\( tx \\) for \\( x \\) and \\( ty \\) for \\( y \\):<br>\\[ f(tx, ty) = (tx)^2 + (tx)(ty) \\]<br>\\[ f(tx, ty) = t^2x^2 + t^2xy \\]<br>Factor out \\( t^2 \\):<br>\\[ f(tx, ty) = t^2(x^2 + xy) \\]<br>Since \\( x^2 + xy = f(x, y) \\), we have:<br>\\[ f(tx, ty) = t^2 f(x, y) \\]<br>Comparing this to \\( f(tx, ty) = t^m f(x, y) \\), we find that \\( m=2 \\). Therefore, \\( f(x, y) = x^2 + xy \\) is homogeneous of degree <span style='color:var(--orange);font-weight:bold;'>2</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The core definition of a function \\( f(x, y) \\) being homogeneous of degree \\( m \\) is its scaling property. If scaling all input variables by a factor \\( t \\) results in the function's output being scaled by \\( t^m \\), then the function satisfies the condition. The mathematical expression \\( f(tx, ty) = t^m f(x, y) \\) precisely captures this property.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; A function \\( f(x, y) \\) is homogeneous of degree \\( m \\) when \\( f(tx, ty) = t^m f(x, y) \\) for all \\( t > 0 \\) and for all \\((x, y)\\) in the domain of \\( f \\).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "A function \\(f(x, y)\\) is homogeneous of degree \\(m\\) when \\(f(tx, ty) = t^m f(x, y)\\) for all \\(t > 0\\) and for all \\((x, y)\\) in the domain of \\( f \\)."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 18",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "If \\(f(x, y) = 2x^2y - 5xy^2\\), find \\(f_{xx} - 2f_{xy} + f_{yy}\\).",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "MATHEMATICAL METHODS",
+      "Differential Calculus",
+      "Functions",
+      "Partial Differential Equations"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Partial Derivatives and Second-Order Derivatives</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>partial derivative</em> of a multivariable function is its derivative with respect to one variable, treating other variables as constants.<br>For a function \\(f(x, y)\\):<br><ul><li>The first partial derivative with respect to \\(x\\) is denoted \\(f_x\\) or \\( \\frac{\\partial f}{\\partial x} \\).</li><li>The first partial derivative with respect to \\(y\\) is denoted \\(f_y\\) or \\( \\frac{\\partial f}{\\partial y} \\).</li><li>Second-order partial derivatives involve differentiating a first partial derivative again. Examples include \\(f_{xx} = \\frac{\\partial^2 f}{\\partial x^2}\\) (differentiating \\(f_x\\) with respect to \\(x\\)), \\(f_{yy} = \\frac{\\partial^2 f}{\\partial y^2}\\) (differentiating \\(f_y\\) with respect to \\(y\\)), and mixed partial derivatives like \\(f_{xy} = \\frac{\\partial^2 f}{\\partial y \\partial x}\\) (differentiating \\(f_x\\) with respect to \\(y\\)) or \\(f_{yx} = \\frac{\\partial^2 f}{\\partial x \\partial y}\\) (differentiating \\(f_y\\) with respect to \\(x\\)). For most functions encountered in calculus, \\(f_{xy} = f_{yx}\\) (Clairaut's Theorem).</li></ul></div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Function: \\(f(x, y) = 2x^2y - 5xy^2\\)<br>Expression to find: \\(f_{xx} - 2f_{xy} + f_{yy}\\)</div><p style='margin:8px 0;'><strong>Step 1: State the given function</strong><br>The function we are working with is:<br>\\[ f(x, y) = 2x^2y - 5xy^2 \\] </p><p style='margin:8px 0;'><strong>Step 2: Calculate the first partial derivative with respect to x (\\(f_x\\))</strong><br>To find \\(f_x\\), we differentiate \\(f(x, y)\\) with respect to \\(x\\), treating \\(y\\) as a constant.<br>\\[ f_x = \\frac{\\partial}{\\partial x}(2x^2y - 5xy^2) \\]<br>Differentiating term by term:<br>\\[ f_x = \\frac{\\partial}{\\partial x}(2x^2y) - \\frac{\\partial}{\\partial x}(5xy^2) \\]<br>\\[ f_x = 2y \\frac{\\partial}{\\partial x}(x^2) - 5y^2 \\frac{\\partial}{\\partial x}(x) \\]<br>\\[ f_x = 2y(2x) - 5y^2(1) \\]<br><span style='color:var(--orange);font-weight:bold;'>\\( f_x = 4xy - 5y^2 \\)</span></p><p style='margin:8px 0;'><strong>Step 3: Calculate the first partial derivative with respect to y (\\(f_y\\))</strong><br>To find \\(f_y\\), we differentiate \\(f(x, y)\\) with respect to \\(y\\), treating \\(x\\) as a constant.<br>\\[ f_y = \\frac{\\partial}{\\partial y}(2x^2y - 5xy^2) \\]<br>Differentiating term by term:<br>\\[ f_y = \\frac{\\partial}{\\partial y}(2x^2y) - \\frac{\\partial}{\\partial y}(5xy^2) \\]<br>\\[ f_y = 2x^2 \\frac{\\partial}{\\partial y}(y) - 5x \\frac{\\partial}{\\partial y}(y^2) \\]<br>\\[ f_y = 2x^2(1) - 5x(2y) \\]<br><span style='color:var(--orange);font-weight:bold;'>\\( f_y = 2x^2 - 10xy \\)</span></p><p style='margin:8px 0;'><strong>Step 4: Calculate the second partial derivative with respect to x (\\(f_{xx}\\))</strong><br>To find \\(f_{xx}\\), we differentiate \\(f_x\\) with respect to \\(x\\), treating \\(y\\) as a constant.<br>\\[ f_{xx} = \\frac{\\partial}{\\partial x}(f_x) = \\frac{\\partial}{\\partial x}(4xy - 5y^2) \\]<br>Differentiating term by term:<br>\\[ f_{xx} = \\frac{\\partial}{\\partial x}(4xy) - \\frac{\\partial}{\\partial x}(5y^2) \\]<br>\\[ f_{xx} = 4y \\frac{\\partial}{\\partial x}(x) - 0 \\]<br>\\[ f_{xx} = 4y(1) \\]<br><span style='color:var(--orange);font-weight:bold;'>\\( f_{xx} = 4y \\)</span></p><p style='margin:8px 0;'><strong>Step 5: Calculate the mixed partial derivative with respect to x then y (\\(f_{xy}\\))</strong><br>To find \\(f_{xy}\\), we differentiate \\(f_x\\) with respect to \\(y\\), treating \\(x\\) as a constant.<br>\\[ f_{xy} = \\frac{\\partial}{\\partial y}(f_x) = \\frac{\\partial}{\\partial y}(4xy - 5y^2) \\]<br>Differentiating term by term:<br>\\[ f_{xy} = \\frac{\\partial}{\\partial y}(4xy) - \\frac{\\partial}{\\partial y}(5y^2) \\]<br>\\[ f_{xy} = 4x \\frac{\\partial}{\\partial y}(y) - 5 \\frac{\\partial}{\\partial y}(y^2) \\]<br>\\[ f_{xy} = 4x(1) - 5(2y) \\]<br><span style='color:var(--orange);font-weight:bold;'>\\( f_{xy} = 4x - 10y \\)</span></p><p style='margin:8px 0;'><strong>Step 6: Calculate the second partial derivative with respect to y (\\(f_{yy}\\))</strong><br>To find \\(f_{yy}\\), we differentiate \\(f_y\\) with respect to \\(y\\), treating \\(x\\) as a constant.<br>\\[ f_{yy} = \\frac{\\partial}{\\partial y}(f_y) = \\frac{\\partial}{\\partial y}(2x^2 - 10xy) \\]<br>Differentiating term by term:<br>\\[ f_{yy} = \\frac{\\partial}{\\partial y}(2x^2) - \\frac{\\partial}{\\partial y}(10xy) \\]<br>\\[ f_{yy} = 0 - 10x \\frac{\\partial}{\\partial y}(y) \\]<br>\\[ f_{yy} = -10x(1) \\]<br><span style='color:var(--orange);font-weight:bold;'>\\( f_{yy} = -10x \\)</span></p><p style='margin:8px 0;'><strong>Step 7: Substitute the second partial derivatives into the given expression</strong><br>The expression we need to evaluate is \\(f_{xx} - 2f_{xy} + f_{yy}\\).<br>Substitute the calculated values for \\(f_{xx}\\), \\(f_{xy}\\), and \\(f_{yy}\\):<br>\\[ f_{xx} - 2f_{xy} + f_{yy} = (4y) - 2(4x - 10y) + (-10x) \\] </p><p style='margin:8px 0;'><strong>Step 8: Simplify the expression</strong><br>Now, we expand and combine like terms:<br>\\[ 4y - 2(4x - 10y) - 10x \\]<br>\\[ = 4y - (2 \\cdot 4x) - (2 \\cdot -10y) - 10x \\]<br>\\[ = 4y - 8x + 20y - 10x \\]<br>Combine the \\(y\\) terms and the \\(x\\) terms:<br>\\[ = (4y + 20y) + (-8x - 10x) \\]<br><span style='color:var(--orange);font-weight:bold;'>\\( = 24y - 18x \\)</span></p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>Let's re-check each derivative and the final substitution.<br>Given: \\(f(x, y) = 2x^2y - 5xy^2\\)<br>1. \\(f_x = \\frac{\\partial}{\\partial x}(2x^2y - 5xy^2) = 4xy - 5y^2\\) (Correct)<br>2. \\(f_y = \\frac{\\partial}{\\partial y}(2x^2y - 5xy^2) = 2x^2 - 10xy\\) (Correct)<br>3. \\(f_{xx} = \\frac{\\partial}{\\partial x}(4xy - 5y^2) = 4y\\) (Correct)<br>4. \\(f_{xy} = \\frac{\\partial}{\\partial y}(4xy - 5y^2) = 4x - 10y\\) (Correct)<br>5. \\(f_{yy} = \\frac{\\partial}{\\partial y}(2x^2 - 10xy) = -10x\\) (Correct)<br>Substitute into \\(f_{xx} - 2f_{xy} + f_{yy}\\):<br>\\( 4y - 2(4x - 10y) + (-10x) \\)<br>\\( = 4y - 8x + 20y - 10x \\)<br>\\( = (4y + 20y) + (-8x - 10x) \\)<br>\\( = 24y - 18x \\) (Correct)<br>All calculations are consistent.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; \\(f_{xx} - 2f_{xy} + f_{yy} = 24y - 18x\\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(24y - 18x\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 19",
+    "topic": [
+      "MATHEMATICAL METHODS",
+      "Functions",
+      "Function Definitions"
+    ],
+    "Question": {
+      "content": "The set \\(T = \\{(f(x), y) : (x, y) \\in D\\}\\) where \\(D\\) is the domain of \\(f\\) is called",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "range of f"
+        },
+        {
+          "type": "String",
+          "content": "pre-image of f"
+        },
+        {
+          "type": "String",
+          "content": "codomain of f"
+        },
+        {
+          "type": "String",
+          "content": "none of the above"
+        }
+      ]
+    },
+    "table": [],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Functions: Domain and Range</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>function</em> \\(f\\) maps each element from a set (the domain) to exactly one element in another set (the codomain).<br>The <em>domain</em> of a function \\(f\\), denoted \\(D\\), is the set of all possible input values for which the function is defined.<br>The <em>range</em> of a function \\(f\\), denoted \\(R_f\\), is the set of all actual output values \\(f(x)\\) that the function produces for all \\(x\\) in its domain. Mathematically, \\(R_f = \\{f(x) : x \\in D\\}\\).<br>The <em>codomain</em> is the set of all possible output values that a function *could* produce, which includes the range.<br>The <em>pre-image</em> of an element \\(y\\) in the codomain is the set of all elements \\(x\\) in the domain such that \\(f(x) = y\\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>A set \\(T = \\{(f(x), y) : (x, y) \\in D\\}\\) where \\(D\\) is the domain of \\(f\\).<br>Identify what this set is called from the given options.</div><p style='margin:8px 0;'><strong>Step 1: Understand the standard definition of a function's domain and range</strong><br>For a function \\(f: A \\to B\\):<br>The <strong>domain</strong> is the set \\(A\\) of all input values.<br>The <strong>range</strong> is the set of all actual output values: \\( \\{f(x) : x \\in A\\} \\).<br>The <strong>codomain</strong> is the set \\(B\\) where the outputs are expected to lie.</p><p style='margin:8px 0;'><strong>Step 2: Analyze the given set notation and identify inconsistencies</strong><br>The question defines the set \\(T = \\{(f(x), y) : (x, y) \\in D\\}\\) and states that \\(D\\) is the domain of \\(f\\).<br>If \\(D\\) is the domain of \\(f\\), then \\(D\\) is a set of input values (e.g., \\(D \\subseteq \\mathbb{R}\\)). It is not typically a set of ordered pairs \\((x,y)\\).<br>The notation \\((x,y) \\in D\\) is inconsistent with the statement that \\(D\\) is the domain of \\(f\\). A domain usually consists of single elements (inputs), not pairs.</p><p style='margin:8px 0;'><strong>Step 3: Interpret the likely intent of the question</strong><br>Given the options, the question most likely intends to define the set of all possible output values of the function \\(f\\). We must assume there is a slight inaccuracy in the notation provided.<br>We interpret \\((x,y) \\in D\\) as an unusual way to imply that \\(x\\) is an element of the domain \\(D\\), and the \\(y\\) in the ordered pair \\((f(x), y)\\) is either extraneous or implicitly represents \\(f(x)\\) itself, making the second component redundant or a placeholder for the output.</p><p style='margin:8px 0;'><strong>Step 4: Relate the interpreted set to the definition of the range</strong><br>If we focus on the core component \\(f(x)\\) for every \\(x\\) in the domain \\(D\\), the collection of all such \\(f(x)\\) values is, by definition, the range of the function \\(f\\).<br>Even if the set \\(T\\) were strictly interpreted as a set of ordered pairs \\((f(x), y)\\), where \\(y\\) is some value associated with \\(x\\) from the domain, the primary focus of the expression \\(f(x)\\) for all \\(x\\) in its domain points towards the concept of the range.</p><p style='margin:8px 0;'><strong>Step 5: Evaluate the given options</strong><br><ul><li><strong>Range of f:</strong> This is the set of all actual output values \\(f(x)\\) for \\(x \\in D\\). This aligns with our interpretation of the question's intent.</li><li><strong>Pre-image of f:</strong> This refers to the input values that map to a specific output, not the set of all outputs.</li><li><strong>Codomain of f:</strong> This is the target set for the function's outputs, which contains the range but is not necessarily equal to it.</li><li><strong>None of the above:</strong> While the notation is flawed, the option 'range of f' is the most appropriate mathematical concept being described, despite the notational ambiguity.</li></ul><br>Therefore, despite the confusing notation, the question is best answered by identifying the set as the range of \\(f\\).</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>The standard definition of the range of a function \\(f\\) with domain \\(D\\) is \\( \\{f(x) : x \\in D\\} \\). The given set \\(T\\) attempts to describe the collection of \\(f(x)\\) values as \\(x\\) varies over its domain. Although the notation \\((f(x), y)\\) and \\((x,y) \\in D\\) is non-standard and potentially misleading for defining the range, among the given options, 'range of f' is the only concept that captures the collection of output values \\(f(x)\\) for all inputs \\(x\\) in the domain.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The set is called the range of f.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "range of f"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 20",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "The critical point of the function \\(f(x, y) = x^3 + y^3 + xy + x + 1\\) includes",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "(1,-1)"
+        },
+        {
+          "type": "String",
+          "content": "(2,-1)"
+        },
+        {
+          "type": "String",
+          "content": "(0,1)"
+        },
+        {
+          "type": "String",
+          "content": "none."
+        }
+      ]
+    },
+    "topic": [
+      "MATHEMATICAL METHODS",
+      "Differential Calculus",
+      "Critical Points",
+      "Functions"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Critical Points of Multivariable Functions</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>For a function of two variables, \\(f(x, y)\\), a <em>critical point</em> is a point \\((x_0, y_0)\\) in the domain of \\(f\\) where both first-order partial derivatives are zero, i.e., \\(f_x(x_0, y_0) = 0\\) and \\(f_y(x_0, y_0) = 0\\), or where one or both of the partial derivatives do not exist.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Function: \\(f(x, y) = x^3 + y^3 + xy + x + 1\\)</div><p style='margin:8px 0;'><strong>Step 1: Write the given function</strong><br>The function is:<br>\\[ f(x, y) = x^3 + y^3 + xy + x + 1 \\]</p><p style='margin:8px 0;'><strong>Step 2: Calculate the first partial derivatives</strong><br>To find critical points, we need to compute the partial derivative with respect to \\(x\\) (\\(f_x\\)) and with respect to \\(y\\) (\\(f_y\\)).<br>For \\(f_x\\), treat \\(y\\) as a constant:<br>\\[ f_x = \\frac{\\partial}{\\partial x}(x^3 + y^3 + xy + x + 1) \\]<br>\\[ f_x = 3x^2 + 0 + y(1) + 1 + 0 \\]<br>\\[ f_x = 3x^2 + y + 1 \\]<br>For \\(f_y\\), treat \\(x\\) as a constant:<br>\\[ f_y = \\frac{\\partial}{\\partial y}(x^3 + y^3 + xy + x + 1) \\]<br>\\[ f_y = 0 + 3y^2 + x(1) + 0 + 0 \\]<br>\\[ f_y = 3y^2 + x \\]</p><p style='margin:8px 0;'><strong>Step 3: Set the partial derivatives to zero</strong><br>To find critical points, we set both partial derivatives equal to zero and solve the resulting system of equations:<br>Equation (1): \\( 3x^2 + y + 1 = 0 \\)<br>Equation (2): \\( 3y^2 + x = 0 \\)</p><p style='margin:8px 0;'><strong>Step 4: Solve the system of equations</strong><br>From Equation (2), we can express \\(x\\) in terms of \\(y\\):<br>\\[ x = -3y^2 \\]<br>Now, substitute this expression for \\(x\\) into Equation (1):<br>\\[ 3(-3y^2)^2 + y + 1 = 0 \\]<br>\\[ 3(9y^4) + y + 1 = 0 \\]<br>\\[ 27y^4 + y + 1 = 0 \\]<br>Let's analyze the equation \\(g(y) = 27y^4 + y + 1 = 0\\) to find its real roots. We will find the minimum value of \\(g(y)\\).<br>First derivative of \\(g(y)\\):<br>\\[ g'(y) = 108y^3 + 1 \\]<br>Set \\(g'(y) = 0\\) to find critical points of \\(g(y)\\):<br>\\[ 108y^3 + 1 = 0 \\]<br>\\[ 108y^3 = -1 \\]<br>\\[ y^3 = -\\frac{1}{108} \\]<br>\\[ y = \\sqrt[3]{-\\frac{1}{108}} \\]<br>This is the only real critical point for \\(g(y)\\). Let \\(y_0 = \\sqrt[3]{-\\frac{1}{108}}\\).<br>Second derivative of \\(g(y)\\):<br>\\[ g''(y) = 324y^2 \\]<br>At \\(y_0\\), \\(g''(y_0) = 324(\\sqrt[3]{-\\frac{1}{108}})^2\\). Since \\(y_0^2 > 0\\), \\(g''(y_0) > 0\\), which means \\(g(y)\\) has a local minimum at \\(y_0\\).<br>Now, calculate the minimum value of \\(g(y)\\) at \\(y_0\\):<br>Since \\(y_0^3 = -\\frac{1}{108}\\), we can write \\(y_0^4 = y_0 \\cdot y_0^3 = y_0 \\cdot \\left(-\\frac{1}{108}\\right)\\).<br>Substitute this into \\(g(y)\\):<br>\\[ g(y_0) = 27y_0^4 + y_0 + 1 \\]<br>\\[ g(y_0) = 27 \\left(y_0 \\cdot \\left(-\\frac{1}{108}\\right)\\right) + y_0 + 1 \\]<br>\\[ g(y_0) = -\\frac{27}{108} y_0 + y_0 + 1 \\]<br>\\[ g(y_0) = -\\frac{1}{4} y_0 + y_0 + 1 \\]<br>\\[ g(y_0) = \\frac{3}{4} y_0 + 1 \\]<br>Since \\(y_0 = \\sqrt[3]{-\\frac{1}{108}}\\, \\(y_0\\) is a negative number. Approximately, \\(y_0 \\approx -0.2109\\).<br>\\[ g(y_0) \\approx \\frac{3}{4}(-0.2109) + 1 \\]<br>\\[ g(y_0) \\approx -0.1582 + 1 \\]<br>\\[ g(y_0) \\approx \\text{<span style='color:var(--orange);font-weight:bold;'>0.8418</span>} \\]<br>Since the minimum value of \\(g(y)\\) is approximately \\(0.8418\\), which is a positive number, \\(g(y)\\) is always positive for all real values of \\(y\\). This means the equation \\(27y^4 + y + 1 = 0\\) has no real solutions for \\(y\\).<br>Therefore, there are no real values of \\(y\\) that satisfy the system of equations, and consequently, no real values of \\(x\\) (since \\(x = -3y^2\\)).</p><p style='margin:8px 0;'><strong>Step 5: Check the given options</strong><br>Since our analysis shows that there are no real critical points for the function \\(f(x, y)\\), none of the provided options can be a critical point.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>We demonstrated that the system of equations \\(3x^2 + y + 1 = 0\\) and \\(3y^2 + x = 0\\) has no real solutions. This means there are no points \\((x, y)\\) where both partial derivatives are simultaneously zero. Thus, the function has no real critical points.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The critical point of the function includes none of the given options.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "none."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 21",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "The point \\((1/2, -3/8)\\) in \\(f(x, y) = x^3 + y^3 + xy + x + 1\\) is",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "minimum"
+        },
+        {
+          "type": "String",
+          "content": "maximum"
+        },
+        {
+          "type": "String",
+          "content": "saddle"
+        },
+        {
+          "type": "String",
+          "content": "none."
+        }
+      ]
+    },
+    "topic": [
+      "MATHEMATICAL METHODS",
+      "Differential Calculus",
+      "Critical Points",
+      "Functions",
+      "Multivariable Calculus"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Classification of Critical Points for Multivariable Functions</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>For a multivariable function \\( f(x, y) \\), a point \\( (x_0, y_0) \\) is a <em>critical point</em> if both its first-order partial derivatives are zero at that point, i.e., \\( f_x(x_0, y_0) = 0 \\) and \\( f_y(x_0, y_0) = 0 \\), or if one or both partial derivatives do not exist.<br>Local maxima, local minima, and saddle points can only occur at critical points. If a point is not a critical point, it cannot be any of these.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Function: \\( f(x, y) = x^3 + y^3 + xy + x + 1 \\)<br>Point to classify: \\( (x_0, y_0) = (1/2, -3/8) \\)</div><p style='margin:8px 0;'><strong>Step 1: Find the first partial derivatives of \\( f(x, y) \\)</strong><br>The partial derivative with respect to \\( x \\) is found by treating \\( y \\) as a constant.<br>\\[ f_x(x, y) = \\frac{\\partial}{\\partial x}(x^3 + y^3 + xy + x + 1) \\]<br>\\[ f_x(x, y) = 3x^2 + 0 + y(1) + 1 + 0 \\]<br><span style='color:var(--orange);font-weight:bold;'>\\( f_x(x, y) = 3x^2 + y + 1 \\)</span><br>The partial derivative with respect to \\( y \\) is found by treating \\( x \\) as a constant.<br>\\[ f_y(x, y) = \\frac{\\partial}{\\partial y}(x^3 + y^3 + xy + x + 1) \\]<br>\\[ f_y(x, y) = 0 + 3y^2 + x(1) + 0 + 0 \\]<br><span style='color:var(--orange);font-weight:bold;'>\\( f_y(x, y) = 3y^2 + x \\)</span></p><p style='margin:8px 0;'><strong>Step 2: Evaluate the partial derivatives at the point \\( (1/2, -3/8) \\)</strong><br>Substitute \\( x = 1/2 \\) and \\( y = -3/8 \\) into \\( f_x(x, y) \\):<br>\\[ f_x(1/2, -3/8) = 3(1/2)^2 + (-3/8) + 1 \\]<br>\\[ f_x(1/2, -3/8) = 3(1/4) - 3/8 + 1 \\]<br>\\[ f_x(1/2, -3/8) = 3/4 - 3/8 + 1 \\]<br>\\[ f_x(1/2, -3/8) = 6/8 - 3/8 + 8/8 \\]<br><span style='color:var(--orange);font-weight:bold;'>\\( f_x(1/2, -3/8) = 11/8 \\)</span><br>Substitute \\( x = 1/2 \\) and \\( y = -3/8 \\) into \\( f_y(x, y) \\):<br>\\[ f_y(1/2, -3/8) = 3(-3/8)^2 + 1/2 \\]<br>\\[ f_y(1/2, -3/8) = 3(9/64) + 1/2 \\]<br>\\[ f_y(1/2, -3/8) = 27/64 + 32/64 \\]<br><span style='color:var(--orange);font-weight:bold;'>\\( f_y(1/2, -3/8) = 59/64 \\)</span></p><p style='margin:8px 0;'><strong>Step 3: Determine if the point \\( (1/2, -3/8) \\) is a critical point</strong><br>For a point to be a critical point, both first partial derivatives must be equal to zero.<br>We found:<br>\\( f_x(1/2, -3/8) = 11/8 \\)<br>\\( f_y(1/2, -3/8) = 59/64 \\)<br>Since \\( 11/8 \\neq 0 \\) and \\( 59/64 \\neq 0 \\), the point \\( (1/2, -3/8) \\) is <span style='color:var(--orange);font-weight:bold;'>not a critical point</span>.</p><p style='margin:8px 0;'><strong>Step 4: Conclude the classification of the point</strong><br>Local maxima, local minima, and saddle points can only exist at critical points. Since \\( (1/2, -3/8) \\) is not a critical point, it cannot be a minimum, maximum, or saddle point.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>To verify, we double-check the calculations for the partial derivatives at the given point.<br>\\( f_x(x, y) = 3x^2 + y + 1 \\)<br>\\( f_x(1/2, -3/8) = 3(1/2)^2 + (-3/8) + 1 = 3(1/4) - 3/8 + 1 = 3/4 - 3/8 + 1 = 6/8 - 3/8 + 8/8 = 11/8 \\)<br>\\( f_y(x, y) = 3y^2 + x \\)<br>\\( f_y(1/2, -3/8) = 3(-3/8)^2 + 1/2 = 3(9/64) + 1/2 = 27/64 + 32/64 = 59/64 \\)<br>Both partial derivatives are non-zero, confirming that the point is not a critical point. &#10003;</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The point \\( (1/2, -3/8) \\) is none of the above (not a minimum, maximum, or saddle point).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "none."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 22",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Given \\(u = x \\log y\\). Then \\(\\frac{\\partial u}{\\partial x}\\) is",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "\\(1 + \\log x^y\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(1 + \\log xy\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\log y + xy\\)"
+        },
+        {
+          "type": "String",
+          "content": "none."
+        }
+      ]
+    },
+    "topic": [
+      "MATHEMATICAL METHODS",
+      "Differential Calculus",
+      "Multivariable Calculus",
+      "Partial Differential Equations"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Partial Differentiation</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><strong>Partial Differentiation:</strong> This is a technique used to find the derivative of a multivariable function with respect to one variable, while treating all other variables as constants.<br><strong>Constant Multiple Rule:</strong> If \\( c \\) is a constant and \\( f(x) \\) is a differentiable function, then \\( \\frac{d}{dx}(c \\cdot f(x)) = c \\cdot \\frac{d}{dx}(f(x)) \\).<br><strong>Derivative of x:</strong> The derivative of \\( x \\) with respect to \\( x \\) is \\( \\frac{d}{dx}(x) = 1 \\).<br><strong>Logarithm (log):</strong> In calculus, \\( \\log y \\) often refers to the natural logarithm \\( \\ln y \\). Regardless of the base, if \\( y \\) is independent of \\( x \\), then \\( \\log y \\) is treated as a constant when differentiating with respect to \\( x \\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Function: \\( u = x \\log y \\)<br>Task: Find the partial derivative \\( \\frac{\\partial u}{\\partial x} \\).</div><p style='margin:8px 0;'><strong>Step 1: Identify the function and the variable of differentiation</strong><br>The given function is \\( u = x \\log y \\).<br>We need to find the partial derivative of \\( u \\) with respect to \\( x \\), which is denoted as \\( \\frac{\\partial u}{\\partial x} \\).</p><p style='margin:8px 0;'><strong>Step 2: Apply the rules of partial differentiation</strong><br>When performing partial differentiation with respect to \\( x \\), we treat all other variables as constants.<br>In this function, \\( y \\) is considered a constant.<br>Therefore, \\( \\log y \\) is also treated as a constant with respect to \\( x \\).</p><p style='margin:8px 0;'><strong>Step 3: Use the constant multiple rule for differentiation</strong><br>Let \\( C = \\log y \\). The function can be rewritten as \\( u = C \\cdot x \\).<br>The constant multiple rule states that \\( \\frac{\\partial}{\\partial x}(C \\cdot f(x)) = C \\cdot \\frac{\\partial}{\\partial x}(f(x)) \\).<br>Here, \\( f(x) = x \\).<br>So, we can write:<br>\\[ \\frac{\\partial u}{\\partial x} = \\frac{\\partial}{\\partial x} (x \\log y) \\]</p><p style='margin:8px 0;'><strong>Step 4: Differentiate the term involving x</strong><br>Pull the constant \\( \\log y \\) out of the derivative operation:<br>\\[ \\frac{\\partial u}{\\partial x} = (\\log y) \\cdot \\frac{\\partial}{\\partial x} (x) \\]<br>The derivative of \\( x \\) with respect to \\( x \\) is 1:<br>\\[ \\frac{\\partial}{\\partial x} (x) = 1 \\]</p><p style='margin:8px 0;'><strong>Step 5: Simplify the expression</strong><br>Substitute the result of the derivative back into the equation:<br>\\[ \\frac{\\partial u}{\\partial x} = (\\log y) \\cdot 1 \\]<br>\\[ \\frac{\\partial u}{\\partial x} = \\log y \\]<br>The partial derivative of \\( u \\) with respect to \\( x \\) is <span style='color:var(--orange);font-weight:bold;'>\\( \\log y \\)</span>.</p><p style='margin:8px 0;'><strong>Step 6: Compare the result with the given options</strong><br>Our calculated partial derivative is \\( \\log y \\). Let's examine the provided options:<br>Option A: \\( 1 + \\log x^y \\)<br>Option B: \\( 1 + \\log xy \\)<br>Option C: \\( \\log y + xy \\)<br>Option D: none.<br>Since our result \\( \\log y \\) does not exactly match options A, B, or C, the correct choice is D.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>Let's choose a specific constant value for \\( \\log y \\). For instance, let \\( \\log y = 5 \\).<br>Then the function becomes \\( u = 5x \\).<br>The partial derivative \\( \\frac{\\partial u}{\\partial x} \\) would be \\( \\frac{\\partial}{\\partial x}(5x) = 5 \\).<br>Our derived result is \\( \\frac{\\partial u}{\\partial x} = \\log y \\). If \\( \\log y = 5 \\), then our result is also 5.<br>This consistency confirms the correctness of our partial differentiation.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The partial derivative \\( \\frac{\\partial u}{\\partial x} = \\log y \\), which corresponds to 'none' of the given options.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "none"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 23",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "Given \\(u = x \\log y\\). Then \\(\\frac{\\partial u}{\\partial y}\\) is",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "\\(1 + \\log x^y\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(1 + \\log xy\\)"
+        },
+        {
+          "type": "String",
+          "content": "\\(\\frac{x}{y}\\)"
+        },
+        {
+          "type": "String",
+          "content": "none."
+        }
+      ]
+    },
+    "topic": [
+      "MATHEMATICAL METHODS",
+      "Differential Calculus",
+      "Multivariable Calculus",
+      "Partial Differential Equations",
+      "Functions"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Partial Differentiation</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A <em>partial derivative</em> measures the rate of change of a multivariable function with respect to one variable, while holding all other variables constant.<br>For a function \\( u = f(x, y) \\), the partial derivative with respect to \\( y \\), denoted as \\( \\frac{\\partial u}{\\partial y} \\), means we differentiate \\( u \\) with respect to \\( y \\) while treating \\( x \\) as a constant.<br>The derivative of the natural logarithm function \\( \\ln(y) \\) with respect to \\( y \\) is \\( \\frac{1}{y} \\). In calculus, \\( \\log y \\) often implies \\( \\ln y \\) unless a different base is specified.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given / Known</strong><br>Function: \\( u = x \\log y \\)<br>Task: Find the partial derivative \\( \\frac{\\partial u}{\\partial y} \\).</div><p style='margin:8px 0;'><strong>Step 1: Identify the function and the variable for differentiation</strong><br>The given function is \\( u = x \\log y \\).<br>We need to find the partial derivative of \\( u \\) with respect to \\( y \\), which is \\( \\frac{\\partial u}{\\partial y} \\).</p><p style='margin:8px 0;'><strong>Step 2: Apply the rule for partial differentiation</strong><br>When calculating \\( \\frac{\\partial u}{\\partial y} \\), we treat \\( x \\) as a constant.<br>The expression \\( x \\) acts as a constant multiplier for the term \\( \\log y \\).</p><p style='margin:8px 0;'><strong>Step 3: Recall the derivative of the natural logarithm function</strong><br>Assuming \\( \\log y \\) refers to the natural logarithm \\( \\ln y \\), the derivative with respect to \\( y \\) is:<br>\\[ \\frac{d}{dy}(\\ln y) = \\frac{1}{y} \\]<br></p><p style='margin:8px 0;'><strong>Step 4: Apply the constant multiple rule for differentiation</strong><br>The constant multiple rule states that if \\( u = c \\cdot g(y) \\), where \\( c \\) is a constant, then \\( \\frac{du}{dy} = c \\cdot \\frac{dg}{dy} \\).<br>In our function \\( u = x \\log y \\), \\( x \\) is the constant \\( c \\) and \\( \\log y \\) is the function \\( g(y) \\).<br>Therefore, we can write:<br>\\[ \\frac{\\partial u}{\\partial y} = \\frac{\\partial}{\\partial y} (x \\log y) \\]<br>\\[ \\frac{\\partial u}{\\partial y} = x \\cdot \\frac{\\partial}{\\partial y} (\\log y) \\]<br></p><p style='margin:8px 0;'><strong>Step 5: Substitute the derivative of \\( \\log y \\)</strong><br>Substitute the derivative found in Step 3 into the expression from Step 4:<br>\\[ \\frac{\\partial u}{\\partial y} = x \\cdot \\left(\\frac{1}{y}\\right) \\]<br></p><p style='margin:8px 0;'><strong>Step 6: Simplify the expression</strong><br>Multiply the terms to get the final partial derivative:<br>\\[ \\frac{\\partial u}{\\partial y} = \\frac{x}{y} \\]<br>The partial derivative is <span style='color:var(--orange);font-weight:bold;'>\\( \\frac{x}{y} \\)</span>.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>We performed a direct differentiation following standard calculus rules. The result \\( \\frac{x}{y} \\) matches one of the provided options, confirming the correctness of our calculation.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; \\(\\frac{\\partial u}{\\partial y} = \\frac{x}{y}\\)</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\frac{x}{y}\\)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 24",
+    "topic": [
+      "MATHEMATICAL METHODS",
+      "Differential Calculus",
+      "Implicit Differentiation",
+      "Product Rule",
+      "Chain Rule",
+      "Multivariable Calculus",
+      "Functions"
+    ],
+    "Question": {
+      "content": "Given \\(x^3 + 3x^2y + 6xy^2 + y^3 - 1 = 0\\), then \\(\\frac{dy}{dx}\\) is",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "string",
+          "content": "\\(\\frac{-(x^2+2xy-2y^2)}{(x^2+4xy+y^2)}\\)"
+        },
+        {
+          "type": "string",
+          "content": "\\(\\frac{-(x^2-2xy+2y^2)}{(x^2+2xy+y^2)}\\)"
+        },
+        {
+          "type": "string",
+          "content": "\\(\\frac{-(x^2+2xy-2y^2)}{(x^2+4xy+y^2)}\\)"
+        },
+        {
+          "type": "string",
+          "content": "none."
+        }
+      ]
+    },
+    "table": [],
+    "img": null,
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Implicit Differentiation</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br><em>Implicit Differentiation:</em> Used to find the derivative \\(\\frac{dy}{dx}\\) when \\(y\\) is not explicitly defined as a function of \\(x\\). We differentiate both sides of the equation with respect to \\(x\\), treating \\(y\\) as a function of \\(x\\) and applying the chain rule.<br><br><em>Product Rule:</em> If \\(u\\) and \\(v\\) are functions of \\(x\\), then \\(\\frac{d}{dx}(uv) = u'v + uv'\\).<br><br><em>Chain Rule:</em> If \\(y = f(g(x))\\), then \\(\\frac{dy}{dx} = f'(g(x)) \\cdot g'(x)\\). For a term like \\(y^n\\), its derivative with respect to \\(x\\) is \\(ny^{n-1}\\frac{dy}{dx}\\).</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>Equation: \\(x^3 + 3x^2y + 6xy^2 + y^3 - 1 = 0\\)<br>Find: \\(\\frac{dy}{dx}\\)</div><p style='margin:8px 0;'><strong>Step 1: Write the given equation</strong><br>The equation is:<br>\\[ x^3 + 3x^2y + 6xy^2 + y^3 - 1 = 0 \\]<br></p><p style='margin:8px 0;'><strong>Step 2: Differentiate each term with respect to \\(x\\)</strong><br>We will differentiate each term of the equation with respect to \\(x\\). Remember to apply the product rule and chain rule where necessary, treating \\(y\\) as a function of \\(x\\).</p><p style='margin:8px 0;'><strong>Step 3: Differentiate \\(x^3\\)</strong><br>Using the power rule:<br>\\[ \\frac{d}{dx}(x^3) = 3x^2 \\]<br></p><p style='margin:8px 0;'><strong>Step 4: Differentiate \\(3x^2y\\)</strong><br>Apply the product rule \\(\\frac{d}{dx}(uv) = u'v + uv'\\) with \\(u = 3x^2\\) and \\(v = y\\):<br>Let \\(u = 3x^2 \\implies u' = 6x\\)<br>Let \\(v = y \\implies v' = \\frac{dy}{dx}\\)<br>\\[ \\frac{d}{dx}(3x^2y) = (6x)(y) + (3x^2)\\left(\\frac{dy}{dx}\\right) \\]<br>\\[ = 6xy + 3x^2\\frac{dy}{dx} \\]<br></p><p style='margin:8px 0;'><strong>Step 5: Differentiate \\(6xy^2\\)</strong><br>Apply the product rule with \\(u = 6x\\) and \\(v = y^2\\). For \\(v'\\), use the chain rule on \\(y^2\\):<br>Let \\(u = 6x \\implies u' = 6\\)<br>Let \\(v = y^2 \\implies v' = 2y\\frac{dy}{dx}\\)<br>\\[ \\frac{d}{dx}(6xy^2) = (6)(y^2) + (6x)\\left(2y\\frac{dy}{dx}\\right) \\]<br>\\[ = 6y^2 + 12xy\\frac{dy}{dx} \\]<br></p><p style='margin:8px 0;'><strong>Step 6: Differentiate \\(y^3\\)</strong><br>Apply the chain rule:<br>\\[ \\frac{d}{dx}(y^3) = 3y^2\\frac{dy}{dx} \\]<br></p><p style='margin:8px 0;'><strong>Step 7: Differentiate the constant \\(-1\\)</strong><br>The derivative of a constant is zero:<br>\\[ \\frac{d}{dx}(-1) = 0 \\]<br></p><p style='margin:8px 0;'><strong>Step 8: Substitute the differentiated terms back into the equation</strong><br>Combine all the derivatives from Steps 3-7:<br>\\[ 3x^2 + \\left(6xy + 3x^2\\frac{dy}{dx}\\right) + \\left(6y^2 + 12xy\\frac{dy}{dx}\\right) + 3y^2\\frac{dy}{dx} - 0 = 0 \\]<br>\\[ 3x^2 + 6xy + 6y^2 + 3x^2\\frac{dy}{dx} + 12xy\\frac{dy}{dx} + 3y^2\\frac{dy}{dx} = 0 \\]<br></p><p style='margin:8px 0;'><strong>Step 9: Rearrange the equation to group terms containing \\(\\frac{dy}{dx}\\)</strong><br>Move all terms that do not contain \\(\\frac{dy}{dx}\\) to the right side of the equation:<br>\\[ 3x^2\\frac{dy}{dx} + 12xy\\frac{dy}{dx} + 3y^2\\frac{dy}{dx} = -(3x^2 + 6xy + 6y^2) \\]<br></p><p style='margin:8px 0;'><strong>Step 10: Factor out \\(\\frac{dy}{dx}\\)</strong><br>Factor \\(\\frac{dy}{dx}\\) from the terms on the left side:<br>\\[ \\left(3x^2 + 12xy + 3y^2\\right)\\frac{dy}{dx} = -(3x^2 + 6xy + 6y^2) \\]<br></p><p style='margin:8px 0;'><strong>Step 11: Solve for \\(\\frac{dy}{dx}\\)</strong><br>Divide both sides by \\((3x^2 + 12xy + 3y^2)\\):<br>\\[ \\frac{dy}{dx} = \\frac{-(3x^2 + 6xy + 6y^2)}{3x^2 + 12xy + 3y^2} \\]<br></p><p style='margin:8px 0;'><strong>Step 12: Simplify the expression</strong><br>Factor out the common factor of 3 from both the numerator and the denominator:<br>\\[ \\frac{dy}{dx} = \\frac{-3(x^2 + 2xy + 2y^2)}{3(x^2 + 4xy + y^2)} \\]<br>Cancel out the 3:<br>\\[ \\frac{dy}{dx} = \\frac{-(x^2 + 2xy + 2y^2)}{x^2 + 4xy + y^2} \\]<br>The simplified expression for \\(\\frac{dy}{dx}\\) is <span style='color:var(--orange);font-weight:bold;'>\\(\\frac{-(x^2 + 2xy + 2y^2)}{x^2 + 4xy + y^2}\\)</span>.</p><p style='margin:8px 0;'><strong>Step 13: Compare the result with the given options</strong><br>Let's compare our derived expression with the provided options:<br>Option (a): \\(\\frac{-(x^2+2xy-2y^2)}{(x^2+4xy+y^2)}\\)<br>Option (b): \\(\\frac{-(x^2-2xy+2y^2)}{(x^2+2xy+y^2)}\\)<br>Option (c): \\(\\frac{-(x^2+2xy-2y^2)}{(x^2+4xy+y^2)}\\)<br>Our result \\(\\frac{-(x^2 + 2xy + 2y^2)}{x^2 + 4xy + y^2}\\) does not match any of the options (a), (b), or (c) due to the sign of the \\(y^2\\) term in the numerator (our result has \\(+2y^2\\), while options (a) and (c) have \\(-2y^2\\)) and the denominator in option (b) is different. Therefore, the correct answer is 'none'.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>We meticulously re-checked each differentiation step and algebraic manipulation. The application of the product rule and chain rule was correct for each term. The grouping of terms and factoring for \\(\\frac{dy}{dx}\\) was also performed accurately. The final simplified expression is consistently \\(\\frac{-(x^2 + 2xy + 2y^2)}{x^2 + 4xy + y^2}\\). Since this does not match any of the provided options, the conclusion that the answer is 'none' is verified.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The correct expression for \\(\\frac{dy}{dx}\\) is not among options (a), (b), or (c).</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "none."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 25",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "What is the degree of homogeneity of the function \\(f(x,y) = x^3y + xy^2\\)?",
+      "type": "OBJ",
+      "options": [
+        {
+          "type": "String",
+          "content": "2"
+        },
+        {
+          "type": "String",
+          "content": "3"
+        },
+        {
+          "type": "String",
+          "content": "1"
+        },
+        {
+          "type": "String",
+          "content": "none."
+        }
+      ]
+    },
+    "topic": [
+      "MATHEMATICAL METHODS",
+      "Differential Calculus",
+      "Functions",
+      "Homogeneous Functions",
+      "Multivariable Calculus"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Homogeneous Functions</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A function \\( f(x,y) \\) is said to be a <em>homogeneous function of degree \\( n \\)</em> if for any non-zero scalar \\( t \\), the following condition holds:<br>\\[ f(tx, ty) = t^n f(x,y) \\]<br>The degree \\( n \\) is a constant. If a function cannot be expressed in this form, it is not homogeneous and therefore does not have a degree of homogeneity.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The function: \\( f(x,y) = x^3y + xy^2 \\)</div><p style='margin:8px 0;'><strong>Step 1: Substitute \\(tx\\) for \\(x\\) and \\(ty\\) for \\(y\\) into the function</strong><br>We replace every \\(x\\) with \\(tx\\) and every \\(y\\) with \\(ty\\) in the given function.<br>\\[ f(tx, ty) = (tx)^3(ty) + (tx)(ty)^2 \\]</p><p style='margin:8px 0;'><strong>Step 2: Simplify the expression</strong><br>Apply the exponent rules \\( (ab)^k = a^k b^k \\).<br>\\[ f(tx, ty) = (t^3x^3)(ty) + (tx)(t^2y^2) \\]<br>Combine the \\(t\\) terms in each monomial.<br>\\[ f(tx, ty) = t^3 \\cdot t \\cdot x^3y + t \\cdot t^2 \\cdot xy^2 \\]<br>\\[ f(tx, ty) = t^4 x^3y + t^3 xy^2 \\]</p><p style='margin:8px 0;'><strong>Step 3: Attempt to factor out a common power of \\(t\\)</strong><br>For the function to be homogeneous of degree \\(n\\), we must be able to factor out \\(t^n\\) such that the remaining expression is \\(f(x,y)\\).<br>\\[ f(tx, ty) = t^4 x^3y + t^3 xy^2 \\]<br>We can factor out \\(t^3\\) as the common lowest power of \\(t\\).<br>\\[ f(tx, ty) = t^3 (t x^3y + xy^2) \\]<br>The expression inside the parenthesis, \\( (t x^3y + xy^2) \\), is not equal to the original function \\( f(x,y) = x^3y + xy^2 \\) because of the extra \\(t\\) in the first term \\(t x^3y\\).<br>Alternatively, if we try to factor out \\(t^4\\):<br>\\[ f(tx, ty) = t^4 (x^3y + t^{-1} xy^2) \\]<br>Again, the expression inside the parenthesis is not \\(f(x,y)\\).</p><p style='margin:8px 0;'><strong>Step 4: Determine if the function is homogeneous and its degree</strong><br>Since we cannot write \\( f(tx, ty) \\) in the form \\( t^n f(x,y) \\) for a single constant \\( n \\), the function \\( f(x,y) = x^3y + xy^2 \\) is <span style='color:var(--orange);font-weight:bold;'>not a homogeneous function</span>.<br>A simpler way to check is to find the degree of each term:<br>For \\( x^3y \\), the degree is the sum of the exponents of \\(x\\) and \\(y\\): \\( 3 + 1 = 4 \\).<br>For \\( xy^2 \\), the degree is the sum of the exponents of \\(x\\) and \\(y\\): \\( 1 + 2 = 3 \\).<br>Since the degrees of the individual terms (4 and 3) are different, the function is not homogeneous.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>A function \\(f(x,y)\\) is homogeneous if all its terms have the same total degree. The total degree of a term \\(x^a y^b\\) is \\(a+b\\).<br>For the term \\(x^3y\\), the degree is \\(3+1=4\\).<br>For the term \\(xy^2\\), the degree is \\(1+2=3\\).<br>Since \\(4 \\neq 3\\), the terms have different degrees. Therefore, the function \\(f(x,y) = x^3y + xy^2\\) is not homogeneous. If a function is not homogeneous, it does not have a degree of homogeneity.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The degree of homogeneity of the function is none.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "none."
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 26",
+    "img": null,
+    "table": [],
+    "Question": {
+      "content": "MY MAT NUMBER IS",
+      "type": "THEORY",
+      "options": []
+    },
+    "topic": [
+      "MATHEMATICAL METHODS",
+      "Differential Calculus",
+      "Integral Calculus",
+      "Linear Algebra",
+      "Ordinary Differential Equations",
+      "Partial Differential Equations",
+      "Vector Calculus",
+      "Complex Analysis",
+      "Fourier Series and Transforms",
+      "Laplace Transforms",
+      "Numerical Methods",
+      "Probability and Statistics",
+      "Limits",
+      "Continuity",
+      "Implicit Differentiation",
+      "Product Rule",
+      "Chain Rule",
+      "Critical Points",
+      "Definite Integrals",
+      "Indefinite Integrals",
+      "Series Expansion",
+      "Mean Value Theorem",
+      "Rolle's Theorem",
+      "Functions",
+      "Power Series",
+      "Trigonometric Functions",
+      "Total Differential",
+      "Homogeneous Functions",
+      "Multivariable Calculus"
+    ],
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color:var(--explainColor);background:var(--explainBg);padding:18px;border-radius:10px;line-height:1.8;'><h4 style='color:var(--strongColor);margin-top:0;border-bottom:2px solid var(--strongColor);padding-bottom:6px;'>Query Analysis: Non-Mathematical Statement</h4><div style='background:var(--infoBg);color:var(--infoCl);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Key Concept</strong><br>A mathematical problem typically involves numerical values, variables, operators, or logical statements that require calculation, proof, or derivation using established mathematical principles (e.g., algebra, calculus, geometry). It does not involve requests for personal identification or incomplete statements that lack a clear mathematical objective.</div><div style='background:var(--preset-bg-color);padding:10px 14px;border-radius:6px;margin-bottom:12px;'><strong>Given</strong><br>The provided question content is: \"MY MAT NUMBER IS\"</div><p style='margin:8px 0;'><strong>Step 1: Evaluate the nature of the query</strong><br>The phrase \"MY MAT NUMBER IS\" is a declarative statement or an incomplete sentence. It appears to be a prompt for personal information or a statement of identity.</p><p style='margin:8px 0;'><strong>Step 2: Determine if the query presents a mathematical problem</strong><br>A mathematical problem would typically ask for a calculation, a solution to an equation, a proof, or an analysis using mathematical concepts. The given query does not contain any numbers, variables, operations, or a clear question that can be solved using mathematical methods from topics like Differential Calculus, Integral Calculus, or Linear Algebra.</p><p style='margin:8px 0;'><strong>Step 3: Conclude on solvability by mathematical methods</strong><br>Since the query is a statement about personal identification and not a structured mathematical question, it cannot be addressed or solved using the mathematical methods listed in the topics. It requires a personal response, not a mathematical computation or derivation.</p><div style='background:var(--warningBg);padding:10px 14px;border-radius:6px;margin:12px 0;'><strong>Verification</strong><br>If the query were, for example, \"What is the square root of 9?\", it would involve a mathematical operation and a numerical answer. However, \"MY MAT NUMBER IS\" does not pose such a problem. It is analogous to asking \"My name is\" which clearly falls outside the domain of mathematical problem-solving.</div><p style='color:var(--cAns);font-weight:bold;font-size:1.05em;margin-top:12px;'>&#8756; The query is a request for personal information, not a mathematical problem.</p></div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "This is a request for personal information, not a mathematical problem."
+    }
+  }
+]
